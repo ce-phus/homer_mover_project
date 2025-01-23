@@ -1,9 +1,15 @@
+"use client";
 import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="">
-      <h1 className="text-white">New App</h1>
-    </div>
+    <>
+      <Head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/next.svg" />
+      </Head>
+    </>
   );
 }

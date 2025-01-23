@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel='icon' href="./next.svg" />
+        <link rel='icon' href="./logo.svg" />
       </Head>
       <body className={`${montserrat.variable} font-mont bg-primary w-full min-h-screen`}>
         <Navbar />
