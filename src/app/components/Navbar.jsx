@@ -5,8 +5,13 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { FaPhoneVolume } from "react-icons/fa6";
 import {motion} from 'framer-motion'
+import { useRouter } from 'next/navigation';
 
 const Navbar = () => {
+  const router = useRouter();
+  const handleRoute = () => {
+    router.push('/register')
+  }
   return (
     <>
     <nav className='w-full bg-[#301934] border border-transparent p-2 text-white'>
@@ -29,7 +34,7 @@ const Navbar = () => {
               <p className='text-white font-medium'>+234 703 123 4567</p>
             </div>
             <motion.button
-            onClick={() => navigate('/register')}
+            onClick={handleRoute}
             className='px-3 py-2 rounded-xl relative radial-gradient'
             initial={{ "--x": "100%", scale: 1 }}
             animate={{ "--x": "-100%" }}
