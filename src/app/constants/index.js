@@ -1,0 +1,106 @@
+export const navLinks = [
+    {
+        title: "Moving with us",
+        href: "#",
+        dropdownItems: [
+            {
+                "id": 1,
+                "title": "International Moving",
+                "href": "/international-moving",
+            },
+            {
+                "id": 2,
+                "title": "Local Moving",
+                "href": "/local-moving",
+            },
+            {
+                "id": 3,
+                "title": "Storage Solutions",
+                "href": "/storage-solutions",
+            },
+            {
+                "id": 4,
+                "title": "Dedicated Reolocation Expert",
+                "href": "/dedicated-relocation-expert",
+            },
+            {
+                "id": 5,
+                "title": "Shipment Protection",
+                "href": "/shipment-protection",
+            },
+            {
+                "id": 6,
+                "title": "Pre Move Consultation",
+                "href": "/pre-move-consultation",
+            },
+            {
+                "id": 7,
+                "title": "Air andd Ocean Freight",
+                "href": "/air-and-ocean-freight",
+            },
+           
+        ]
+    },
+    {
+        title: "Useful Resources",
+        href: "#",
+        dropdownItems: [
+            {
+                "id": 1,
+                "title": "Moving House Checklist",
+                "href": "/moving-house-checklist",
+            },
+            {
+                "id": 2,
+                "title": "Settling In",
+                "href": "/settling-in",
+            },
+            {
+                "id": 3,
+                "title": "Smart Home Surveys",
+                "href": "/smart-home-surveys",
+            },
+            {
+                "id": 4,
+                "title": "Shipping Tracking using AI",
+                "href": "/shipping-tracking-using-ai",
+            },
+            {
+                "id": 5,
+                "title": "Payment Options with Paystack",
+                "href": "/payment-options-with-paystack",
+            },
+        ]
+    },
+    {
+        title: "Moving Services",
+        href: "#",
+        dropdownItems: [
+            {
+                "id": 1,
+                "title": "Pet Relocation",
+                "href": "/pet-relocation",
+            },
+            {
+                "id": 2,
+                "title": "International Currency Transfer",
+                "href": "/international-currency-transfer",
+            },
+            {
+                "id": 3,
+                'title': "Utility Services",
+                'href': "/utility-services",
+            }
+        ]
+    },
+    {
+        title: "About Us",
+        href: "/about",
+        dropdownItems: []
+    },
+    {
+        title: "Contact Us",
+        href: "contact",
+        dropdownItems: []
+    }
+]
