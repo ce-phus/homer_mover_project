@@ -20,13 +20,16 @@ const montserrat = Montserrat({
   variable: '--font-mont'
 });
 
+export const metadata = {
+  title: "Atlas Map",
+  description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel='icon' href="./logo.svg" />
-      </Head>
+      
+      <link rel='icon' href="./logo.svg" />
       <body className={`${montserrat.variable} font-mont bg-primary w-full min-h-screen`}>
         <Navbar />
         {children}

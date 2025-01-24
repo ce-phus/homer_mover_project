@@ -8,6 +8,7 @@ import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { FaArrowCircleRight } from "react-icons/fa";
 
+
 const HeroData = [
   {
     id: 1,
