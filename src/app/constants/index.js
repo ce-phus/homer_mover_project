@@ -1,3 +1,5 @@
+import { filling, filling2, estimate, virtual } from "@/assets"
+
 export const navLinks = [
     {
         title: "Moving with us",
@@ -103,4 +105,24 @@ export const navLinks = [
         href: "contact",
         dropdownItems: []
     }
+]
+
+export const services = [
+    {
+        title: "Fill out our simple enquiry form",
+        text: "1",
+        icon: filling2,
+    },
+
+    {
+        title: "Get an estimate",
+        text: "2",
+        icon: estimate,
+    },
+
+    {
+        title: "Virtual survey",
+        text: "3",
+        icon: virtual,
+    },
 ]

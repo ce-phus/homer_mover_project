@@ -18,8 +18,10 @@ module.exports = {
        colors:{
          dark: "#1b1b1b",
          light: "#f5f5f5",
-         primary: "#00040f", 
+         primary: "#050816",
+         tertiary: "#151030",
          primaryDark: "#FFA500",
+         secondary: "#aaa6c3",
          accent: '#ee7600',
        },
        animation: {

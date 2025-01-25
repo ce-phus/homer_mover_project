@@ -12,6 +12,12 @@ import herobg from "./herobg.jpg"
 import herobg2 from "./herobg2.jpg"
 import herobg3 from "./herobg3.jpg"
 import herobg4 from "./herobg4.jpg"
+import estimate from "./estimate.png"
+import virtual from "./virtual.png"
+import filling from "./filling.png"
+import filling2 from "./filling1.png"
+import section2 from "./section2.png"
+import arrow from  "./arrow-up.svg"
 
 export {
     logo,
@@ -27,5 +33,11 @@ export {
     herobg,
     herobg2,
     herobg3,
-    herobg4
+    herobg4,
+    estimate,
+    virtual,
+    filling,
+    filling2,
+    section2,
+    arrow
 }

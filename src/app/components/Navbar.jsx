@@ -34,7 +34,7 @@ const Navbar = () => {
     return (
         <>
             <nav
-                className={`w-full bg-[#301934] border fixed z-30 top-0 border-transparent p-2 text-white transition-all duration-300 `}
+                className={`w-full  border fixed z-30 top-0 border-transparent p-2 text-white transition-all duration-300 ${scrolled ? "bg-opacity-50 bg-[#301934]" : "bg-[#301934]"}`}
             >
                 <div className='max-w-6xl mx-auto flex justify-between'>
                     <div className='flex space-x-3 mt-2'>
@@ -82,10 +82,10 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            <nav className={`w-full text-white fixed z-20 top-[50px] ${scrolled ? "bg-primary" : "bg-[#353935] "}`}>
+        <nav className={`w-full text-white fixed z-20 top-[49px] ${scrolled ? "bg-opacity-20 bg-black" : "bg-primary "}`}>
                 <div className='flex max-w-7xl mx-auto justify-between'>
                     <Link href={'/'} onClick={() => { setActive(""); window.scrollTo(0, 0) }} className=''>
-                        <Image src={logo3} alt='logo' className='w-[120px] h-[120px] contain'/>
+                        <Image src={logo3} alt='logo' className='w-[120px] h-[120px] contain mt-2'/>
                     </Link>
                     
                     <ul className='flex space-x-10 mt-[50px] sm:mt-3 sm:hidden'>

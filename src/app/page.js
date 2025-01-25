@@ -2,12 +2,12 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import Head from "next/head";
-import { herobg, herobg2, herobg3 } from "@/assets";
+import { herobg, herobg2, herobg3, section2  } from "@/assets";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { FaArrowCircleRight } from "react-icons/fa";
-
+import MovingSteps from "./components/MovingSteps";
 
 const HeroData = [
   {
@@ -73,7 +73,7 @@ export default function Home() {
       <link rel="icon" href="/logo.svg" />
     </Head>
     <div className="relative w-full mt-20">
-      <div className="relative h-[800px] hover:-translate-y-2"
+      <div className="relative h-screen sm:h-[600px] w-full overflow-hidden"
       onMouseEnter={handleMouseOver}
       onMouseLeave={handleMouseLeave}>
         <Image src={HeroData[currentIndex].img} alt="hero" layout="fill" objectFit="cover" className="transition-all duration-500 ease-in-out cursor-pointer"/>
@@ -99,20 +99,33 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="mt-20 flex items-center justify-center w-full text-white">
-        <form className="w-1/3 md:w-3/4 md:flex md:flex-col  flex gap-5 ">
+      <motion.div
+      variants={fadeIn("down", "spring", 0.75)}
+      initial="hidden"
+      animate="show"
+      className="mt-20 flex items-center justify-center w-full text-white relative">
+        
+        <form
+        options={{
+          max:45,
+          scale:1,
+          speed:0.5,
+        }}
+        className="w-1/ md:w-3/4 md:flex md:flex-col  flex gap-5 z-10">
           <div className="flex flex-col">
-            <label htmlFor="name" className="text-lg font-medium">Moving From</label>
-            <input type="text" name="name" id="name" className="p-5 rounded-lg font-medium radial-gradient"/>
+            <label htmlFor="name" className="text-xl text-center font-medium">Moving From</label>
+            <input type="text" name="name" id="name" className="p-5 mt-2 rounded-lg font-medium radial-gradient h-full place-holder-gray-700"
+            placeholder="Moving From ...."/>
           </div>
           <div className="flex flex-col">
-            <label htmlFor="email" className="text-lg font-medium">Moving To</label>
-            <input type="email" name="email" id="email" className="p-5 rounded-lg font-medium radial-gradient"/>
+            <label htmlFor="email" className="text-xl text-center font-medium">Moving To</label>
+            <input type="email" name="email" id="email" className="p-5 mt-2 rounded-lg font-medium radial-gradient place-holder-gray-700"
+            placeholder="Moving To ...."/>
           </div>
           
           <motion.button
             onClick={handleRoute}
-            className='p-5 h-1/2 mt-7 w-[300px] rounded-xl relative radial-gradient flex text-center'
+            className='p-5 h-1/2 mt-9 w-[300px] rounded-xl relative radial-gradient flex text-center'
             initial={{ "--x": "100%", scale: 1 }}
             animate={{ "--x": "-100%" }}
             whileTap={{ scale: 0.97 }}
@@ -136,8 +149,19 @@ export default function Home() {
             <span className='block absolute inset-0 rounded-xl p-px linear-overlay'/>
         </motion.button>
         </form>
+      </motion.div>
+      <div className="max-w-7xl mx-auto">
+        <MovingSteps />
+        
+      </div>
+      <div className="sm:hidden block absolute left-[1700px] top-[1000px] overflow-x-hidden">
+        <Image
+        src={section2}
+        className="w-[550px] h-full object-contain overflow-x-hidden"
+        alt="section"/>
       </div>
     </div>
+    
   </>
   );
 }
