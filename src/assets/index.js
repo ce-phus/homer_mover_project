@@ -29,6 +29,10 @@ import moving2 from "./moving2.jpg"
 import admin from "./admin.jpg"
 import packing from "./packing.jpg"
 import logistics from "./logistics.jpg"
+import facebook from "./facebook.svg"
+import instagram from "./instagram.svg"
+import linkedin from "./linkedin.svg"
+import twitter from "./twitter.svg"
 
 export {
     logo,
@@ -61,5 +65,9 @@ export {
     moving2,
     admin,
     packing,
-    logistics
+    logistics,
+    facebook,
+    instagram,
+    linkedin,
+    twitter
 }
