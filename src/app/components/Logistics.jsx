@@ -6,7 +6,7 @@ import { styles } from '../styles'
 const Logistics = () => {
   return (
     <div className='grid grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 mx-2'>
-    <div className='mt-10'>
+    <div className='mt-10 mb-10'>
         <div className='flex space-x-3 mb-3'>
             <div className='w-8 h-8 rounded-full bg-grade'/>
             <p className={styles.sectionSubText}>LOGISTICS</p>

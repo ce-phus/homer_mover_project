@@ -31,8 +31,8 @@ const Footer = () => (
         ))}
       </div>
     </div>
-    <div className='w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]'>
-      <p className='font-medium text-white font-normal text-center text-[18px] leading-[27px]'>
+    <div className='w-full flex justify-between items-center flex-col pt-6 border-t-[1px] border-t-[#3F3E45] max-w-[2000px] mx-auto'>
+      <p className='font-medium text-white  text-center text-[18px] leading-[27px]'>
         2025 Atlas Map. All Rights Reserved
       </p>
     </div>
