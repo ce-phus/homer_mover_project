@@ -4,6 +4,8 @@ import MovingSteps from "./MovingSteps";
 import Moving from "./Moving";
 import Navbar from "./Navbar";
 import Detail from "./Detail";
+import Admin from "./Admin";
+import Packing from "./Packing";
 
 export {
     Footer,
@@ -11,5 +13,7 @@ export {
     MovingSteps,
     Moving,
     Navbar,
-    Detail
+    Detail,
+    Admin,
+    Packing
 }

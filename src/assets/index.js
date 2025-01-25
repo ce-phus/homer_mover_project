@@ -26,6 +26,7 @@ import arrowright from "./right-arrow.png"
 import moving from "./moving.jpg"
 import moving1 from "./moving1.jpg"
 import moving2 from "./moving2.jpg"
+import admin from "./admin.jpg"
 
 export {
     logo,
@@ -55,5 +56,6 @@ export {
     arrowright,
     moving,
     moving1,
-    moving2
+    moving2,
+    admin
 }

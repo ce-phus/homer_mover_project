@@ -73,9 +73,10 @@ const Detail = () => {
                   <p className={styles.paragraph}>You should consider a few important things when selecting an international moving company. Do they have experience? Can I trust them with my belongings? Are they cost effective?</p>
                   <p className={styles.paragraph}>We not only want to answer all these questions with a yes, but we want to offer great customer service alongside it. We’re hoping that our customer reviews may convince you.</p>
                   <p className={`${styles.paragraph} mb-10`}>Santa Fe relocation is much more than just a man and van service. A move overseas is a stressful undertaking, from our experience there is nothing worse than feeling under prepared. Let us take away those endless lists, the stressful research and painless paperwork. Our team can support you with great service and you will be thankful you chose an international moving expert like us.</p>
-                  <div className=''/>
-                  <div className=''/>
-                  <Link href={"/contact"} className='w-full border flex justify-end border-grade mt-mt-20 text-center px-5 py-4 text-lg font-bold text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500 border-l-[5px]'>Book a Consultation Today !!</Link>
+                 <div className='mb-10'>
+                   
+                 <Link href={"/contact"} className='w-full border flex justify-end border-grade mb-10 mt-10 text-center px-5 py-4 text-lg font-bold text-grade hover:text-white hover:bg-grade hover:scale-105 duration-500 border-l-[5px]'>Book a Consultation Today !!</Link>
+                 </div>
             </div>
         </div>
        
