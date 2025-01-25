@@ -7,6 +7,7 @@ import Detail from "./Detail";
 import Admin from "./Admin";
 import Packing from "./Packing";
 import Logistics from "./Logistics";
+import Quiz from "./Quiz";
 
 export {
     Footer,
@@ -17,5 +18,6 @@ export {
     Detail,
     Admin,
     Packing,
-    Logistics
+    Logistics,
+    Quiz
 }
