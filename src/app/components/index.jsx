@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Detail from "./Detail";
 import Admin from "./Admin";
 import Packing from "./Packing";
+import Logistics from "./Logistics";
 
 export {
     Footer,
@@ -15,5 +16,6 @@ export {
     Navbar,
     Detail,
     Admin,
-    Packing
+    Packing,
+    Logistics
 }

@@ -7,7 +7,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { FaArrowCircleRight } from "react-icons/fa";
-import { MovingSteps, Moving, Detail, Admin } from "./components";
+import { MovingSteps, Moving, Detail, Admin, Packing, Logistics } from "./components";
 
 const HeroData = [
   {
@@ -155,6 +155,8 @@ export default function Home() {
         <Moving />
         <Detail />
         <Admin />
+        <Packing />
+        <Logistics />
       </div>
       <div className="sm:hidden block absolute left-[1700px] top-[1000px] overflow-x-hidden">
         <Image

@@ -27,6 +27,8 @@ import moving from "./moving.jpg"
 import moving1 from "./moving1.jpg"
 import moving2 from "./moving2.jpg"
 import admin from "./admin.jpg"
+import packing from "./packing.jpg"
+import logistics from "./logistics.jpg"
 
 export {
     logo,
@@ -57,5 +59,7 @@ export {
     moving,
     moving1,
     moving2,
-    admin
+    admin,
+    packing,
+    logistics
 }
