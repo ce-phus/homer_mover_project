@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import { logo3, menu, close } from '@/assets';
+import { logo8, menu, close } from '@/assets';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -85,7 +85,7 @@ const Navbar = () => {
         <nav className={`w-full text-white fixed z-20 top-[49px] ${scrolled ? "bg-opacity-20 bg-black" : "bg-primary "}`}>
                 <div className='flex max-w-7xl mx-auto justify-between'>
                     <Link href={'/'} onClick={() => { setActive(""); window.scrollTo(0, 0) }} className=''>
-                        <Image src={logo3} alt='logo' className='w-[120px] h-[120px] contain mt-2'/>
+                        <Image src={logo8} alt='logo' className='w-[120px] h-[120px] contain mt-2'/>
                     </Link>
                     
                     <ul className='flex space-x-10 mt-[50px] sm:mt-3 sm:hidden'>

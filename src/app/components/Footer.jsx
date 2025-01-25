@@ -1,6 +1,6 @@
 import React from 'react'
 import { styles } from '../styles'
-import { logo3 } from '@/assets'
+import { logo8 } from '@/assets'
 import { footerLinks, socialMedia } from '../constants'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -9,7 +9,7 @@ const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} flex-row sm:flex-col max-w-7xl mx-auto mb-8 w-full`}>
       <div className='flex-1 sm:flex md:flex-col sm:flex-row justify-start mr-10'>
-        <Image src={logo3} alt='logo' className='w-[200px] h-[200px] object-contain'/>
+        <Image src={logo8} alt='logo' className='w-[200px] h-[200px] object-contain'/>
         <p className={`text-gray-300 text-xl font-bold mt-4 max-w-[310px]`}>
           Savor a Smooth Moving Experience with Atlas Path.
         </p>
