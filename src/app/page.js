@@ -7,7 +7,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import { fadeIn } from "../../variants";
 import { motion } from "framer-motion";
 import { FaArrowCircleRight } from "react-icons/fa";
-import MovingSteps from "./components/MovingSteps";
+import { MovingSteps, Moving } from "./components";
 
 const HeroData = [
   {
@@ -150,9 +150,9 @@ export default function Home() {
         </motion.button>
         </form>
       </motion.div>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-[1600px] mx-auto">
         <MovingSteps />
-        
+        <Moving />
       </div>
       <div className="sm:hidden block absolute left-[1700px] top-[1000px] overflow-x-hidden">
         <Image

@@ -27,7 +27,7 @@ const StepsCard = ({index, title, icon, text}) => (
             <Image
             src={icon}
             alt='steps'
-            className='w-[150px] h-[150px] object-contain flex'/>
+            className='w-[250px] h-[250px] object-contain flex'/>
             <h3 className='text-white text-2xl font-bold mt-5'>{title}</h3>
         </div>
     </motion.div>

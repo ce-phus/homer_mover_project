@@ -18,6 +18,11 @@ import filling from "./filling.png"
 import filling2 from "./filling1.png"
 import section2 from "./section2.png"
 import arrow from  "./arrow-up.svg"
+import internationalmoving from "./internationalmoving.jpg"
+import localmoving from "./localmoving.jpg"
+import petrelocation from "./petrelocation.jpg"
+import movingservices from "./movingservices.jpg"
+import arrowright from "./right-arrow.png"
 
 export {
     logo,
@@ -39,5 +44,10 @@ export {
     filling,
     filling2,
     section2,
-    arrow
+    arrow,
+    internationalmoving,
+    localmoving,
+    petrelocation,
+    movingservices,
+    arrowright
 }

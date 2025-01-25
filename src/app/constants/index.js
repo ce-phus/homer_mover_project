@@ -1,4 +1,8 @@
-import { filling, filling2, estimate, virtual } from "@/assets"
+import { 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright
+ } from "@/assets"
+
+ import { FaArrowRight } from "react-icons/fa";
 
 export const navLinks = [
     {
@@ -124,5 +128,35 @@ export const services = [
         title: "Virtual survey",
         text: "3",
         icon: virtual,
+    },
+]
+
+export const nationalmoving = [
+    {
+        title: "International Moving",
+        link: "/international-moving",
+        icon: arrowright,
+        img: internationalmoving,
+    },
+
+    {
+        title: "Local Moving",
+        icon: arrowright,
+        link: "/local-moving",
+        img: localmoving,
+    },
+
+    {
+        title: "Pet Relocation",
+        icon: arrowright,
+        link: "/pet-relocation",
+        img: petrelocation,
+    },
+
+    {
+        title: "Moving Services",
+        icon: arrowright,
+        link: "/moving-services",
+        img: movingservices,
     },
 ]
