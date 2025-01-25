@@ -119,7 +119,7 @@ const Navbar = () => {
                             className='w-[28px] h-[28px] object-contain'
                             onClick={() => setToggle(!toggle)}/>
                             <AnimatePresence>
-                              <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] right-0 mx-4 min-w-[400px] box z-10 rounded-xl`}
+                              <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[350px] mx-4 min-w-[400px] box z-10 rounded-xl`}
                               exit={{ opacity: 0, scale: 1.1 }}
                               initial={{ opacity: 0, scale: 0.95 }}
                               animate={{ opacity: 1, scale: 1 }}>
