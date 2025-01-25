@@ -35,7 +35,7 @@ const Detail = () => {
                 height={500}
                 className='x object-contain'/>
             </div>
-            <div className='mt-10 space-y-4'>
+            <div className='mt-10 space-y-4 mx-3'>
                 <p className={styles.sectionSubText}>A personalised moving experience.</p>
                 <h1 className={styles.heroHeadText}>Atlas Map, Experts in International Moving Services</h1>
                 <p className={styles.paragraph}>Atlas Map Relocation is your trusted partner for a stress-free and seamless move across borders. As one of the leading international moving companies, we specialise in providing door-to-door moving services. Are you looking for local relocation service or a international moving company? Santa Fe is on hand to support you and your family.</p>

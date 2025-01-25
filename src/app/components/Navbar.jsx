@@ -56,7 +56,7 @@ const Navbar = () => {
                         </div>
                         <motion.button
                             onClick={handleRoute}
-                            className='px-3 py-2 rounded-xl relative radial-gradient'
+                            className='px-3 py-2 sm:hidden rounded-xl relative radial-gradient'
                             initial={{ "--x": "100%", scale: 1 }}
                             animate={{ "--x": "-100%" }}
                             whileTap={{ scale: 0.97 }}
@@ -76,7 +76,7 @@ const Navbar = () => {
                                 },
                             }}
                         >
-                            <span className='text-neutral-100 font-medium tracking-wide h-full w-full block relative linear-mask'>Get Quote</span>
+                            <span className='text-neutral-100 font-medium tracking-wide h-full w-full block relative linear-mask sm:text-xs'>Get Quote</span>
                             <span className='block absolute inset-0 rounded-xl p-px linear-overlay'/>
                         </motion.button>
                     </div>

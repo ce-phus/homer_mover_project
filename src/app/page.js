@@ -78,13 +78,15 @@ export default function Home() {
       onMouseLeave={handleMouseLeave}>
         <Image src={HeroData[currentIndex].img} alt="hero" layout="fill" objectFit="cover" className="transition-all duration-500 ease-in-out cursor-pointer"/>
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col items-center justify-center mt-10">
-          <div className="text-white text-center space-y-10 transition-all duration-500 ease-in-out mx-5">
+          <div className="text-white text-center space-y-10 transition-all mt-20 pt-10 duration-500 ease-in-out mx-5">
             <h1 className="text-8xl sm:text-5xl font-bold">{HeroData[currentIndex].title}</h1>
             <h1 className="text-4xl font-medium">{HeroData[currentIndex].title2}</h1>
+            
           </div>
-            <p className="mt-[200px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[200px] justify-center">
+          <p className="mt-20 mb-[100px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[200px] items-center justify-center">
               <span className="flex space-x-5"><FaPhoneVolume className="mr-2 mt-1"/> +2540112989429</span>
             </p>
+            
         </div>
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-between">
           <button onClick={prevSlide} className="absolute left-0 bg-black bg-opacity-50 text-white p-2 rounded-full">

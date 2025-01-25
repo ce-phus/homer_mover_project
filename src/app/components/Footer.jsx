@@ -14,7 +14,7 @@ const Footer = () => (
           Savor a Smooth Moving Experience with Atlas Path.
         </p>
       </div>
-      <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>
+      <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10 mx-3'>
         {footerLinks.map((footerLink, footerIndex) => (
           <div key={`footer-link-${footerIndex}`} className='flex flex-col ss:my-0 my-4 min-w-[150px]'>
             <h4 className='font-poppins font-medium text-white text-[18px] leading-[27px]'>

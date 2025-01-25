@@ -39,7 +39,7 @@ const MovingSteps = () => {
         initial="hidden"
         animate="show"
         variants={textVariant(0.5)}
-        className='mt-20'
+        className='mt-20 mx-3'
         >
             <p className={styles.sectionSubText}>Simple Guides</p>
             <h2 className={styles.sectionHeadText}>Three simple steps to get you moving.</h2>
