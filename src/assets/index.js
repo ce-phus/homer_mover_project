@@ -23,6 +23,9 @@ import localmoving from "./localmoving.jpg"
 import petrelocation from "./petrelocation.jpg"
 import movingservices from "./movingservices.jpg"
 import arrowright from "./right-arrow.png"
+import moving from "./moving.jpg"
+import moving1 from "./moving1.jpg"
+import moving2 from "./moving2.jpg"
 
 export {
     logo,
@@ -49,5 +52,8 @@ export {
     localmoving,
     petrelocation,
     movingservices,
-    arrowright
+    arrowright,
+    moving,
+    moving1,
+    moving2
 }

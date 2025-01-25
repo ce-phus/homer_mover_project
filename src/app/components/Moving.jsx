@@ -7,10 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const MovingCard = ({ index, title, icon, img, link }) => (
-    <motion.div
-    initial="hidden"
-    animate="show"
-    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    <div
     className='flex flex-col relative'>
         <div className='overflow-hidden rounded-2xl mb-2'>
             <Image
@@ -30,19 +27,20 @@ const MovingCard = ({ index, title, icon, img, link }) => (
             </div>
         </Link>
         
-    </motion.div>
+    </div>
 )
 
 const Moving = () => {
   return (
     <>
-    <motion.div
-    initial="hidden"
-    animate="show"
-    variants={textVariant(0.5)}
+      {/* <div className='absolute pink__gradient w-1/4 h-1/4 left-2 top-[1500px]'/> */}
+      <div className='absolute white__gradient w-1/4 h-1/2 left-2 top-[1500px]'/>
+      <div className='absolute blue__gradient w-1/4 h-1/4 left-2 top-[1500px]'/>
+
+    <div
     className='mt-20'>
         <h2 className={styles.sectionHeadText}>International Moving Made Simple</h2>
-    </motion.div>
+    </div>
     <div className='mt-20 grid grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5'>
         {nationalmoving.map((moving, index)=> (
             <MovingCard key={index} icon={moving.icon} img={moving.img} link={moving.link} title={moving.title}/>
