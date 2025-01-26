@@ -17,7 +17,7 @@ const MovingCard = ({ index, title, icon, img, link }) => (
         </div>
         <Link href={link}>
             <div className='space-y-2'>
-                <h3 className='text-white font-bold text-2xl'>{title}</h3>
+                <h3 className='text- font-bold text-2xl'>{title}</h3>
                 <div className='flex justify-end'>
                     <Image 
                     src={icon}
@@ -34,8 +34,8 @@ const Moving = () => {
   return (
     <>
       {/* <div className='absolute pink__gradient w-1/4 h-1/4 left-2 top-[1500px]'/> */}
-      <div className='absolute white__gradient w-1/4 h-1/2 left-2 top-[1500px]'/>
-      <div className='absolute blue__gradient w-1/4 h-1/4 left-2 top-[1500px]'/>
+      {/* <div className='absolute white__gradient w-1/4 h-1/2 left-2 top-[1500px]'/>
+      <div className='absolute blue__gradient w-1/4 h-1/4 left-2 top-[1500px]'/> */}
 
     <div
     className='mt-20 mx-3'>

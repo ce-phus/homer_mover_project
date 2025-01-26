@@ -72,12 +72,12 @@ export default function Home() {
       <meta name="description" content="Atlas Path" />
       <link rel="icon" href="/logo.svg" />
     </Head>
-    <div className="relative w-full mt-20">
-      <div className="relative h-screen sm:h-[600px] w-full overflow-hidden"
+    <div className="relative w-full ">
+      <div className="relative h-[800px] sm:h-[600px] w-full overflow-hidden"
       onMouseEnter={handleMouseOver}
       onMouseLeave={handleMouseLeave}>
         <Image src={HeroData[currentIndex].img} alt="hero" layout="fill" objectFit="cover" className="transition-all duration-500 ease-in-out cursor-pointer"/>
-        <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex flex-col items-center justify-center mt-10">
+        <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center">
           <div className="text-white text-center space-y-10 transition-all mt-20 pt-10 duration-500 ease-in-out mx-5">
             <h1 className="text-8xl sm:text-5xl font-bold">{HeroData[currentIndex].title}</h1>
             <h1 className="text-4xl font-medium">{HeroData[currentIndex].title2}</h1>
@@ -89,7 +89,7 @@ export default function Home() {
             
         </div>
         <div className="absolute top-0 left-0 w-full h-full flex items-center justify-between">
-          <button onClick={prevSlide} className="absolute left-0 bg-black bg-opacity-50 text-white p-2 rounded-full">
+          <button onClick={prevSlide} className="absolute left-0 text-white p-2 rounded-full">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
@@ -153,23 +153,17 @@ export default function Home() {
         </form>
       </motion.div>
       <div className="max-w-[1600px] mx-auto">
-        <MovingSteps />
-        <Moving />
+        {/* <MovingSteps /> */}
+        {/* <Moving /> */}
         <Detail />
         <Admin />
         <Packing />
         <Logistics />
       </div>
-      <div className="bg-tertiary/50">
+      <div className="">
         <div className="flex items-center justify-center text-center">
             <Quiz />
         </div>
-      </div>
-      <div className="sm:hidden block absolute left-[1700px] top-[1000px] overflow-x-hidden">
-        <Image
-        src={section2}
-        className="w-[550px] h-full object-contain overflow-x-hidden"
-        alt="section"/>
       </div>
     </div>
     

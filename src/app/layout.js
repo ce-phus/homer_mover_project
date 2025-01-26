@@ -3,7 +3,9 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./globals.css";
 import Head from "next/head";
+import { Lora } from "next/font/google";
 import { Montserrat } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,6 +17,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+})
+
+const lora = Lora({ subsets: ['latin'], display: 'swap' });
 const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-mont'
@@ -30,7 +39,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <link rel='icon' href="./logo.svg" />
-      <body className={`${montserrat.variable} font-mont bg-primary w-full min-h-screen`}>
+      <body className={`${lora.className} font-lora bg-white w-full min-h-screen`}>
         <Navbar />
         {children}
         <Footer />

@@ -8,6 +8,7 @@ import Admin from "./Admin";
 import Packing from "./Packing";
 import Logistics from "./Logistics";
 import Quiz from "./Quiz";
+import Carousel from "./Carousel";
 
 export {
     Footer,
@@ -19,5 +20,6 @@ export {
     Admin,
     Packing,
     Logistics,
-    Quiz
+    Quiz,
+    Carousel
 }

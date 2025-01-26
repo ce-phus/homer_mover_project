@@ -1,11 +1,3 @@
-import logo from "./logo.svg"
-import logo1 from "./logo1.svg"
-import logo2 from "./logo2.svg"
-import logo3 from "./logo3.svg"
-import logo4 from "./logo4.svg"
-import logo5 from "./logo5.svg"
-import logo6 from "./logo6.svg"
-import logo7 from "./logo7.svg"
 import menu from "./menu.svg"
 import close from "./close.svg"
 import herobg from "./herobg.jpg"
@@ -34,16 +26,14 @@ import instagram from "./instagram.svg"
 import linkedin from "./linkedin.svg"
 import twitter from "./twitter.svg"
 import logo8 from "./logo8.svg"
+import hero1 from "./hero001.jpg"
+import hero2 from "./hero002.jpg"
+import hero3 from "./hero003.jpg"
+import hero4 from "./hero004.jpg"
+import hero5 from "./hero005.jpg"
+import hero6 from "./hero006.jpg"
 
 export {
-    logo,
-    logo1,
-    logo2,
-    logo3,
-    logo4,
-    logo5,
-    logo6,
-    logo7,
     menu,
     close,
     herobg,
@@ -71,5 +61,11 @@ export {
     instagram,
     linkedin,
     twitter,
-    logo8
+    logo8,
+    hero1,
+    hero2,
+    hero3,
+    hero4,
+    hero5,
+    hero6,
 }
