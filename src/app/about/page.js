@@ -1,10 +1,11 @@
 "use client";
 import React from 'react'
-import { md1, md2, download } from '@/assets'
+import { md1, md2, download, finesse } from '@/assets'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
 import { Quiz } from '../components';
+import { TiTick } from "react-icons/ti";
 
 const About = () => {
   return (
@@ -37,16 +38,69 @@ const About = () => {
                 className='w-full h-full'/>
             </div>       
         </div>
-        <div className='pt-20 pb-20 flex flex-col items-center  justify-center space-y-6 sm:mx-3 ms:mx-3'>
-            <p className='text-4xl tracking-wide text-primary italic'>``Assisting our clients in finding their dream home goes beyond being our expertise;  </p>
-            <p className='text-4xl tracking-wide text-primary italic'>  it’s what we love to do.``</p>
+        <div className='pb-20 pt-20 grid grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-5 max-w-[1600px] mx-auto sm:mx-3'>
+    <div className='space-y-10 flex flex-col justify-center items-center'>
+        <div className='flex items-center space-x-4'>
+            <Image 
+                src={finesse}
+                alt='Finesse'
+                className='w-7 h-7 mt-2' 
+            />
+            <h1 className='text-5xl text-primary font-normal tracking-wide'>Our Story</h1>
         </div>
+        <Image
+            src={download}
+            className='w-[150px]'
+            alt='Download Icon' 
+        />
+        <p className='text-normal text-xl text-dark tracking-wide mx-5'>
+            Atlas Path was born out of a passion for helping people embrace new opportunities. With international roots and a home in Surrey, our founder brings a unique blend of international insight and local expertise. This dual perspective shapes how we approach relocation—combining empathy, precision, and a deep commitment to making every move a success.
+        </p>
+        <p className='text-normal text-xl text-dark tracking-wide mx-5'>
+            From our first consultation to the final details of your move, our goal is to be more than a service provider—we aim to be your trusted partner on this journey.
+        </p>
+    </div>
+    
+    <div className='space-y-4 text-center w-full'>
+        <h1 className='text-3xl text-dark tracking-wide'>Why Choose Us?</h1>
+        <ul className='space-y-4'>
+            <li className='flex items-start space-x-2'>
+                <div className='w-full space-y-4'>
+                    <p className='text-xl font-bold text-dark'>Rooted in Surrey, Connected Globally:</p>
+                    <p className='font-normal text-lg text-dark'>Our home in Surrey gives us a deep understanding of local needs, while our global expertise ensures we navigate international complexities with ease.</p>
+                </div>
+            </li>
+
+            <li className='flex items-start space-x-2'>               
+                <div className='w-full space-y-4'>
+                    <p className='text-xl font-bold text-dark'>Tailored Solutions:</p>
+                    <p className='font-normal text-lg text-dark'>Whether you’re a business relocating employees, a family seeking a fresh start, or an individual moving domestically, we adapt to your needs.</p>
+                </div>
+            </li>
+
+            <li className='flex items-start space-x-2'> 
+                <div className='w-full space-y-4'>
+                    <p className='text-xl font-bold text-dark'>Hands-On Guidance:</p>
+                    <p className='font-normal text-lg text-dark'>From visa applications to housing and cultural orientation, we’re with you every step of the way.</p>
+                </div>
+            </li>
+
+            <li className='flex items-start space-x-2'>  
+                <div className='w-full space-y-4'>
+                    <p className='text-xl font-bold text-dark'>Reliable and Compassionate:</p>
+                    <p className='font-normal text-lg text-dark'>Relocating is more than logistics—it’s about finding a place to call home. We handle every detail so you can focus on what matters most.</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
         <div className='flex flex-row sm:flex-col md:flex-col'>
             <div className='w-full h-full'>
                 <Image 
-                src={md2}
+                src={md1}
                 alt='md1'
-                className='w-full h-full'/>
+                className='w-full h-[1200px]'/>
             </div> 
             <div className='bg-grade w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 space-y-10'>
