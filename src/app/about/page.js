@@ -57,7 +57,7 @@ const About = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase'>Peter Nakitare - Managing</motion.h1> 
+                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Peter Nakitare - Managing</motion.h1> 
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
