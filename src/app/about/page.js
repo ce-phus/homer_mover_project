@@ -19,14 +19,15 @@ const About = () => {
             </div>   
             <div className='bg-grade sm:w-full w-1/2'>
                 <div className='flex justify-center items-center flex-col mt-20 mb-20 sm:mt-20 space-y-10'>
+                <motion.h1
+                    variants={fadeIn("down", "spring", 0.75)} 
+                    initial='hidden' animate='show' 
+                    className='text-3xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
                     className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase'>Welcome to Atlas Path Relocation</motion.h1>
-                    <motion.h1
-                    variants={fadeIn("down", "spring", 0.75)} 
-                    initial='hidden' animate='show' 
-                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
+                    
                     <Image
                     src={download}
                     className='w-[150px]'
