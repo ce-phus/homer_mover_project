@@ -101,11 +101,11 @@ const About = () => {
                     initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With a home in Surrey, Lucy offers a unique perspective on the challenges and opportunities of relocation, ensuring her clients feel supported at every step of the journey.</motion.p>
                 </div>
             </div>
-            <div className='w-full h-full'>
+            <div className='w-full h-[1300px] lg:h-[1900px] md:[2000px'>
                 <Image 
                 src={md1}
                 alt='md1'
-                className='w-full h-[1030px] sm:h-full'/>
+                className='w-full h-full'/>
             </div> 
             
         </div>
