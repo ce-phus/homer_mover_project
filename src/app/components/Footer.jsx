@@ -36,7 +36,7 @@ const Footer = () => (
         2025 Atlas Map. All Rights Reserved
       </p>
     </div>
-    <div className='flex flex-row md:mt-0 mt-6 bg-primary py-2 px-5 rounded-lg'>
+    <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>
       {socialMedia.map((social, index) => (
         <Link key={social.id} href={social.link}>
         <Image

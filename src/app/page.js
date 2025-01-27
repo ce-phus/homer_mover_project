@@ -3,9 +3,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import Head from "next/head";
 import { herobg, herobg2, herobg3, section2, globe  } from "@/assets";
-import { fadeIn } from "../../variants";
-import { motion } from "framer-motion";
-import { FaArrowCircleRight } from "react-icons/fa";
+
 import { Services, Detail, Admin, Packing, Logistics, Quiz, Carousel } from "./components";
 
 
