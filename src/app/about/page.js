@@ -76,11 +76,11 @@ const About = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-3xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Meet Lucy - Founder</motion.h1> 
+                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Meet Lucy - Founder</motion.h1> 
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-3xl font-normal text-primary tracking-wide mt-0 uppercase'>of Atlas Path</motion.h1>         
+                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase'>of Atlas Path</motion.h1>         
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
                     initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Based in Surrey for over 12 years, Lucy combines her academic foundation in law and international relations with extensive professional experience to offer unparalleled relocation services. Her legal education provides her with a deep understanding of the laws that are often central to relocation, including immigration, family, and property law. This unique insight ensures that every move is not only smooth but fully compliant with legal requirements.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
