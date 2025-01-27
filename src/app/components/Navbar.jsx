@@ -36,7 +36,7 @@ const Navbar = () => {
         <nav className={`w-full text-white z-50 ${scrolled ? "bg-grade opacity-50" : "bg-transparent"}`}>
             <div className='flex max-w-7xl mx-auto justify-between'>
                 <Link href={'/'} onClick={() => { setActive(""); window.scrollTo(0, 0) }} className=''>
-                    <Image src={logo8} alt='logo' className='w-[120px] h-[120px] contain mt-2'/>
+                    <Image src={logo8} alt='logo' className='w-[90px] h-[90px] contain mt-2'/>
                 </Link>
                 
                 <ul className='flex space-x-10 mt-[50px] sm:mt-3 sm:hidden'>
@@ -44,11 +44,12 @@ const Navbar = () => {
                         <div key={index} className="relative"
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 onMouseLeave={() => setHoveredIndex(null)}> 
-                            <Link href={link.href}>
-                                <p className={`font-bold text-xl tracking-wide ${active === link.title ? "text-[#E2DFD2]" : "text-primary"} hover:text-grade/50 duration-300 ease-in-out hover:scale-105`}
+                            <Link href={link.href} className='relative group'>
+                                <p className={`font-medium text-xl tracking-wide ${active === link.title ? "text-primary" : "text-dark"} hover:text-gray-700 duration-300 ease-in-out hover:scale-105`}
                                     onClick={() => { setActive(link.title); window.scrollTo(0, 0); }}>
                                     {link.title}
                                 </p>
+                                <span className={`h-[2px] inline-block absolute left-0 bg-dark -bottom-0.5 group-hover:w-full transition-[width] ease-duration-300 ${active=== link.title ? 'w-full': 'w-0'}`}>&nbsp;</span>
                             </Link>
                             {link.dropdownItems && link.dropdownItems.length > 0 && (
                                 <div className={`absolute left-0 mt-2 black-gradient w-[300px] text-black rounded-xl shadow-lg transition-opacity duration-500 ${hoveredIndex === index ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
