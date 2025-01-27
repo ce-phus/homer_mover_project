@@ -9,6 +9,7 @@ import Packing from "./Packing";
 import Logistics from "./Logistics";
 import Quiz from "./Quiz";
 import Carousel from "./Carousel";
+import Services from "./Services";
 
 export {
     Footer,
@@ -21,5 +22,6 @@ export {
     Packing,
     Logistics,
     Quiz,
-    Carousel
+    Carousel,
+    Services
 }

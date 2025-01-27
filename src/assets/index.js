@@ -32,6 +32,14 @@ import hero3 from "./hero003.jpg"
 import hero4 from "./hero004.jpg"
 import hero5 from "./hero005.jpg"
 import hero6 from "./hero006.jpg"
+import hero7 from "./hero007.jpg"
+import download from "./download.svg"
+import finesse from "./finesse.png"
+import service1 from "./service1.jpg"
+import service2 from "./service4.jpg"
+import service3 from "./service6.jpg"
+import service4 from "./service9.jpg"
+import globe from "./globe.png"
 
 export {
     menu,
@@ -68,4 +76,12 @@ export {
     hero4,
     hero5,
     hero6,
+    hero7,
+    download,
+    finesse,
+    service1,
+    service2,
+    service3,
+    service4,
+    globe
 }
