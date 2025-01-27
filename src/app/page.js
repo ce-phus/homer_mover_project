@@ -28,7 +28,7 @@ export default function Home() {
           src={globe}
           alt="globe"
           className="w-[100px] h-"/>
-          <h1 className="text-primary text-4xl font-normal italic tracking-wide w-full">A personal approach to relocation</h1>
+          <h1 className="text-primary text-center text-4xl font-normal italic tracking-wide w-full">A personal approach to relocation</h1>
           <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-xl text-dark">Finding a new home is a very personal journey and no two moves are the same, so whether you’re looking for a town or country family house, a short-term UK base or a London pied-à-terre; whatever it may be, we are here to help!</p>
           <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-xl text-dark">Finding a new home is a very personal journey and no two moves are the same, so whether you’re looking for a town or country family house, a short-term UK base or a London pied-à-terre; whatever it may be, we are here to help!</p>
         </div>
