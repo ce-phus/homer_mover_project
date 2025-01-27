@@ -33,7 +33,7 @@ const Navbar = () => {
 
     return (
         <>
-        <nav className={`w-full text-white ${scrolled ? "bg-grade opacity-50" : "bg-transparent"}`}>
+        <nav className={`w-full text-white z-50 ${scrolled ? "bg-grade opacity-50" : "bg-transparent"}`}>
             <div className='flex max-w-7xl mx-auto justify-between'>
                 <Link href={'/'} onClick={() => { setActive(""); window.scrollTo(0, 0) }} className=''>
                     <Image src={logo8} alt='logo' className='w-[120px] h-[120px] contain mt-2'/>
@@ -70,7 +70,7 @@ const Navbar = () => {
                         className='w-[38px] h-[38px] object-contain bg-black-gradient mt-10 px-2 py-2 rounded-xl '
                         onClick={() => setToggle(!toggle)}/>
                     <AnimatePresence>
-                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[380px] mx-4 min-w-[400px] box z-10 rounded-xl`}
+                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[380px] mx-4 min-w-[400px] box z-70 rounded-xl`}
                         exit={{ opacity: 0, scale: 1.1 }}
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}>

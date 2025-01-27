@@ -21,7 +21,7 @@ export default function Home() {
       <meta name="description" content="Atlas Path" />
       <link rel="icon" href="/logo.svg" />
     </Head>
-    <div className="relative w-full ">
+    <div className="w-full ">
         <Carousel />
         <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10 mx-3">
           <Image 
