@@ -15,17 +15,19 @@ const About = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
+                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase'>Welcome to Atlas Path Relocation</motion.h1>
+                    <motion.h1
+                    variants={fadeIn("down", "spring", 0.75)} 
+                    initial='hidden' animate='show' 
                     className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
                     <Image
                     src={download}
                     className='w-[150px]'
                     alt=''/>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Atlas Path Relocation Plus, is an independent relocation and home search company specialising in private and corporate relocations to – or within – London and across the UK.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>At Atlas Path, we specialize in making corporate, domestic, and international relocations seamless and stress-free. Based in the heart of Surrey, England, we bring local expertise and global reach to every move, ensuring your journey is as smooth as possible.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Established in 2004, we have managed hundreds of successful moves and have built our long-term reputation of being a premium relocation company by offering our clients a bespoke VIP service rather than a ‘one size fits all approach’.</motion.p>
-                    <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Relocating can be overwhelming, whether you're moving a family across borders, an individual to a new city, or an entire team for business. That’s where we come in. With a personal, hands-on approach and years of experience, we tailor our services to fit your unique needs.</motion.p>
                 </div>
             </div>
             <div className='w-full h-full'>
@@ -35,9 +37,9 @@ const About = () => {
                 className='w-full h-full'/>
             </div>       
         </div>
-        <div className='pt-20 pb-20 flex flex-col items-center justify-center space-y-6 sm:mx-3 ms:mx-3'>
-            <p className='text-4xl tracking-wide text-primary italic'>``Helping our clients find their perfect place, </p>
-            <p className='text-4xl tracking-wide text-primary italic'> is more than just our speciality… it’s our passion.``</p>
+        <div className='pt-20 pb-20 flex flex-col items-center  justify-center space-y-6 sm:mx-3 ms:mx-3'>
+            <p className='text-4xl tracking-wide text-primary italic'>``Assisting our clients in finding their dream home goes beyond being our expertise;  </p>
+            <p className='text-4xl tracking-wide text-primary italic'>  it’s what we love to do.``</p>
         </div>
         <div className='flex flex-row sm:flex-col md:flex-col'>
             <div className='w-full h-full'>
@@ -57,25 +59,21 @@ const About = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Peter Nakitare - Managing</motion.h1> 
+                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Meet Lucy - Founder</motion.h1> 
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase'>Director</motion.h1>         
+                    className='text-5xl font-normal text-primary tracking-wide mt-0 uppercase'>of Atlas Path</motion.h1>         
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Atlas Path Relocation Plus, is an independent relocation and home search company specialising in private and corporate relocations to – or within – London and across the UK.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Based in Surrey for over 12 years, Lucy combines her academic foundation in law and international relations with extensive professional experience to offer unparalleled relocation services. Her legal education provides her with a deep understanding of the laws that are often central to relocation, including immigration, family, and property law. This unique insight ensures that every move is not only smooth but fully compliant with legal requirements.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Established in 2004, we have managed hundreds of successful moves and have built our long-term reputation of being a premium relocation company by offering our clients a bespoke VIP service rather than a ‘one size fits all approach’.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>As a parent, Lucy understands firsthand the importance of a stress-free and seamless relocation experience, especially for families. She knows that moving involves more than logistics—it’s about creating a sense of stability and belonging in a new environment.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Lucy’s career spans roles as a seasoned estate agent and an accomplished headhunter. As an estate agent, she gained firsthand experience in helping individuals and families find homes that truly fit their needs, while mastering the art of property negotiation. Her time as a headhunter sharpened her ability to connect people with opportunities and navigate diverse market dynamics, skills that seamlessly translate into corporate and international relocations.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With Atlas Path, Lucy merges her legal knowledge, professional expertise, and personal commitment to making every move as stress-free as possible. Whether assisting businesses relocating teams, families starting fresh, or individuals seeking new horizons, Lucy’s approach is both compassionate and precise.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
-                    <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
-                    <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>The personal touch is of paramount importance for us; nothing is ever too much trouble. We will help you – or your executives – with whatever you need to make your relocation process as smooth and stress-free as possible.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With a home in Surrey, Lucy offers a unique perspective on the challenges and opportunities of relocation, ensuring her clients feel supported at every step of the journey.</motion.p>
                 </div>
             </div>
         </div>
