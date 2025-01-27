@@ -67,10 +67,10 @@ const Navbar = () => {
                     <Image 
                         src={toggle ? close : menu}
                         alt='menu'
-                        className='w-[28px] h-[28px] object-contain'
+                        className='w-[38px] h-[38px] object-contain bg-black mt-10 px-2 py-2 rounded-xl'
                         onClick={() => setToggle(!toggle)}/>
                     <AnimatePresence>
-                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[350px] mx-4 min-w-[400px] box z-10 rounded-xl`}
+                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[380px] mx-4 min-w-[400px] box z-10 rounded-xl`}
                         exit={{ opacity: 0, scale: 1.1 }}
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}>
