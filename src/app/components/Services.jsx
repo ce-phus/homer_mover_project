@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className='pt-20 pb-20 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 mx-4'>
         <div className='text-center'>
-        <Link href={'/service2'} className='space-y-5 flex flex-col justify-center items-center'>
+            <Link href={'/service2'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
                 src={service1}
                 className='w-[700px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[700px]'
