@@ -5,11 +5,19 @@ import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
 import { Quiz } from '../components';
-import { TiTick } from "react-icons/ti";
+import Head from 'next/head';
 
 const About = () => {
   return (
     <>
+        <Head>
+        <title>About Page | Atlas Map Relocation</title>
+        <meta
+          name="description"
+          content="Learn more about Atlas Map Relocation and our mission to provide seamless relocation services globally."
+        />
+      </Head>
+
         <div className='flex flex-row md:flex-col sm:flex-col pt-20'>
             <div className='w-1/2 sm:w-full'>
                 <Image 

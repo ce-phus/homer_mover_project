@@ -30,7 +30,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Atlas Map",
+  title: "Atlas Map Relocation",
   description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
 };
 
