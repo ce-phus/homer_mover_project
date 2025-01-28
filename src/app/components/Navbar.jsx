@@ -34,9 +34,9 @@ const Navbar = () => {
     return (
         <>
         <nav className={`w-full text-white z-50 ${scrolled ? "bg-grade opacity-50" : "bg-transparent"}`}>
-            <div className='flex max-w-7xl mx-auto justify-between'>
+            <div className='flex max-w-[1600px] mx-auto justify-between'>
                 <Link href={'/'} onClick={() => { setActive(""); window.scrollTo(0, 0) }} className=''>
-                    <Image src={logo8} alt='logo' className='w-[90px] h-[90px] contain mt-2'/>
+                    <Image src={logo8} alt='logo' className='w-[100px] h-[95px] contain mt-2'/>
                 </Link>
                 
                 <ul className='flex space-x-10 mt-[50px] sm:mt-3 sm:hidden'>

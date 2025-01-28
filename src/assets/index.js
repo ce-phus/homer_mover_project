@@ -41,7 +41,7 @@ import service3 from "./service6.jpg"
 import service4 from "./service9.jpg"
 import globe from "./globe.png"
 import md1 from "./md.jpg"
-import md2 from "./md2.jpg"
+import md2 from "./md3.jpg"
 
 export {
     menu,
