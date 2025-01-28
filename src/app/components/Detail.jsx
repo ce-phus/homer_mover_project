@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Detail = () => {
   return (
     <div className=''>
-        <div className='grid grid-cols-2 md:grid-cols-1 gap-5'>
+        <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <div className='mt-10 space-y-7 mx-3 text-center pt-64'>
             <p className={styles.sectionSubText}>A personalised moving experience.</p>
             <h1 className={styles.heroHeadText}>Atlas Map, Experts in International Moving Services</h1>

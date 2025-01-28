@@ -19,9 +19,9 @@ export default function Home() {
       <meta name="description" content="Atlas Path" />
       <link rel="icon" href="/logo.svg" />
     </Head>
-    <div className="w-full ">
+    <div className="">
         <Carousel />
-        <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10 mx-3">
+        <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10">
           <Image 
           src={globe}
           alt="globe"

@@ -18,14 +18,14 @@ const About = () => {
         />
       </Head>
 
-        <div className='flex flex-row md:flex-col sm:flex-col pt-20'>
-            <div className='w-1/2 sm:w-full'>
+        <div className='flex flex-row lg:flex-col sm:flex-col pt-20'>
+            <div className='w-1/2 lg:w-full sm:w-full'>
                 <Image 
                 src={service1}
                 alt='md1'
                 className='w-full h-full'/>
             </div>   
-            <div className='bg-grade sm:w-full w-1/2'>
+            <div className='bg-grade sm:w-full w-1/2 lg:w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 mb-20 sm:mt-20 space-y-10'>
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
@@ -72,7 +72,7 @@ const About = () => {
             </div>
         </div>
 
-        <div className='flex flex-row sm:flex-col md:flex-col sm:flex-col-reverse'>
+        <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col sm:flex-col-reverse'>
             <div className='bg-grade w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 sm:mb-20 space-y-7'>
                     <Image
@@ -101,7 +101,7 @@ const About = () => {
                     initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With a home in Surrey, Lucy offers a unique perspective on the challenges and opportunities of relocation, ensuring her clients feel supported at every step of the journey.</motion.p>
                 </div>
             </div>
-            <div className='w-full h-[1300px] lg:h-[1900px] md:[2000px'>
+            <div className='w-full sm:h-[500px] h-[1200px]'>
                 <Image 
                 src={md2}
                 alt='md1'

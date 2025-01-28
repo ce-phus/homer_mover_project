@@ -17,7 +17,7 @@ const Admin = () => {
                     <p className={styles.sectionSubText}>ADMIN SUPPORT</p>
                 </div>
                 <h1 className={styles.sectionHeadText}>Getting you started</h1>
-                <h2 className='uppercase tracking-wide font-bold text-dark text-2xl mt-5 mb-3'>Dedicated Relocation Expert</h2>
+                <h2 className='uppercase tracking-wide text-center font-bold text-dark text-2xl mt-5 mb-3'>Dedicated Relocation Expert</h2>
                 <p className={`${styles.paragraph} w-3/4 text-center`}>Atlas Map provides a dedicated relocation expert who guides you through every step of the moving process. They handle logistics, packing, tracking, and customs regulations for international moves. With their assistance, moving becomes organised and stress-free.</p>
             </div>
            

@@ -71,7 +71,7 @@ const Navbar = () => {
                         className='w-[38px] h-[38px] object-contain bg-black-gradient mt-10 px-2 py-2 rounded-xl '
                         onClick={() => setToggle(!toggle)}/>
                     <AnimatePresence>
-                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 black-gradient absolute top-[120px] -left-[380px] mx-4 min-w-[400px] box z-70 rounded-xl`}
+                        <motion.div className={`${!toggle ? "hidden" : "flex"} p-6 bg-white shadow-xl shadow-black absolute top-[120px] -left-[310px] mx-4 min-w-[350px] box z-70 rounded-xl`}
                         exit={{ opacity: 0, scale: 1.1 }}
                         initial={{ opacity: 0, scale: 0.95 }}
                         animate={{ opacity: 1, scale: 1 }}>
@@ -81,7 +81,7 @@ const Navbar = () => {
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 onMouseLeave={() => setHoveredIndex(null)}> 
                                 <Link href={link.href}>
-                                    <p className={`font-medium text-lg tracking-wide ${active === link.title ? "text-accent" : "text-white"} hover:text-accent duration-300 ease-in-out hover:scale-105`}
+                                    <p className={`font-medium text-lg tracking-wide ${active === link.title ? "text-accent" : "text-black"}  hover:text-accent duration-300 ease-in-out hover:scale-105`}
                                         onClick={() => { setActive(link.title); window.scrollTo(0, 0); }}>
                                         {link.title}
                                     </p>

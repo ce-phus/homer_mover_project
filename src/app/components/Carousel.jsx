@@ -55,11 +55,11 @@ const Carousel = () => {
         autoplaySpeed: 3000,
     }
   return (
-    <div className='flex flex-row sm:flex-col md:flex-col pt-[80px]'>
-        <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row z-0">
-        <Slider {...sliderSettings} className="w-[940px] sm:w-[650px] h-auto">
+    <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[80px] md:flex-col-reverse sm:flex-col-reverse'>
+      
+        <Slider {...sliderSettings} className="lg:w-full w-1/2 h-auto">
         {HeroData.map((data) => (
-            <div key={data.id} className="relative w-full h-[590px] overflow-hidden">
+            <div key={data.id} className="relative z-0 w-full h-[599px] overflow-hidden">
             <Image
                 src={data.img}
                 alt=""
@@ -71,9 +71,9 @@ const Carousel = () => {
         ))}
         </Slider>
 
-        </div>
+        
         <div className='bg-grade w-full'>
-            <div className='space-y-10 flex flex-col items-center mt-20 justify-center'>
+            <div className='space-y-10 flex flex-col items-center mt-20  justify-center'>
                 <h1 className='text-2xl font-normal uppercase'>Welcome to</h1>
                 <Image
                 src={download}
@@ -81,7 +81,7 @@ const Carousel = () => {
                 alt=''/>
                 <h1 className='text-3xl font-normal uppercase font-medium text-primary'>Atlas Map Relocation</h1>
             </div>
-            <div className='mt-10 space-y-5 flex flex-col justify-center items-center sm:mb-20'>
+            <div className='mt-10 space-y-5 flex flex-col justify-center items-center lg:mb-20'>
                 <p className='text-dark font-normal'>We are leading executive relocation agency</p>
                 <p className='text-dark font-normal'>with a personal touch.</p>
                 <p className="mt-20 mb-[100px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[200px] items-center justify-center">

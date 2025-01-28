@@ -33,6 +33,7 @@ import hero4 from "./hero004.jpg"
 import hero5 from "./hero005.jpg"
 import hero6 from "./hero006.jpg"
 import hero7 from "./hero007.jpg"
+import hero8 from "./hero008.jpg"
 import download from "./download.svg"
 import finesse from "./finesse.png"
 import service1 from "./service1.jpg"
@@ -87,5 +88,6 @@ export {
     service4,
     globe,
     md1,
-    md2
+    md2,
+    hero8
 }

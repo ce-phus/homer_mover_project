@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const Services = () => {
   return (
-    <div className='pt-20 pb-20 grid grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3 mx-4'>
+    <div className='pt-20 pb-20 grid grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-3 mx-4'>
         <div className='text-center'>
             <Link href={'/service2'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
