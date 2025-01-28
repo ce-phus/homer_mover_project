@@ -74,12 +74,12 @@ const Carousel = () => {
         
         <div className='bg-grade w-full'>
             <div className='space-y-10 flex flex-col items-center mt-20  justify-center'>
-                <h1 className='text-2xl font-normal uppercase'>Welcome to</h1>
+                <h1 className='text-xl font-normal uppercase'>Welcome to</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
-                <h1 className='text-3xl font-normal uppercase font-medium text-primary'>Atlas Map Relocation</h1>
+                <h1 className='text-2xl font-normal uppercase font-medium text-primary'>Atlas Map Relocation</h1>
             </div>
             <div className='mt-10 space-y-5 flex flex-col justify-center items-center lg:mb-20'>
                 <p className='text-dark font-normal'>We are leading executive relocation agency</p>
