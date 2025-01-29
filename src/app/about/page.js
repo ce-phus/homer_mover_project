@@ -18,7 +18,7 @@ const About = () => {
         />
       </Head>
 
-        <div className='flex flex-row lg:flex-col sm:flex-col pt-20'>
+        <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
             <div className='w-1/2 lg:w-full sm:w-full'>
                 <Image 
                 src={hero14}
