@@ -45,7 +45,7 @@ const Navbar = () => {
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 onMouseLeave={() => setHoveredIndex(null)}> 
                             <Link href={link.href} className='relative group'>
-                                <p className={`font-medium text-xl tracking-wide ${active === link.title ? "text-primary" : "text-dark"} hover:text-gray-700 duration-300 ease-in-out hover:scale-105`}
+                                <p className={`font-medium text-lg tracking-wide ${active === link.title ? "text-primary" : "text-dark"} hover:text-gray-700 duration-300 ease-in-out hover:scale-105`}
                                     onClick={() => { setActive(link.title); window.scrollTo(0, 0); }}>
                                     {link.title}
                                 </p>

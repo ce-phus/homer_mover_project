@@ -44,6 +44,11 @@ export const navLinks = [
         ]
     },
     {
+      title: "Key Areas",
+      href: "/key",
+      dropdownItems: []
+  },
+    {
         title: "Contact",
         href: "/contact",
         dropdownItems: []
