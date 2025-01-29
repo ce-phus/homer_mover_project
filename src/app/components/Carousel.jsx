@@ -64,9 +64,9 @@ const Carousel = () => {
   return (
     <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[80px] md:flex-col-reverse sm:flex-col-reverse'>
       
-        <Slider {...sliderSettings} className="lg:w-full xl:w-[650px] w-[1100px] h-auto">
+        <Slider {...sliderSettings} className="lg:w-full xl:w-[550px] w-[850px] h-auto">
         {HeroData.map((data) => (
-            <div key={data.id} className="relative z-0 w-full h-[599px] overflow-hidden">
+            <div key={data.id} className="relative z-0 h-[599px] overflow-hidden">
             <Image
                 src={data.img}
                 alt=""
@@ -90,7 +90,7 @@ const Carousel = () => {
                 <p className='text-dark font-normal'>Relocation doesn’t have to be stressful. At Atlas Path, we make your move seamless,</p>
                 <p className='text-dark font-normal'> whether it’s international, domestic, or corporate.Let us handle the details while you focus on starting fresh.</p>
                 <p className="mt-20 mb-[100px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[200px] items-center justify-center">
-                    <span className="flex space-x-5"><FaPhoneVolume className="mr-2 mt-1"/> +2540112989429</span>
+                    <span className="flex space-x-5"><FaPhoneVolume className="mr-2 mt-1"/> +44 (646) 786-5060</span>
                 </p>
             </div>
         </div>
