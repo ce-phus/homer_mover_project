@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero9, hero10, hero13, hero8 } from '@/assets'
+import { hero9, hero10, hero17, hero7 } from '@/assets'
 import { TiTick } from "react-icons/ti";
 import { motion } from "framer-motion"
 
@@ -10,34 +10,30 @@ const International = () => {
     <div className='flex flex-row lg:flex-col sm:flex-co'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px]'>
             <Image 
-            src={hero13}
+            src={hero10}
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full text-center flex flex-col items-center justify-center bg-grade space-y-5'>
-            <h1 className='mt-5 text-4xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
+        <div className='w-full flex flex-col items-center justify-center bg-grade space-y-5'>
+            <h1 className='mt-5 text-xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
+            <h1 className='text-xl text-dark tracking-wide font-medium'>Bridging Borders, Building Futures</h1>
 
-            <h1 className='text-2xl text-dark tracking-wide font-medium'>Bridging Borders, Building Futures</h1>
-
-            <ul className='space-y-2 mb-20'>
+            <ul className='space-y-2 mb-20 mx-5'>
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Visa and Immigration Expertise:  <span className='text-lg font-normal'>Navigating the complexities of international moves with precision..</span></p>
+
+                    <p className='text-lg font-medium'>Visa and Immigration Expertise:  <span className='text-lg font-normal'>Navigating the complexities of international moves with precision..</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Destination Services: <span className='text-lg font-normal'>From securing housing to setting up utilities and bank accounts, we handle it all.</span></p>
+                    <p className='text-lg font-medium'>Destination Services: <span className='text-lg font-normal'>From securing housing to setting up utilities and bank accounts, we handle it all.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Cultural and Language Integration: <span className='text-lg font-normal'>Guidance to help you adapt to local customs and languages.</span></p>
+                    <p className='text-lg font-medium'>Cultural and Language Integration: <span className='text-lg font-normal'>Guidance to help you adapt to local customs and languages.</span></p>
                 </li>
 
                 <li className='space-x-2 flex mb-20'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Family Support:  <span className='text-lg font-normal'>Assistance with school placements, finding childcare, and settling in.</span></p>
+                    <p className='text-lg font-medium'>Family Support:  <span className='text-lg font-normal'>Assistance with school placements, finding childcare, and settling in.</span></p>
                 </li>
             </ul>
         </div>
@@ -64,28 +60,25 @@ const International = () => {
 
     <div className='flex flex-row lg:flex-col bg-grade'>
 
-        <div className='flex w-full mx-[100px] lg:mx-0 lg:mt-10 lg:mb-10 items-center justify-center flex-col space-y-5'>
-            <h1 className='text-2xl text-primary tracking-wide'>Why Choose Atlas Path?</h1>
+        <div className='flex w-full mx-[50px] xl:mx-0 xl:mt-10 xl:mb-10 items-center justify-center flex-col space-y-5'>
+            <h1 className='text-xl text-primary tracking-wide'>Why Choose Atlas Path?</h1>
             <ul className='space-y-2 mb-20 mx-10'>
                 <li className='space-x-3 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Surrey-Based Expertise: <span className='text-lg font-normal'>With deep local knowledge, we understand what matters to individuals and businesses moving to or from the UK</span></p>
+                    <p className='text-lg font-medium'>Surrey-Based Expertise: <span className='text-lg font-normal'>With deep local knowledge, we understand what matters to individuals and businesses moving to or from the UK</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Comprehensive Support: <span className='text-lg font-normal'>From legal requirements to cultural integration, we cover every detail.</span></p>
+                    <p className='text-lg font-medium'>Comprehensive Support: <span className='text-lg font-normal'>From legal requirements to cultural integration, we cover every detail.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
-                    <p className='text-xl font-medium'>Personalized Approach: <span className='text-lg font-normal'>Every relocation is as unique as the client. We tailor solutions to meet your needs.</span></p>
+                    <p className='text-lg font-medium'>Personalized Approach: <span className='text-lg font-normal'>Every relocation is as unique as the client. We tailor solutions to meet your needs.</span></p>
                 </li>
             </ul>
         </div>
-        <div className='w-full h-['>
+        <div className='w-full h-[700px] xl:h-full'>
             <Image 
-            src={hero8}
+            src={hero17}
             alt='hero8'
             className='w-full h-full'/>
         </div>

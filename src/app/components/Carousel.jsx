@@ -13,14 +13,19 @@ const HeroData = [
       
     },
     {
-      id: 2,
-      img: hero2,
-      
+        id: 7,
+        img: hero7,
+        
     },
     {
       id: 3,
       img: hero3,
       
+    },
+    {
+        id: 10,
+        img: hero10,
+        
     },
     {
         id: 4,
@@ -37,41 +42,8 @@ const HeroData = [
         img: hero6,
         
     },
-    {
-        id: 7,
-        img: hero7,
-        
-    },
-    {
-        id: 8,
-        img: hero8,
-        
-    },
-    {
-        id: 9,
-        img: hero9,
-        
-    },
-    {
-        id: 10,
-        img: hero10,
-        
-    },
-    {
-        id: 11,
-        img: hero11,
-        
-    },
-    {
-        id: 12,
-        img: hero12,
-        
-    },
-    {
-        id: 13,
-        img: hero13,
-        
-    },
+    
+    
     {
         id: 14,
         img: hero14,
@@ -92,7 +64,7 @@ const Carousel = () => {
   return (
     <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[80px] md:flex-col-reverse sm:flex-col-reverse'>
       
-        <Slider {...sliderSettings} className="lg:w-full w-1/2 h-auto">
+        <Slider {...sliderSettings} className="lg:w-full xl:w-[650px] w-[1100px] h-auto">
         {HeroData.map((data) => (
             <div key={data.id} className="relative z-0 w-full h-[599px] overflow-hidden">
             <Image
@@ -116,9 +88,9 @@ const Carousel = () => {
                 alt=''/>
                 <h1 className='text-xl font-normal uppercase font-medium text-primary'>Atlas Path Relocation</h1>
             </div>
-            <div className='mt-10 space-y-5 flex flex-col justify-center items-center lg:mb-20'>
-                <p className='text-dark font-normal'>We are leading executive relocation agency</p>
-                <p className='text-dark font-normal'>with a personal touch.</p>
+            <div className='mt-10 space-y-2 mx-5 text-center flex flex-col justify-center items-center lg:mb-20'>
+                <p className='text-dark font-normal'>Relocation doesn’t have to be stressful. At Atlas Path, we make your move seamless,</p>
+                <p className='text-dark font-normal'> whether it’s international, domestic, or corporate.Let us handle the details while you focus on starting fresh.</p>
                 <p className="mt-20 mb-[100px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[200px] items-center justify-center">
                     <span className="flex space-x-5"><FaPhoneVolume className="mr-2 mt-1"/> +2540112989429</span>
                 </p>

@@ -30,20 +30,20 @@ const About = () => {
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-3xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
+                    className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase'>Welcome to Atlas Path Relocation</motion.h1>
+                    className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Welcome to Atlas Path Relocation</motion.h1>
                     
                     <Image
                     src={download}
                     className='w-[150px]'
                     alt=''/>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>At Atlas Path, we specialize in making corporate, domestic, and international relocations seamless and stress-free. Based in the heart of Surrey, England, we bring local expertise and global reach to every move, ensuring your journey is as smooth as possible.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>At Atlas Path, we specialize in making corporate, domestic, and international relocations seamless and stress-free. Based in the heart of Surrey, England, we bring local expertise and global reach to every move, ensuring your journey is as smooth as possible.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Relocating can be overwhelming, whether you're moving a family across borders, an individual to a new city, or an entire team for business. That’s where we come in. With a personal, hands-on approach and years of experience, we tailor our services to fit your unique needs.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>Relocating can be overwhelming, whether you're moving a family across borders, an individual to a new city, or an entire team for business. That’s where we come in. With a personal, hands-on approach and years of experience, we tailor our services to fit your unique needs.</motion.p>
                 </div>
             </div>
                 
@@ -56,23 +56,23 @@ const About = () => {
                     alt='Finesse'
                     className='w-7 h-7 mt-2' 
                 />
-                <h1 className='text-5xl text-primary font-normal tracking-wide'>Our Story</h1>
+                <h1 className='text-3xl text-primary font-normal tracking-wide'>Our Story</h1>
             </div>
             <Image
                 src={download}
                 className='w-[150px]'
                 alt='Download Icon' 
             />
-            <p className='text-normal text-xl text-dark tracking-wide mx-5 max-w-7xl mx-auto'>
+            <p className='text-normal text-lg text-dark tracking-wide mx-5 max-w-7xl mx-auto'>
                 Atlas Path was born out of a passion for helping people embrace new opportunities. With international roots and a home in Surrey, our founder brings a unique blend of international insight and local expertise. This dual perspective shapes how we approach relocation—combining empathy, precision, and a deep commitment to making every move a success.
             </p>
-            <p className='text-normal text-xl text-dark tracking-wide mx-5 max-w-7xl mx-auto'>
+            <p className='text-normal text-lg text-dark tracking-wide mx-5 max-w-7xl mx-auto'>
                 From our first consultation to the final details of your move, our goal is to be more than a service provider—we aim to be your trusted partner on this journey.
             </p>
             </div>
         </div>
 
-        <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col sm:flex-col-reverse'>
+        <div className='flex flex-row sm:flex-col md:flex-col xl:flex-col sm:flex-col-reverse'>
             <div className='bg-grade w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 sm:mb-20 space-y-7'>
                     <Image
@@ -84,24 +84,24 @@ const About = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Meet Lucy - Founder</motion.h1> 
+                    className='text-xl font-normal text-primary tracking-wide mt-0 uppercase text-center'>Meet Lucy - Founder</motion.h1> 
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-2xl font-normal text-primary tracking-wide mt-0 uppercase'>of Atlas Path</motion.h1>         
+                    className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>of Atlas Path</motion.h1>         
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Based in Surrey for over 12 years, Lucy combines her academic foundation in law and international relations with extensive professional experience to offer unparalleled relocation services. Her legal education provides her with a deep understanding of the laws that are often central to relocation, including immigration, family, and property law. This unique insight ensures that every move is not only smooth but fully compliant with legal requirements.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>Based in Surrey for over 12 years, Lucy brings a unique blend of legal knowledge, professional expertise, and personal experience to the world of relocation. Having lived in Surrey for over a decade, she has an in-depth understanding of the area and the wider Southeast of England, making her well-equipped to guide clients through the nuances of settling in this region.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>As a parent, Lucy understands firsthand the importance of a stress-free and seamless relocation experience, especially for families. She knows that moving involves more than logistics—it’s about creating a sense of stability and belonging in a new environment.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>With a background in law and international relations, Lucy has a deep understanding of the legal complexities involved in moving—whether it’s immigration, family, or property law. This insight ensures that every relocation is not just seamless but also fully compliant with legal requirements.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>Lucy’s career spans roles as a seasoned estate agent and an accomplished headhunter. As an estate agent, she gained firsthand experience in helping individuals and families find homes that truly fit their needs, while mastering the art of property negotiation. Her time as a headhunter sharpened her ability to connect people with opportunities and navigate diverse market dynamics, skills that seamlessly translate into corporate and international relocations.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>As a parent, Lucy knows firsthand how important a smooth, stress-free move is, especially for families. Relocation isn’t just about logistics—it’s about creating a sense of stability, belonging, and a fresh start in a new environment.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With Atlas Path, Lucy merges her legal knowledge, professional expertise, and personal commitment to making every move as stress-free as possible. Whether assisting businesses relocating teams, families starting fresh, or individuals seeking new horizons, Lucy’s approach is both compassionate and precise.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>Her career spans both real estate and executive search. As an estate agent, she helped families and individuals find the right homes while honing her skills in negotiation and property management. As a headhunter, she became an expert in matching talent with opportunities, navigating market trends, and understanding the needs of professionals on the move. These skills translate seamlessly into corporate and international relocations, where attention to detail and a personalized approach make all the difference.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-normal text-xl text-dark tracking-wide mx-5'>With a home in Surrey, Lucy offers a unique perspective on the challenges and opportunities of relocation, ensuring her clients feel supported at every step of the journey.</motion.p>
+                    initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>With Atlas Path, Lucy combines her legal acumen, industry expertise, and deep knowledge of Surrey and the Southeast of England to provide tailored, stress-free relocation solutions. Whether guiding businesses through team relocations, supporting families as they settle in new communities, or assisting individuals in embracing new opportunities, she ensures every move is handled with care, precision, and a personal touch.</motion.p>
                 </div>
             </div>
-            <div className='w-full sm:h-[500px] h-[1200px]'>
+            <div className='w-full sm:h-[500px] h-[1200px] xl:h-full'>
                 <Image 
                 src={md2}
                 alt='md1'

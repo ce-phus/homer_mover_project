@@ -27,14 +27,15 @@ export const navLinks = [
         dropdownItems: [
           {
             "id": 1,
+            "title": "Domestic Relocation",
+            "href": "/domestic",
+          },
+          {
+            "id": 2,
             "title": "Corporate Relocation",
             "href": "/corporate",
           },
-          {
-              "id": 2,
-              "title": "Domestic Relocation",
-              "href": "/domestic",
-          },
+          
           {
               "id": 3,
               "title": "International Relocation",
