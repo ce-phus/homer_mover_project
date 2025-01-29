@@ -6,6 +6,7 @@ import Head from "next/head";
 import { Lora } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Libre_Baskerville } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +23,9 @@ const libreBaskerville = Libre_Baskerville({
   subsets: ["latin"],
   weight: ["400", "700"],
 })
-
+const worksans = Work_Sans({
+  subsets:['latin'], display: 'swap'
+})
 const lora = Lora({ subsets: ['latin'], display: 'swap' });
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -30,7 +33,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Atlas Map Relocation",
+  title: "Atlas Path Relocation",
   description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
 };
 
@@ -39,7 +42,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <link rel='icon' href="./logo.svg" />
-      <body className={`${lora.className} font-lora bg-white w-full min-h-screen`}>
+      <body className={`${worksans.className} font-lora bg-white w-full min-h-screen`}>
         <div className="z-70">
 
         <Navbar />

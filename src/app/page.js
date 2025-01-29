@@ -26,9 +26,9 @@ export default function Home() {
           src={globe}
           alt="globe"
           className="w-[100px] h-"/>
-          <h1 className="text-primary text-center text-4xl font-normal italic tracking-wide w-full">A personal approach to relocation</h1>
-          <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-xl text-dark">Finding a new home is a very personal journey and no two moves are the same, so whether you’re looking for a town or country family house, a short-term UK base or a London pied-à-terre; whatever it may be, we are here to help!</p>
-          <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-xl text-dark">Finding a new home is a very personal journey and no two moves are the same, so whether you’re looking for a town or country family house, a short-term UK base or a London pied-à-terre; whatever it may be, we are here to help!</p>
+          <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Tailored Support for Your Move</h1>
+          <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-md text-dark">Relocating is a deeply personal experience, and no two moves are alike. Whether you’re seeking a family home in the countryside, a vibrant city residence, or a temporary UK base, finding the right place requires careful consideration. Every individual has unique needs and preferences, and we are committed to understanding yours to make your transition as smooth as possible.</p>
+          <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-md text-dark">With expert guidance and a client-focused approach, we make your relocation seamless. From finding the perfect home to handling logistics, we provide personalized support every step of the way.</p>
         </div>
         <Admin />
       <div className="">

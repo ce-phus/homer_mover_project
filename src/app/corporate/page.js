@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero5, hero8 } from '@/assets'
+import { hero5, hero8, hero4 } from '@/assets'
 import {motion} from "framer-motion"
 import { TiTickOutline } from 'react-icons/ti'
 import { TiTick } from "react-icons/ti";
@@ -9,35 +9,31 @@ const page = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col sm:flex-co'>
-        <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px]'>
+        <div className='w-full h-1/2 sm:h-full md:h-[1000px] lg:h-[600px]'>
             <Image 
-            src={hero5}
+            src={hero4}
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full text-center flex flex-col items-center justify-center bg-grade space-y-5'>
+        <div className='w-full flex flex-col items-center pt-20 lg:pt-20 bg-grade space-y-5'>
             <h1 className='mt-5 text-4xl font-medium tracking-wide text-primary'>Corporate Relocation Services</h1>
 
             <h1 className='text-2xl text-dark tracking-wide font-medium'>Empowering Your Business with Seamless Employee Moves</h1>
 
-            <ul className='space-y-2 mb-20'>
+            <ul className='space-y-2 mb-20 mx-5'>
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
                     <p className='text-xl font-medium'>Employee Relocation Programs: <span className='text-lg font-normal'>Tailored support for relocating staff, ensuring productivity and well-being</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
                     <p className='text-xl font-medium'>Immigration Compliance:  <span className='text-lg font-normal'>Assistance with work permits, visas, and legal documentation.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <TiTick className='text-xl text-primary mt-1'/>
                     <p className='text-xl font-medium'>Temporary Housing Solutions: <span className='text-lg font-normal'>Arranging short-term accommodations for employees during transitions.</span></p>
                 </li>
 
                 <li className='space-x-2 flex mb-20'>
-                    <TiTick className='text-xl text-primary mt-1'/>
                     <p className='text-xl font-medium'>Spousal and Family Integration: <span className='text-lg font-normal'>Support for accompanying family members, including school searches and cultural orientation.</span></p>
                 </li>
             </ul>

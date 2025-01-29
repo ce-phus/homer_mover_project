@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { md1, service1, download, finesse, md2 } from '@/assets'
+import { md1, service1, download, finesse, md2, hero14 } from '@/assets'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
@@ -21,7 +21,7 @@ const About = () => {
         <div className='flex flex-row lg:flex-col sm:flex-col pt-20'>
             <div className='w-1/2 lg:w-full sm:w-full'>
                 <Image 
-                src={service1}
+                src={hero14}
                 alt='md1'
                 className='w-full h-full'/>
             </div>   

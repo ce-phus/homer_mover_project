@@ -13,12 +13,12 @@ const Admin = () => {
                 alt='finesse'
                 className='w-7 h-7'/>
                 <div className='flex space-x-3'>
-                    <div className='w-6 h-6 mt-1 rounded-lg bg-secondary'/>
+                    <div className='w-6 h-6 mt-1 rounded-lg bg-black-gradient'/>
                     <p className={styles.sectionSubText}>ADMIN SUPPORT</p>
                 </div>
-                <h1 className={styles.sectionHeadText}>Getting you started</h1>
-                <h2 className='uppercase tracking-wide text-center font-bold text-dark text-2xl mt-5 mb-3'>Dedicated Relocation Expert</h2>
-                <p className={`${styles.paragraph} w-3/4 text-center`}>Atlas Map provides a dedicated relocation expert who guides you through every step of the moving process. They handle logistics, packing, tracking, and customs regulations for international moves. With their assistance, moving becomes organised and stress-free.</p>
+                <h1 className={styles.sectionHeadText}>Helping You Get Started</h1>
+                <h2 className='uppercase tracking-wide text-center font-bold text-dark text-lg mt-5 mb-3'>COMMITTED RELOCATION SPECIALIST</h2>
+                <p className={`${styles.paragraph} w-3/4 text-center`}>Atlas Path assigns a dedicated relocation specialist to support you throughout your move. They manage coordination, packing, shipment tracking, and international customs procedures. With their expertise, your relocation is streamlined and hassle-free.</p>
             </div>
            
         </div>

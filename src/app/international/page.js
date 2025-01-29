@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero9, hero10, hero11, hero8 } from '@/assets'
+import { hero9, hero10, hero13, hero8 } from '@/assets'
 import { TiTick } from "react-icons/ti";
 import { motion } from "framer-motion"
 
@@ -10,7 +10,7 @@ const International = () => {
     <div className='flex flex-row lg:flex-col sm:flex-co'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px]'>
             <Image 
-            src={hero10}
+            src={hero13}
             alt='hero5'
             className='w-full h-full'/>
         </div>

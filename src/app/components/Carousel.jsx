@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero1, hero2, hero3, hero4, hero5, hero6, hero7, download } from '@/assets';
+import { hero1, hero2, hero3, hero4, hero5, hero6, hero7, download, hero8, hero9, hero10, hero11, hero12, hero13, hero14 } from '@/assets';
 import Slider from 'react-slick';
 import Image from 'next/image';
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -14,7 +14,7 @@ const HeroData = [
     },
     {
       id: 2,
-      img: hero7,
+      img: hero2,
       
     },
     {
@@ -39,7 +39,42 @@ const HeroData = [
     },
     {
         id: 7,
-        img: hero2,
+        img: hero7,
+        
+    },
+    {
+        id: 8,
+        img: hero8,
+        
+    },
+    {
+        id: 9,
+        img: hero9,
+        
+    },
+    {
+        id: 10,
+        img: hero10,
+        
+    },
+    {
+        id: 11,
+        img: hero11,
+        
+    },
+    {
+        id: 12,
+        img: hero12,
+        
+    },
+    {
+        id: 13,
+        img: hero13,
+        
+    },
+    {
+        id: 14,
+        img: hero14,
         
     },
   ];
@@ -74,12 +109,12 @@ const Carousel = () => {
         
         <div className='bg-grade w-full'>
             <div className='space-y-10 flex flex-col items-center mt-20  justify-center'>
-                <h1 className='text-xl font-normal uppercase'>Welcome to</h1>
+                <h1 className='text-lg font-normal uppercase'>Welcome to</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
-                <h1 className='text-2xl font-normal uppercase font-medium text-primary'>Atlas Map Relocation</h1>
+                <h1 className='text-xl font-normal uppercase font-medium text-primary'>Atlas Path Relocation</h1>
             </div>
             <div className='mt-10 space-y-5 flex flex-col justify-center items-center lg:mb-20'>
                 <p className='text-dark font-normal'>We are leading executive relocation agency</p>

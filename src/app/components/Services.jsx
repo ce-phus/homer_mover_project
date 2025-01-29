@@ -1,5 +1,5 @@
 import React from 'react'
-import { service1, service2, service3, service4, arrowright } from '@/assets'
+import { arrowright, hero1, hero3, hero4 } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -14,8 +14,8 @@ const Services = () => {
         <div className='text-center'>
             <Link href={'/international'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
-                src={service1}
-                className='w-[700px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[700px]'
+                src={hero3}
+                className='w-[500px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[500px]'
                 alt='service1'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>International relocation services</h1>
                 <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>When you need to relocate, finding a new home could easily be a full time occupation, demanding huge amounts of your time and effort.. but it doesn;t have to be like that</p>
@@ -31,8 +31,8 @@ const Services = () => {
         <div className='space-y-3 text-center'>
             <Link href={'/corporate'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
-                src={service2}
-                className='w-[700px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[700px]'
+                src={hero4}
+                className='w-[500px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[500px]'
                 alt='service2'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>Corporate relocation services</h1>
                 <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>When you need to relocate, finding a new home could easily be a full time occupation, demanding huge amounts of your time and effort.. but it doesn;t have to be like that</p>
@@ -48,8 +48,8 @@ const Services = () => {
         <div className='space-y-3 text-center'>
             <Link href={'/domaestic'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
-                src={service4}
-                className='w-[700px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[700px]'
+                src={hero1}
+                className='w-[500px] md:h-[500px] md:w-[500px] sm:w-[300px] sm:h-[300px] h-[500px]'
                 alt='service3'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>Domestic relocation services</h1>
                 <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>When you need to relocate, finding a new home could easily be a full time occupation, demanding huge amounts of your time and effort.. but it doesn;t have to be like that</p>

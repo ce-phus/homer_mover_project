@@ -26,17 +26,20 @@ import instagram from "./instagram.svg"
 import linkedin from "./linkedin.svg"
 import twitter from "./twitter.svg"
 import logo8 from "./logo8.svg"
-import hero1 from "./hero001.jpg"
-import hero2 from "./hero002.jpg"
-import hero3 from "./hero003.jpg"
-import hero4 from "./hero004.jpg"
-import hero5 from "./hero005.jpg"
+import hero1 from "./hero001.png"
+import hero2 from "./hero002.png"
+import hero3 from "./hero003.png"
+import hero4 from "./hero004.png"
+import hero5 from "./hero005.png"
 import hero6 from "./hero006.jpg"
 import hero7 from "./hero007.jpg"
 import hero8 from "./hero008.jpg"
 import hero9 from "./hero009.jpg"
-import hero10 from "./hero010.jpg"
-import hero11 from "./hero011.jpg"
+import hero10 from "./hero010.png"
+import hero11 from "./hero011.jpeg"
+import hero12 from "./hero012.jpg"
+import hero13 from "./hero013.jpg"
+import hero14 from "./hero014.jpg"
 import download from "./download.svg"
 import finesse from "./finesse.png"
 import service1 from "./service1.jpg"
@@ -87,6 +90,9 @@ export {
     hero9,
     hero10,
     hero11,
+    hero12,
+    hero13,
+    hero14,
     download,
     finesse,
     service1,
