@@ -14,7 +14,7 @@ const International = () => {
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full flex flex-col items-center justify-center bg-grade space-y-5'>
+        <div className='w-full flex flex-col items-center justify-center bg-gray-100 space-y-5'>
             <h1 className='mt-5 text-xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
             <h1 className='text-xl text-dark tracking-wide font-medium'>Bridging Borders, Building Futures</h1>
 
@@ -58,7 +58,7 @@ const International = () => {
         </div>
     </div>
 
-    <div className='flex flex-row lg:flex-col bg-grade'>
+    <div className='flex flex-row lg:flex-col bg-gray-100'>
 
         <div className='flex w-full mx-[50px] xl:mx-0 xl:mt-10 xl:mb-10 items-center justify-center flex-col space-y-5'>
             <h1 className='text-xl text-primary tracking-wide'>Why Choose Atlas Path?</h1>

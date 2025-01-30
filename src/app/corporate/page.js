@@ -15,7 +15,7 @@ const page = () => {
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full flex flex-col items-center pt-20 lg:pt-20 bg-grade space-y-5'>
+        <div className='w-full flex flex-col items-center pt-20 lg:pt-20 bg-gray-100 space-y-5'>
             <h1 className='mt-5 text-xl font-medium tracking-wide text-primary'>Corporate Relocation Services</h1>
 
             <h1 className='text-xl text-dark tracking-wide font-medium'>Empowering Your Business with Seamless Employee Moves</h1>
@@ -59,7 +59,7 @@ const page = () => {
         </div>
     </div>
 
-    <div className='flex flex-row lg:flex-col bg-grade'>
+    <div className='flex flex-row lg:flex-col bg-gray-100'>
         <div className='flex w-full mx-[100px] xl:mx-0 lg:mt-10 lg:mb-10 items-center justify-center flex-col space-y-5'>
             <h1 className='text-xl text-primary tracking-wide'>Why Choose Atlas Path?</h1>
             <ul className='space-y-2 mb-20 mx-10'>

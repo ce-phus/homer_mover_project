@@ -18,7 +18,7 @@ const Blogs = () => {
             className='w-full h-full'/>
             
             </div>
-            <div className='w-full flex flex-col items-center justify-center lg:pt-20 bg-grade space-y-5'>
+            <div className='w-full flex flex-col items-center justify-center lg:pt-20 bg-gray-100 space-y-5'>
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
@@ -58,7 +58,7 @@ const Blogs = () => {
         initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
         {Resources.map((resource)=> (
-            <div key={resource.id} className='space-y-4 bg-grade duration-300 ease-in-out hover:scale-105'>
+            <div key={resource.id} className='space-y-4 duration-300 ease-in-out hover:scale-105'>
                 <Link href={resource.link} className='text-center'>
                     <Image 
                     src={resource.img}
