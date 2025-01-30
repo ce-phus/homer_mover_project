@@ -76,7 +76,7 @@ const Carousel = () => {
             </div>
         ))}
         </Slider>
-        <div className='w-full'>
+        <div className='bg-gray-300 w-full'>
             <div className='space-y-10 flex flex-col items-center mt-20  justify-center'>
                 <h1 className='text-lg font-normal uppercase'>Welcome to</h1>
                 <Image

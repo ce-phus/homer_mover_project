@@ -6,7 +6,7 @@ import { styles } from '../styles'
 const Admin = () => {
   return (
     <div>
-        <div className=''>
+        <div className='bg-gray-300'>
             <div className='flex items-center justify-center flex-col space-y-7 pt-20 pb-20'>
                 <Image 
                 src={finesse}
