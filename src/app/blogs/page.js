@@ -58,7 +58,7 @@ const Blogs = () => {
         initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
         {Resources.map((resource)=> (
-            <div key={resource.id} className='space-y-4 bg-grade rounded-b-lg duration-300 ease-in-out hover:scale-105'>
+            <div key={resource.id} className='space-y-4 bg-grade duration-300 ease-in-out hover:scale-105'>
                 <Link href={resource.link} className='text-center'>
                     <Image 
                     src={resource.img}
