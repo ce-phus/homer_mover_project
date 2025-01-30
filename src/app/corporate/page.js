@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero5, hero15, hero4 } from '@/assets'
+import { hero37, hero15, hero4 } from '@/assets'
 import {motion} from "framer-motion"
 import { TiTickOutline } from 'react-icons/ti'
 import { TiTick } from "react-icons/ti";
@@ -78,7 +78,7 @@ const page = () => {
         </div>
         <div className='w-full h-['>
             <Image 
-            src={hero4}
+            src={hero37}
             alt='hero8'
             className='w-full h-full'/>
         </div>

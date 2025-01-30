@@ -1,5 +1,17 @@
 import React from 'react'
-import { hero1, hero2, hero3, hero4, hero5, hero6, hero7, download, hero8, hero9, hero10, hero11, hero12, hero13, hero14 } from '@/assets';
+import { hero1, hero2, hero3, hero4, hero5, hero6, hero7, download, hero8, hero9, hero10, hero11, hero12, hero26, hero14,
+    hero27,
+    hero28,
+    hero29,
+    hero30,
+    hero31,
+    hero32,
+    hero33,
+    hero34,
+    hero35,
+    hero36,
+    hero37,
+    hero38, } from '@/assets';
 import Slider from 'react-slick';
 import Image from 'next/image';
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -13,13 +25,23 @@ const HeroData = [
       
     },
     {
+        id: 36,
+        img: hero36,
+        
+    },
+    {
+        id: 37,
+        img: hero37,
+        
+    },
+    {
         id: 7,
         img: hero7,
         
     },
     {
-      id: 3,
-      img: hero3,
+      id: 26,
+      img: hero26,
       
     },
     {
@@ -42,11 +64,54 @@ const HeroData = [
         img: hero6,
         
     },
-    
-    
     {
-        id: 14,
-        img: hero14,
+        id: 26,
+        img: hero26,
+        
+    },
+    {
+        id: 27,
+        img: hero27,
+        
+    },
+    {
+        id: 28,
+        img: hero28,
+        
+    },
+    {
+        id: 29,
+        img: hero29,
+        
+    },
+    {
+        id: 30,
+        img: hero30,
+        
+    },
+    {
+        id: 31,
+        img: hero31,
+        
+    },
+    {
+        id: 32,
+        img: hero32,
+        
+    },
+    {
+        id: 33,
+        img: hero33,
+        
+    },
+    {
+        id: 34,
+        img: hero34,
+        
+    },
+    {
+        id: 35,
+        img: hero35,
         
     },
   ];

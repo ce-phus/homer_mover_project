@@ -51,6 +51,19 @@ import hero22 from "./hero022.jpg"
 import hero23 from "./hero023.jpg"
 import hero24 from "./hero024.jpg"
 import hero25 from "./hero025.jpg"
+import hero26 from "./hero026.jpg"
+import hero27 from "./hero027.jpg"
+import hero28 from "./hero028.jpg"
+import hero29 from "./hero029.jpg"
+import hero30 from "./hero030.jpg"
+import hero31 from "./hero031.jpg"
+import hero32 from "./hero032.jpg"
+import hero33 from "./hero033.jpg"
+import hero34 from "./hero034.jpg"
+import hero35 from "./hero035.jpg"
+import hero36 from "./hero036.jpg"
+import hero37 from "./hero037.jpg"
+import hero38 from "./hero038.jpg"
 import download from "./download.svg"
 import finesse from "./finesse.png"
 import service1 from "./service1.jpg"
@@ -116,6 +129,19 @@ export {
     hero23,
     hero24,
     hero25,
+    hero26,
+    hero27,
+    hero28,
+    hero29,
+    hero30,
+    hero31,
+    hero32,
+    hero33,
+    hero34,
+    hero35,
+    hero36,
+    hero37,
+    hero38,
     download,
     finesse,
     service1,

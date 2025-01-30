@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero1, hero9, hero16 } from '@/assets'
+import { hero1, hero36, hero16 } from '@/assets'
 import { TiTick } from "react-icons/ti";
 import { motion } from "framer-motion"
 import Image from 'next/image';
@@ -10,7 +10,7 @@ const Domestic = () => {
     <div className='flex flex-row lg:flex-col sm:flex-co'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] h-[700px]'>
             <Image 
-            src={hero16}
+            src={hero36}
             alt='hero5'
             className='w-full h-full'/>
         </div>
@@ -78,7 +78,7 @@ const Domestic = () => {
         </div>
         <div className='w-full h-['>
             <Image 
-            src={hero1}
+            src={hero16}
             alt='hero8'
             className='w-full h-full'/>
         </div>

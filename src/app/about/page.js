@@ -25,7 +25,7 @@ const About = () => {
                 alt='md1'
                 className='w-full h-full'/>
             </div>   
-            <div className='bg-grade sm:w-full w-1/2 lg:w-full'>
+            <div className='bg-gray-100 sm:w-full w-1/2 lg:w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 mb-20 sm:mt-20 space-y-10'>
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
@@ -73,7 +73,7 @@ const About = () => {
         </div>
 
         <div className='flex flex-row sm:flex-col md:flex-col xl:flex-col sm:flex-col-reverse'>
-            <div className='bg-grade w-full'>
+            <div className='bg-gray-100 w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 sm:mb-20 space-y-7'>
                     <Image
                     src={download}
