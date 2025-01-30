@@ -33,7 +33,7 @@ const Footer = () => (
     </div>
     <div className='w-full flex justify-between items-center flex-col pt-6 border-t-[1px] border-t-[#3F3E45] max-w-[2000px] mx-auto'>
       <p className='font-medium text-center text-[18px] leading-[27px]'>
-        2025 Atlas Map. All Rights Reserved
+        2025 Atlas Path Relocation. All Rights Reserved
       </p>
     </div>
     <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>

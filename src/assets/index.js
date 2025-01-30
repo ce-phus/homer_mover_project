@@ -43,6 +43,9 @@ import hero14 from "./hero014.jpg"
 import hero15 from "./hero015.jpg"
 import hero16 from "./hero016.jpg"
 import hero17 from "./hero017.jpg"
+import hero18 from "./hero018.jpg"
+import hero19 from "./hero019.jpg"
+import hero20 from "./hero020.jpg"
 import download from "./download.svg"
 import finesse from "./finesse.png"
 import service1 from "./service1.jpg"
@@ -52,6 +55,7 @@ import service4 from "./service9.jpg"
 import globe from "./globe.png"
 import md1 from "./md.jpg"
 import md2 from "./md3.jpg"
+import idea from "./idea.jpg"
 
 export {
     menu,
@@ -99,6 +103,9 @@ export {
     hero15,
     hero16,
     hero17,
+    hero18,
+    hero19,
+    hero20,
     download,
     finesse,
     service1,
@@ -108,4 +115,5 @@ export {
     globe,
     md1,
     md2,
+    idea
 }

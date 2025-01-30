@@ -1,25 +1,18 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20
  } from "@/assets"
 
- import { FaArrowRight } from "react-icons/fa";
 
 export const navLinks = [
     {
         title: "Home",
         href: "/",
-        dropdownItems: [
-            
-           
-        ]
+        dropdownItems: []
     },
     {
         title: "About Us",
         href: "/about",
-        dropdownItems: [
-            
-            
-        ]
+        dropdownItems: []
     },
     {
         title: "Services",
@@ -198,5 +191,71 @@ export const footerLinks = [
       link: "https://www.linkedin.com/",
     },
   ];
+
+  export const Posts  = [
+    {
+      id: 1,
+      title1: "5 Essential Tips for Stress-Free International Moves",
+      title2: "Learn how to streamline your overseas relocation with these expert tips.",
+      img: hero13,
+      link : "#",
+    },
+    {
+      id: 2,
+      title1: "The Ultimate Checklist for Domestic Relocation",
+      title2: "Everything you need to organize a seamless move within the UK.",
+      img: hero6,
+      link : "#",
+    },
+    {
+      id: 3,
+      title1: "Understanding Visa Requirements for Your Destination",
+      title2: "A guide to navigating the complexities of immigration paperwork.",
+      img: hero18,
+      link : "#",
+    },
+    {
+      id: 4,
+      title1: "How to Choose the Right Neighborhood for Your Family",
+      title2: "Key factors to consider when searching for your new home.",
+      img: hero19,
+      link : "#",
+    },
+    {
+      id: 5,
+      title1: "Settling In: Making a New Country Feel Like Home",
+      title2: "Tips for adapting to a new culture and building your support network.",
+      img: hero20,
+      link : "#",
+    },
+]
+
+export const Resources = [
+  {
+    id: 1,
+    title1: "Relocation Checklists: ",
+    title2: "Download comprehensive guides to help you stay on track."
+  },
+  {
+    id: 2,
+    title1: "Moving Budget Planner:",
+    title2: "A free tool to estimate and manage relocation costs."
+  },
+  {
+    id: 3,
+    title1: "Immigration Resources:",
+    title2: "Links to official government websites for visas and work permits."
+  },
+  {
+    id: 4,
+    title1: "School Search Tools: ",
+    title2: "Tips and resources to find the best educational options for your children."
+  },
+  {
+    id: 5,
+    title1: "Language Learning Apps: ",
+    title2: "Recommendations for tools to help you or your family learn a new language."
+  },
+]
   
   
