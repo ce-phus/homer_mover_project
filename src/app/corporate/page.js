@@ -60,7 +60,6 @@ const page = () => {
     </div>
 
     <div className='flex flex-row lg:flex-col bg-grade'>
-
         <div className='flex w-full mx-[100px] xl:mx-0 lg:mt-10 lg:mb-10 items-center justify-center flex-col space-y-5'>
             <h1 className='text-xl text-primary tracking-wide'>Why Choose Atlas Path?</h1>
             <ul className='space-y-2 mb-20 mx-10'>
