@@ -40,24 +40,38 @@ const Blogs = () => {
         initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Blogs</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
             {Posts.map((post)=> (
-                <div key={post.id} className='flex flex-col items-center space-y-3'>
-                    <Link href={post.link} className='space-y-4'>
+                <div key={post.id} className='flex flex-col items-center space-y-3 duration-300 ease-in-out hover:scale-105'>
+                    <Link href={post.link} className='text-center'>
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[500px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px]'/>
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
                     <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-xl font-medium text-primary'>{post.title1}</motion.h1>
+                    initial='hidden' animate='show' className='text-xl font-medium text-primary mb-5'>{post.title1}</motion.h1>
                     <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-lg font-normal text-dark'>{post.title2}</motion.h1>
+                    initial='hidden' animate='show' className='text-lg font-normal text-dark mb-10'>{post.title2}</motion.h1>
                     </Link>
                 </div>
             ))}
         </div>
         <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
         initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
-
-        
+        <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
+        {Resources.map((resource)=> (
+            <div key={resource.id} className='space-y-4 bg-grade rounded-b-lg duration-300 ease-in-out hover:scale-105'>
+                <Link href={resource.link} className='text-center'>
+                    <Image 
+                    src={resource.img}
+                    alt={resource.title1}
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
+                    initial='hidden' animate='show' className='text-xl font-medium text-primary mx-3 italic mb-5'>{resource.title1}</motion.h1>
+                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
+                    initial='hidden' animate='show' className='text-lg font-normal text-dark mx-3 mb-10'>{resource.title2}</motion.h1>
+                </Link>
+            </div>
+        ))}
+        </div>
     </>
   )
 }

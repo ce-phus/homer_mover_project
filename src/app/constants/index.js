@@ -1,5 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20, hero21, hero22, hero23, hero24, hero25,
  } from "@/assets"
 
 
@@ -234,27 +234,37 @@ export const Resources = [
   {
     id: 1,
     title1: "Relocation Checklists: ",
-    title2: "Download comprehensive guides to help you stay on track."
+    title2: "Download comprehensive guides to help you stay on track.",
+    img: hero21,
+    link : "#",
   },
   {
     id: 2,
     title1: "Moving Budget Planner:",
-    title2: "A free tool to estimate and manage relocation costs."
+    title2: "A free tool to estimate and manage relocation costs.",
+    img: hero22,
+    link : "#",
   },
   {
     id: 3,
     title1: "Immigration Resources:",
-    title2: "Links to official government websites for visas and work permits."
+    title2: "Links to official government websites for visas and work permits.",
+    img: hero23,
+    link : "#",
   },
   {
     id: 4,
     title1: "School Search Tools: ",
-    title2: "Tips and resources to find the best educational options for your children."
+    title2: "Tips and resources to find the best educational options for your children.",
+    img: hero24,
+    link : "#",
   },
   {
     id: 5,
     title1: "Language Learning Apps: ",
-    title2: "Recommendations for tools to help you or your family learn a new language."
+    title2: "Recommendations for tools to help you or your family learn a new language.",
+    img: hero25,
+    link : "#",
   },
 ]
   

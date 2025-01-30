@@ -46,6 +46,11 @@ import hero17 from "./hero017.jpg"
 import hero18 from "./hero018.jpg"
 import hero19 from "./hero019.jpg"
 import hero20 from "./hero020.jpg"
+import hero21 from "./hero021.jpg"
+import hero22 from "./hero022.jpg"
+import hero23 from "./hero023.jpg"
+import hero24 from "./hero024.jpg"
+import hero25 from "./hero025.jpg"
 import download from "./download.svg"
 import finesse from "./finesse.png"
 import service1 from "./service1.jpg"
@@ -106,6 +111,11 @@ export {
     hero18,
     hero19,
     hero20,
+    hero21,
+    hero22,
+    hero23,
+    hero24,
+    hero25,
     download,
     finesse,
     service1,
