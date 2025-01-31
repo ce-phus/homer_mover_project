@@ -38,7 +38,7 @@ const London = () => {
         </div>          
     </div>
 
-    <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10">        
+    <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10">        
         <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Best Areas in London for Relocation</h1>
         <Image 
         src={download}

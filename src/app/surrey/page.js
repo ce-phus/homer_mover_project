@@ -39,16 +39,6 @@ const Surrey = () => {
         </div>          
     </div>
 
-    {/* <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10">
-        <Image 
-        src={globe}
-        alt="globe"
-        className="w-[100px] h-"/>
-        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Relocating to Surrey with Atlas Path</h1>
-        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Why Move to Surrey?</h1>
-        <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-md text-dark">Surrey is one of England’s most sought-after locations, offering the perfect blend of scenic countryside, excellent transport links, and outstanding quality of life. Whether you're a professional seeking proximity to London, a family looking for top-rated schools, or someone who enjoys a balance of city access and peaceful surroundings, Surrey has something for everyone.</p>
-    </div> */}
-
     <h1 className='text-2xl font-medium tracking-wide text-primary flex items-center justify-center pt-20'>Popular Areas in Surrey for Relocation</h1>
     <div className='pt-20'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5 bg-gray-100'>
