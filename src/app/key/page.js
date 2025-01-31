@@ -3,7 +3,6 @@ import React from 'react'
 import { hero7, globe, guildford, woking, farnham, esher, reigate, download } from '@/assets'
 import { styles } from '../styles';
 import { motion } from "framer-motion"
-import Head from 'next/head'
 import Image from 'next/image'
 import { fadeIn } from '../../../variants'
 import { locations } from '../constants';
@@ -174,6 +173,7 @@ const KeyAreas = () => {
             </div>
         </div>
     </div>
+
     <h1 className='flex items-center justify-center text-xl font-medium text-dark pt-20 mb-5'>What We Offer:</h1>
     <h1 className='flex items-center justify-center text-2xl font-medium text-primary mb-10'>Top Locations for Relocation Across England</h1>
 
