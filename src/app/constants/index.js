@@ -246,7 +246,7 @@ export const footerLinks = [
       title1: "How to Choose the Right Neighborhood for Your Family",
       title2: "Key factors to consider when searching for your new home.",
       img: hero19,
-      link : "#",
+      link : "/neighbourhood",
     },
     {
       id: 5,
@@ -255,6 +255,149 @@ export const footerLinks = [
       img: hero20,
       link : "#",
     },
+]
+
+export const neighborhood = [
+  {
+    id: 1,
+    title1: "Prioritise Safety and Security",
+    text: "A safe environment is a top priority for families. Research crime rates and speak to locals or relocation experts to understand the security of different areas. ",
+    text1: "Key factors to check:",
+    subtext: [
+      {
+        id: 1,
+        title1: "✅ Crime statistics on local council websites",
+        title2: "✅ Crime statistics on local council websites",
+        title3: "✅ Crime statistics on local council websites",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 2,
+    title1: "School Quality and Catchment Areas",
+    text: "If you have school-age children, researching schools is crucial.",
+    text1: "Consider:",
+    subtext: [
+      {
+        id: 2,
+        title1: "🏫 Ofsted ratings (UK school inspections)",
+        title2: "📍 Catchment areas – living in the right postcode matters for school admissions",
+        title3: "🎓 Proximity to top-rated primary and secondary schools",
+        title4: "🚗 Transport options to schools if commuting is needed",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 3,
+    title1: "Commute and Transport Links",
+    text: "Think about how easy it is to get to work, school, or major transport hubs.",
+    text1: "Key aspects:",
+    subtext: [
+      {
+        id: 3,
+        title1: "🚆 Proximity to train stations or bus routes",
+        title2: "🚗 Ease of access to motorways if driving is essential",
+        title3: "✈️ Distance to airports if you travel frequently",
+        title4: "",
+      }
+    ],
+    text2: "For example, areas like Surrey offer excellent train links to London, while someLondon suburbs provide a balance of city access and suburban tranquillity."
+  },
+  {
+    id: 4,
+    title1: "Family-Friendly Amenities and Lifestyle",
+    text: "A neighbourhood with great amenities makes daily life easier.",
+    text1: " Look for:",
+    subtext: [
+      {
+        id: 4,
+        title1: "🏞️ Parks and green spaces for children and outdoor activities",
+        title2: "🏥 Healthcare facilities including GPs, dentists, and hospitals",
+        title3: "🛍️ Shops, supermarkets, and family-friendly restaurants",
+        title4: "🏊 Leisure centres, gyms, and community clubs",
+      }
+    ],
+    text2: "Neighbourhoods like Guildford in Surrey or Richmond in London offer an excellent mix of greenery, amenities, and family-friendly environments."
+  },
+  {
+    id: 5,
+    title1: "Community and Social Environment",
+    text: "The local community can make or break your experience in a new place.",
+    text1: " Consider:",
+    subtext: [
+      {
+        id: 5,
+        title1: "👧‍👦 Family-friendly events and activities",
+        title2: "🏡 Diverse and welcoming neighbourhoods",
+        title3: "👋 Support networks and community groups",
+        title4: "🏊 Leisure centres, gyms, and community clubs",
+      }
+    ],
+    text2: "Some areas have a strong expat community, which can help families settle in faster. Kingston-upon-Thames and Wimbledon are great for families who want an international feel while staying close to central London."
+  },
+  {
+    id: 6,
+    title1: "Community and Social Environment",
+    text: "Your budget will play a major role in choosing the right area.",
+    text1: "Consider:",
+    subtext: [
+      {
+        id: 6,
+        title1: "🏠 House prices vs. rental costs",
+        title2: "📏 Space and garden size – crucial for growing families",
+        title3: "💰 Council tax rates – these vary by area",
+        title4: "",
+      }
+    ],
+    text2: "For instance, Surrey offers more spacious homes with gardens, while London has convenient but more compact living spaces."
+  },
+  {
+    id: 7,
+    title1: "Future Growth and Investment Potential",
+    text: "Choosing a neighbourhood with potential for growth ensures a good return on investment if you buy a home.",
+    text1: "Look at:",
+    subtext: [
+      {
+        id: 7,
+        title1: "📈 Regeneration projects and development plans",
+        title2: "🚧 Infrastructure improvements",
+        title3: "💼 Job opportunities and local economy",
+        title4: "",
+      }
+    ],
+    text2: "Areas like Battersea in London or Woking in Surrey have seen major improvements, making them excellent choices for families planning for the long term."
+  },
+]
+
+export const NeighbourTopBlogs = [
+  {
+    id: 1,
+    img: hero19,
+    text:'Making a New Country Feel Like Home: Essential Tips for a Smooth Transition',
+    link: "/country"
+  },
+  {
+    id: 2,
+    img: hero30,
+    text:'The Ultimate Checklist for Domestic Relocation',
+    link: "/checklist"
+  },
+  {
+    id: 3,
+    img: hero31,
+    text:'Understanding visa requirements for your destination',
+    link: '/visa'
+  },
+  {
+    id: 4,
+    img: hero36,
+    text:'5 Essential Tips for Stress-Free International Moves',
+    link: 'essentials'
+  },
+  
 ]
 
 export const london = [
