@@ -267,8 +267,8 @@ export const neighborhood = [
       {
         id: 1,
         title1: "✅ Crime statistics on local council websites",
-        title2: "✅ Crime statistics on local council websites",
-        title3: "✅ Crime statistics on local council websites",
+        title2: "✅ Well-lit streets and a sense of community",
+        title3: "✅ Neighbourhood watch programs",
         title4: "",
       }
     ],
