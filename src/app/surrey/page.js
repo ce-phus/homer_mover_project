@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { hero7, globe, guildford, woking, farnham, esher, reigate, download } from '@/assets'
+import { guildford, woking, farnham, esher, reigate, download } from '@/assets'
 import { styles } from '../styles';
 import { motion } from "framer-motion"
 import Image from 'next/image'
@@ -9,30 +9,6 @@ import { locations } from '../constants';
 import Slider from 'react-slick';
 
 const Surrey = () => {
-  const sliderSettings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
-  
   return (
     <>
     <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
