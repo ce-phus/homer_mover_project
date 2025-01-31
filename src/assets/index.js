@@ -74,7 +74,18 @@ import globe from "./globe.png"
 import md1 from "./md.jpg"
 import md2 from "./md3.jpg"
 import idea from "./idea.jpg"
-
+import guildford from "./guildford.png"
+import reigate from "./reigate.png"
+import farnham from "./farnham.png"
+import esher from "./esher.png"
+import woking from "./woking.png"
+import manchester from "./manchester.png"
+import birmingham from "./birmingham.jpg"
+import brighton from "./brighton.jpg"
+import bristol from "./bristol.jpg"
+import cotswolds from "./cotswolds.jpeg"
+import newcastle from "./newcastle.jpeg"
+import oxford from "./oxford.jpg"
 export {
     menu,
     close,
@@ -151,5 +162,17 @@ export {
     globe,
     md1,
     md2,
-    idea
+    idea,
+    guildford,
+    farnham, 
+    woking,
+    reigate,
+    esher,
+    manchester,
+    birmingham,
+    oxford,
+    brighton,
+    bristol,
+    cotswolds,
+    newcastle
 }

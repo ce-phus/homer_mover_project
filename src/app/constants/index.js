@@ -1,5 +1,15 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20, hero21, hero22, hero23, hero24, hero25,
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20, hero21, hero22, hero23, hero24, hero25, hero1, hero4, hero5, hero7, hero10,  hero26, hero27,
+    hero28,
+    hero29,
+    hero30,
+    hero31,
+    hero32,
+    hero33,
+    hero34,
+    hero35,
+    hero36,
+    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford
  } from "@/assets"
 
 
@@ -267,5 +277,150 @@ export const Resources = [
     link : "#",
   },
 ]
+
+export const locations = [
+  {
+    id: 1,
+    title1: "Manchester ",
+    title2: "A booming city with a strong economy, great transport links, and cultural hotspots.",
+    img: manchester,
+  },
+  {
+    id: 2,
+    title1: "Birmingham ",
+    title2: "A major business and education hub with excellent affordability.",
+    img: birmingham,
+  },
+  {
+    id: 3,
+    title1: "Oxford & Cambridge ",
+    title2: "World-renowned for their universities, history, and charming neighborhoods.",
+    img: oxford,
+  },
+  {
+    id: 4,
+    title1: "Bristol ",
+    title2: " A vibrant city with a strong creative and tech scene.",
+    img: bristol,
+  },
+  {
+    id: 5,
+    title1: "Brighton ",
+    title2: "A beautiful coastal town with a relaxed atmosphere and a thriving arts community.",
+    img: brighton,
+  },
+  {
+    id: 6,
+    title1: "The Cotswolds",
+    title2: "Perfect for those seeking countryside living with easy access to major cities.",
+    img: cotswolds,
+  },
+  {
+    id: 7,
+    title1: "Newcastle ",
+    title2: "A friendly city with great career opportunities and a lower cost of living.",
+    img: newcastle,
+  },
+]
+
+
+
+export const HeroData = [
+  {
+    id: 1,
+    img: hero1,
+    
+  },
+  {
+      id: 36,
+      img: hero36,
+      
+  },
+  {
+      id: 37,
+      img: hero37,
+      
+  },
+  {
+      id: 7,
+      img: hero7,
+      
+  },
+  {
+    id: 26,
+    img: hero26,
+    
+  },
+  {
+      id: 10,
+      img: hero10,
+      
+  },
+  {
+      id: 4,
+      img: hero4,
+      
+  },
+  {
+      id: 5,
+      img: hero5,
+      
+  },
+  {
+      id: 6,
+      img: hero6,
+      
+  },
+  {
+      id: 26,
+      img: hero26,
+      
+  },
+  {
+      id: 27,
+      img: hero27,
+      
+  },
+  {
+      id: 28,
+      img: hero28,
+      
+  },
+  {
+      id: 29,
+      img: hero29,
+      
+  },
+  {
+      id: 30,
+      img: hero30,
+      
+  },
+  {
+      id: 31,
+      img: hero31,
+      
+  },
+  {
+      id: 32,
+      img: hero32,
+      
+  },
+  {
+      id: 33,
+      img: hero33,
+      
+  },
+  {
+      id: 34,
+      img: hero34,
+      
+  },
+  {
+      id: 35,
+      img: hero35,
+      
+  },
+];
   
   
