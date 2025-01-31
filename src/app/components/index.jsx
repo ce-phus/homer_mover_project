@@ -6,7 +6,6 @@ import Navbar from "./Navbar";
 import Detail from "./Detail";
 import Admin from "./Admin";
 import Packing from "./Packing";
-import England from "./England";
 import Quiz from "./Quiz";
 import Carousel from "./Carousel";
 import Services from "./Services";
@@ -20,7 +19,6 @@ export {
     Detail,
     Admin,
     Packing,
-    England,
     Quiz,
     Carousel,
     Services

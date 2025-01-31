@@ -86,6 +86,12 @@ import bristol from "./bristol.jpg"
 import cotswolds from "./cotswolds.jpeg"
 import newcastle from "./newcastle.jpeg"
 import oxford from "./oxford.jpg"
+import north from "./north.jpg"
+import south from "./south.jpg"
+import west from "./west.png"
+import east from "./east.jpg"
+import central from "./central.jpg"
+
 export {
     menu,
     close,
@@ -174,5 +180,10 @@ export {
     brighton,
     bristol,
     cotswolds,
-    newcastle
+    newcastle,
+    north,
+    south,
+    east,
+    west,
+    central
 }

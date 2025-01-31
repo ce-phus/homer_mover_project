@@ -9,7 +9,7 @@ import {
     hero34,
     hero35,
     hero36,
-    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford
+    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west 
  } from "@/assets"
 
 
@@ -48,8 +48,25 @@ export const navLinks = [
     },
     {
       title: "Key Areas",
-      href: "/key",
-      dropdownItems: []
+      href: "#",
+      dropdownItems: [
+        {
+          "id": 1,
+          "title": "Surrey",
+          "href": "/surrey",
+        },
+        {
+          "id": 2,
+          "title": "London",
+          "href": "/london",
+        },
+        
+        {
+            "id": 3,
+            "title": "Across England",
+            "href": "/england",
+        },
+      ]
   },
     {
         title: "Contact",
@@ -238,6 +255,39 @@ export const footerLinks = [
       img: hero20,
       link : "#",
     },
+]
+
+export const london = [
+  {
+    id: 1,
+    title1: "Central London (Zones 1 & 2) ",
+    title2: "Ideal for professionals wanting to be close to work, nightlife, and cultural landmarks (Mayfair, Kensington, Westminster).",
+    img: central,
+  },
+  {
+    id: 2,
+    title1: "West London ",
+    title2: "A mix of luxury and suburban charm, great for families (Notting Hill, Chiswick, Richmond).",
+    img: west,
+  },
+  {
+    id: 3,
+    title1: "North London ",
+    title2: "Leafy neighborhoods with excellent schools and community feel (Hampstead, Islington, Highgate).",
+    img: north,
+  },
+  {
+    id: 4,
+    title1: "East London ",
+    title2: "A creative, trendy hub with modern developments and great connectivity (Shoreditch, Canary Wharf, Hackney).",
+    img: east,
+  },
+  {
+    id: 5,
+    title1: "South London ",
+    title2: "Family-friendly with good schools and parks (Clapham, Wimbledon, Dulwich).",
+    img: south,
+  },
 ]
 
 export const Resources = [
