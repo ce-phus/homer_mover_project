@@ -22,10 +22,14 @@ const Neighbourhood = () => {
 
                 <div className='pt-10 mx-5'>
                 {neighborhood.map((post)=> (
-                    <div key={post.id} className='flex flex-col '>
-                        <h1 className='text-xl text-primary font-medium mb-4'>{post.title1}</h1>
-                        <h2 className='text-dark text-lg font-normal mb-4'>{post.text}</h2>
-                        <h2 className='text-dark text-lg font-normal'>{post.text1}</h2>
+                    <div key={post.id} className='flex flex-col'>
+                        <div className='flex space-x-2'>
+                            <p className='text-2xl text-primary font-medium'>{post.id}.</p>
+                            <h1 className='text-xl text-primary font-medium mb-4'>{post.title1}</h1>
+                        </div>
+                        
+                        <h2 className='text-dark text-lg font-medium mb-4'>{post.text}</h2>
+                        <h2 className='text-dark text-lg font-medium'>{post.text1}</h2>
                         {post.subtext && post.subtext.length > 0 && (
                             <div className='mx-3 mt-4 mb-5'>
                                 {post.subtext.map((item)=> (

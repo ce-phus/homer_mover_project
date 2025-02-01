@@ -9,6 +9,7 @@ import Packing from "./Packing";
 import Quiz from "./Quiz";
 import Carousel from "./Carousel";
 import Services from "./Services";
+import LiIcon from "./LiIcon";
 
 export {
     Footer,
@@ -21,5 +22,6 @@ export {
     Packing,
     Quiz,
     Carousel,
-    Services
+    Services,
+    LiIcon
 }
