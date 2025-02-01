@@ -74,10 +74,11 @@ import globe from "./globe.png"
 import md1 from "./md.jpg"
 import md2 from "./md3.jpg"
 import idea from "./idea.jpg"
-import guildford from "./guildford.png"
+import guildford from "./guildford.jpg"
 import reigate from "./reigate.png"
-import farnham from "./farnham.png"
-import esher from "./esher.png"
+import reigate1 from "./reigate.jpg"
+import farnham from "./farnham.jpg"
+import esher from "./esher.jpg"
 import woking from "./woking.png"
 import manchester from "./manchester.png"
 import birmingham from "./birmingham.jpg"
@@ -173,6 +174,7 @@ export {
     farnham, 
     woking,
     reigate,
+    reigate1,
     esher,
     manchester,
     birmingham,

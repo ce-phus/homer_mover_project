@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { guildford, woking, farnham, esher, reigate, download } from '@/assets'
+import { guildford, woking, farnham, esher, reigate, download, reigate1 } from '@/assets'
 import { styles } from '../styles';
 import { motion } from "framer-motion"
 import Image from 'next/image'
@@ -98,7 +98,7 @@ const Surrey = () => {
             <p className={`${styles.paragraph}`}>Picturesque locations offering both countryside and convenience.</p>
           </div>
           <Image 
-            src={reigate}
+            src={reigate1}
             className='w-full h-[600px] sm:h-full md:h-full'
             alt="hero7"/>
         </div>
