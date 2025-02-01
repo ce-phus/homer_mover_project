@@ -220,26 +220,13 @@ export const footerLinks = [
   ];
 
   export const Posts  = [
-    {
-      id: 1,
-      title1: "5 Essential Tips for Stress-Free International Moves",
-      title2: "Learn how to streamline your overseas relocation with these expert tips.",
-      img: hero13,
-      link : "#",
-    },
+    
     {
       id: 2,
       title1: "The Ultimate Checklist for Domestic Relocation",
       title2: "Everything you need to organize a seamless move within the UK.",
       img: hero6,
-      link : "#",
-    },
-    {
-      id: 3,
-      title1: "Understanding Visa Requirements for Your Destination",
-      title2: "A guide to navigating the complexities of immigration paperwork.",
-      img: hero18,
-      link : "#",
+      link : "/checklist",
     },
     {
       id: 4,
@@ -253,7 +240,22 @@ export const footerLinks = [
       title1: "Settling In: Making a New Country Feel Like Home",
       title2: "Tips for adapting to a new culture and building your support network.",
       img: hero20,
-      link : "#",
+      link : "/country",
+    },
+
+    {
+      id: 3,
+      title1: "Understanding Visa Requirements for Your Destination",
+      title2: "A guide to navigating the complexities of immigration paperwork.",
+      img: hero18,
+      link : "/visa",
+    },
+    {
+      id: 1,
+      title1: "5 Essential Tips for Stress-Free International Moves",
+      title2: "Learn how to streamline your overseas relocation with these expert tips.",
+      img: hero13,
+      link : "/essentials",
     },
 ]
 
@@ -266,9 +268,9 @@ export const neighborhood = [
     subtext: [
       {
         id: 1,
-        title1: "✅ Crime statistics on local council websites",
-        title2: "✅ Well-lit streets and a sense of community",
-        title3: "✅ Neighbourhood watch programs",
+        title1: "Crime statistics on local council websites",
+        title2: "Well-lit streets and a sense of community",
+        title3: "Neighbourhood watch programs",
         title4: "",
       }
     ],
@@ -282,10 +284,10 @@ export const neighborhood = [
     subtext: [
       {
         id: 2,
-        title1: "🏫 Ofsted ratings (UK school inspections)",
-        title2: "📍 Catchment areas – living in the right postcode matters for school admissions",
-        title3: "🎓 Proximity to top-rated primary and secondary schools",
-        title4: "🚗 Transport options to schools if commuting is needed",
+        title1: "Ofsted ratings (UK school inspections)",
+        title2: "Catchment areas – living in the right postcode matters for school admissions",
+        title3: "Proximity to top-rated primary and secondary schools",
+        title4: "Transport options to schools if commuting is needed",
       }
     ],
     text2: ""
@@ -298,9 +300,9 @@ export const neighborhood = [
     subtext: [
       {
         id: 3,
-        title1: "🚆 Proximity to train stations or bus routes",
-        title2: "🚗 Ease of access to motorways if driving is essential",
-        title3: "✈️ Distance to airports if you travel frequently",
+        title1: "Proximity to train stations or bus routes",
+        title2: "Ease of access to motorways if driving is essential",
+        title3: "Distance to airports if you travel frequently",
         title4: "",
       }
     ],
@@ -314,10 +316,10 @@ export const neighborhood = [
     subtext: [
       {
         id: 4,
-        title1: "🏞️ Parks and green spaces for children and outdoor activities",
-        title2: "🏥 Healthcare facilities including GPs, dentists, and hospitals",
-        title3: "🛍️ Shops, supermarkets, and family-friendly restaurants",
-        title4: "🏊 Leisure centres, gyms, and community clubs",
+        title1: "Parks and green spaces for children and outdoor activities",
+        title2: "Healthcare facilities including GPs, dentists, and hospitals",
+        title3: "Shops, supermarkets, and family-friendly restaurants",
+        title4: "Leisure centres, gyms, and community clubs",
       }
     ],
     text2: "Neighbourhoods like Guildford in Surrey or Richmond in London offer an excellent mix of greenery, amenities, and family-friendly environments."
@@ -330,10 +332,10 @@ export const neighborhood = [
     subtext: [
       {
         id: 5,
-        title1: "👧‍👦 Family-friendly events and activities",
-        title2: "🏡 Diverse and welcoming neighbourhoods",
-        title3: "👋 Support networks and community groups",
-        title4: "🏊 Leisure centres, gyms, and community clubs",
+        title1: "Family-friendly events and activities",
+        title2: "Diverse and welcoming neighbourhoods",
+        title3: "Support networks and community groups",
+        title4: "Leisure centres, gyms, and community clubs",
       }
     ],
     text2: "Some areas have a strong expat community, which can help families settle in faster. Kingston-upon-Thames and Wimbledon are great for families who want an international feel while staying close to central London."
@@ -346,9 +348,9 @@ export const neighborhood = [
     subtext: [
       {
         id: 6,
-        title1: "🏠 House prices vs. rental costs",
-        title2: "📏 Space and garden size – crucial for growing families",
-        title3: "💰 Council tax rates – these vary by area",
+        title1: "House prices vs. rental costs",
+        title2: "Space and garden size – crucial for growing families",
+        title3: "Council tax rates – these vary by area",
         title4: "",
       }
     ],
@@ -362,15 +364,342 @@ export const neighborhood = [
     subtext: [
       {
         id: 7,
-        title1: "📈 Regeneration projects and development plans",
-        title2: "🚧 Infrastructure improvements",
-        title3: "💼 Job opportunities and local economy",
+        title1: "Regeneration projects and development plans",
+        title2: "Infrastructure improvements",
+        title3: "Job opportunities and local economy",
         title4: "",
       }
     ],
     text2: "Areas like Battersea in London or Woking in Surrey have seen major improvements, making them excellent choices for families planning for the long term."
   },
 ]
+
+export const country = [
+  {
+    id: 1,
+    title1: "Create a Familiar and Comfortable Living Space",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 1,
+        title1: "Unpack and decorate as soon as possible – A familiar environment helps you feel at ease.",
+        title2: "Display personal items like photos, artwork, or sentimental objects.",
+        title3: "Add greenery – Plants can make a new space feel warm and inviting.",
+        title4: "Use familiar scents – Candles, diffusers, or cooking favourite meals can bring a sense of home.",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 2,
+    title1: "Explore Your New Surroundings",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 2,
+        title1: "Take walks around your neighbourhood – Familiarity builds comfort.",
+        title2: "Find key locations like supermarkets, pharmacies, schools, and hospitals.",
+        title3: "Visit local parks and attractions – Enjoying your surroundings makes you feel more connected.",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 3,
+    title1: "Build a Social Circle",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 3,
+        title1: "Join local clubs or social groups – Whether it's a gym, book club, or hobby group, connecting with like-minded people makes settling in easier.",
+        title2: "Introduce yourself to neighbours – A friendly chat can lead to lasting friendships.",
+        title3: "Use expat and community forums – Websites like Meetup, Facebook groups, or Internations can help you meet others in a similar situation.",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 4,
+    title1: "Learn the Local Culture and Traditions",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 4,
+        title1: "Educate yourself on cultural norms and customs – This helps avoid misunderstandings and makes integration smoother.",
+        title2: "Try local cuisine – Exploring new foods can make your experience more enjoyable.",
+        title3: "Participate in local events and festivals – Engaging in community traditions makes you feel part of the culture.",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 5,
+    title1: "Establish a Routine",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 5,
+        title1: "Stick to familiar habits – Whether it’s morning coffee, a workout, or a weekend outing, routines create a sense of normalcy.",
+        title2: "Get children settled in school quickly – This helps them make friends and adjust faster.",
+        title3: "Plan activities and outings – Having things to look forward to eases homesickness.",
+        title4: "",
+      }
+    ],
+    text2: "Some areas have a strong expat community, which can help families settle in faster. Kingston-upon-Thames and Wimbledon are great for families who want an international feel while staying close to central London."
+  },
+  {
+    id: 6,
+    title1: "Stay Connected with Loved Ones",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 6,
+        title1: "Schedule regular calls with family and friends – Staying in touch helps bridge the emotional gap.",
+        title2: "Send postcards or updates – Sharing your new experiences strengthens connections.",
+        title3: "Plan visits back home or have family visit you – Knowing you have upcoming reunions can ease feelings of homesickness.",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 7,
+    title1: "Give Yourself Time to Adjust",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 7,
+        title1: "Be patient with yourself – Feeling at home takes time, and it’s okay to experience ups and downs.",
+        title2: "Practice self-care – Whether it’s journaling, exercise, or a relaxing activity, taking care of yourself helps with the transition.",
+        title3: "Celebrate small wins – Every new achievement, from navigating public transport to making a local friend, is a step toward feeling at home.",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+  {
+    id: 8,
+    title1: "Seek Professional Help if Needed",
+    text: "",
+    text1: "",
+    subtext: [
+      {
+        id: 8,
+        title1: "Work with relocation experts – Services like Atlas Path can assist with finding a home, school placements, and legal processes, making your transition smoother.",
+        title2: "Look for expat support services – If you’re struggling, professional expat counselling or coaching can help.",
+        title3: "",
+        title4: "",
+      }
+    ],
+    text2: ""
+  },
+]
+
+export const checklist = [
+ {
+  id: 1,
+  title: "3-6 Months Before Your Move",
+  subheader: [
+    {
+      id: '1-1',
+      title1: "Research Your Destination",
+      title2: "Choose the right city or region (London, Surrey, or other parts of England).",
+      title3: "Research cost of living, transportation, healthcare, and schools (if applicable).",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: '1-2',
+      title1: "Secure a Visa & Immigration Documents",
+      title2: "Determine the correct visa type (work, student, family, etc.).",
+      title3: "Gather necessary documents (passport, proof of funds, sponsorship letters).",
+      title4: "Apply early to avoid delays.",
+      title5: "",
+    },
+    {
+      id: '1-3',
+      title1: "Plan Your Finances",
+      title2: "Understand UK tax obligations and National Insurance.",
+      title3: "Set up a budget for moving expenses, rent, and living costs.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: '1-4',
+      title1: "Start Looking for Housing",
+      title2: "Research rental and buying options.",
+      title3: "Check lease agreements and understand tenant rights in the UK.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "1-5",
+      title1: "Look into Healthcare & Insurance",
+      title2: "Determine if you need private health insurance or if you qualify for NHS services.",
+      title3: "Register for the NHS surcharge if applicable.",
+      title4: "",
+      title5: "",
+    },
+  ]
+ },
+ {
+  id: 2,
+  title: "1-3 Months Before Your Move",
+  subheader: [
+    {
+      id: "2-1",
+      title1: "Arrange Schooling for Children (If applicable)",
+      title2: "Research and apply for schools.",
+      title3: "Arrange necessary documents (previous school records, immunisation records).",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "2-2",
+      title1: "Organise Employment or Business Setup",
+      title2: "If employed, confirm your start date and work contract.",
+      title3: "If self-employed, register your business and understand tax requirements.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: 3,
+      title1: "Book Flights & Travel Arrangements",
+      title2: "Ensure passports are valid for at least six months.",
+      title3: "Book one-way or flexible return tickets.",
+      title4: "Check baggage allowances for essential items.",
+      title5: "",
+    },
+    {
+      id: "2-3",
+      title1: "Sort Out Accommodation",
+      title2: "Secure a rental property or short-term accommodation.",
+      title3: "Confirm move-in dates and contracts.",
+      title4: "Arrange utilities (water, electricity, gas, internet).",
+      title5: "",
+    },
+    {
+      id: "2-4",
+      title1: "Plan Your Moving Logistics",
+      title2: "Decide what to bring and what to sell/donate.",
+      title3: "Arrange international shipping or storage.",
+      title4: "Make a packing list for essential items.",
+      title5: "",
+    },
+    {
+      id: "2-5",
+      title1: "Gather Important Documents",
+      title2: "Passports & visas.",
+      title3: "Birth & marriage certificates.",
+      title4: "Academic & work-related documents.",
+      title5: "Medical & vaccination records.",
+    },
+  ]
+ },
+ {
+  id: 3,
+  title: "2-4 Weeks Before Your Move",
+  subheader: [
+    {
+      id: "3-1",
+      title1: "Notify Important Authorities",
+      title2: "Inform banks, insurance providers, and tax agencies.",
+      title3: "Cancel or transfer subscriptions and memberships.",
+      title4: "Update your address with relevant institutions.",
+      title5: "",
+    },
+    {
+      id: "3-2",
+      title1: "Pack Your Essentials",
+      title2: "Luggage with important documents, medication, chargers, and first-week necessities.",
+      title3: "Clothing suitable for UK weather.",
+      title4: "Plug adapters and electronics.",
+      title5: "",
+    },
+    {
+      id: "3-3",
+      title1: "Finalise Travel Arrangements",
+      title2: "Print or save digital copies of tickets and confirmations.",
+      title3: "Check COVID-19 or other health-related travel restrictions (if applicable).",
+      title4: "Exchange currency or ensure access to funds upon arrival.",
+      title5: "",
+    },
+  ]
+ },
+ {
+  id: 4,
+  title: "Upon Arrival in the UK",
+  subheader: [
+    {
+      id: "4-1",
+      title1: "Settle into Your New Home",
+      title2: "Collect keys and inspect the property.",
+      title3: "Arrange furniture, utilities, and internet setup.",
+      title4: "Explore your neighbourhood and find essential services (groceries, pharmacy, transport).",
+      title5: "",
+    },
+    {
+      id: "4-2",
+      title1: "Register with the NHS",
+      title2: "Find a local GP and register for healthcare services.",
+      title3: "Sign up for dental care if needed.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "4-3",
+      title1: "Set Up a UK Bank Account",
+      title2: "Provide proof of address and ID to open an account.",
+      title3: "Consider online banks like Monzo, Revolut, or Wise for easier international transfers.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "4-4",
+      title1: "Apply for a National Insurance Number (NI Number)",
+      title2: "Required for working and tax purposes.",
+      title3: "Apply online or schedule an appointment at a Jobcentre Plus office.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "4-5",
+      title1: "Understand Public Transport",
+      title2: "Get an Oyster Card (London) or a travel pass for your region.",
+      title3: "Learn about trains, buses, and bike-sharing options.",
+      title4: "",
+      title5: "",
+    },
+    {
+      id: "4-6",
+      title1: "Build a Social Network",
+      title2: "Join local groups, expat communities, or networking events.",
+      title3: "Connect with neighbours and colleagues.",
+      title4: "Academic & work-related documents.",
+      title5: "Medical & vaccination records.",
+    },
+    {
+      id: "4-7",
+      title1: "Familiarise Yourself with UK Laws & Culture",
+      title2: "Understand driving regulations if you plan to drive.",
+      title3: "Learn about council tax and waste disposal rules.",
+      title4: "Embrace UK culture, holidays, and tradition",
+      title5: "",
+    },
+  ]
+ },
+]
+
 
 export const NeighbourTopBlogs = [
   {
@@ -395,7 +724,13 @@ export const NeighbourTopBlogs = [
     id: 4,
     img: hero36,
     text:'5 Essential Tips for Stress-Free International Moves',
-    link: 'essentials'
+    link: '/essentials'
+  },
+  {
+    id: 5,
+    img: hero37,
+    text:'How to Choose the Right Neighborhood for Your Family',
+    link: '/neighbourhood'
   },
   
 ]
