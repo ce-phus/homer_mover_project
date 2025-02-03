@@ -591,7 +591,7 @@ export const essentials = [
 export const visa = [
   {
     id: 1,
-    title: " - Determine the Type of Visa You Need",
+    title: "Determine the Type of Visa You Need",
     text1: " - Work Visa (Skilled Worker, Sponsorship-based, Self-Employed)",
     text2: " - Student Visa",
     text3: " - Family/Dependent Visa",
@@ -602,7 +602,7 @@ export const visa = [
    },
    {
     id: 2,
-    title: " - Check Eligibility Requirements",
+    title: "Check Eligibility Requirements",
     text1: " - Minimum salary requirements (for work visas)",
     text2: " - Proof of educational qualifications or work experience",
     text3: " - Language proficiency tests (e.g., IELTS for UK visas)",
@@ -612,19 +612,19 @@ export const visa = [
    },
    {
     id: 3,
-    title: " - Gather Required Documents",
+    title: "Gather Required Documents",
     text1: " - Valid passport (with at least 6 months’ validity)",
     text2: " - Completed visa application form",
     text3: " - Passport-sized photographs (as per specified dimensions)",
-    text4: " - Proof of employment, school admission, or sponsorship",
-    text4: " - Financial statements (bank statements, payslips, tax records)",
-    text4: " - Health insurance (if required)",
-    text4: " - Criminal record check (if applicable)",
+    text5: " - Proof of employment, school admission, or sponsorship",
+    text6: " - Financial statements (bank statements, payslips, tax records)",
+    text7: " - Health insurance (if required)",
+    text8: " - Criminal record check (if applicable)",
     tip: "Keep both digital and physical copies of all important documents."
    },
    {
     id: 4,
-    title: " - Submit Your Application",
+    title: "Submit Your Application",
     text1: " - Check if you need to apply online or visit an embassy",
     text2: " - Pay the application fee",
     text3: " - Book and attend a biometrics appointment (if required)",
@@ -633,7 +633,7 @@ export const visa = [
    },
    {
     id: 5,
-    title: " - Prepare for Arrival in Your Destination Country",
+    title: "Prepare for Arrival in Your Destination Country",
     text1: " - Check entry requirements (quarantine, vaccinations, customs restrictions)",
     text2: " - Arrange accommodation and transport upon arrival",
     text3: " - Familiarize yourself with local registration requirements (e.g., registering with local authorities)",
@@ -930,6 +930,97 @@ export const school = [
   }
 ];
 
+export const budget = [
+  {
+    id: 1,
+    title: "Pre-Move Expenses",
+    text1: " - Visa & Immigration Fees – Application costs, work permits, legal fees.",
+    text2: " - Travel Costs – Flight tickets, airport transfers, extra baggage fees.",
+    text3: " - Temporary Accommodation – Hotel stays before permanent housing.",
+    text3: " - Health Checks & Vaccinations – Required medical exams, insurance coverage.",
+    text4: " - Language Learning & Cultural Training – If applicable.",
+    estimate: "£XXX - £XXX"
+   },
+   {
+    id: 2,
+    title: "Moving & Packing Costs",
+    text1: " - Professional Movers – Full-service moving companies or self-packing options.",
+    text2: " - Shipping & Freight – Air, sea, or land transport for household goods.",
+    text3: " - Storage Fees – Temporary storage for belongings.",
+    text4: " - Packing Materials – Boxes, tape, bubble wrap.",
+    text5: " - Insurance Coverage – Protection for valuable items in transit.",
+    estimated: "£XXX - £XXX"
+   },
+   {
+    id: 3,
+    title: "Housing & Settling-In Costs",
+    text1: " - Security Deposit & Rent/Deposit on Property Purchase",
+    text2: " - Furniture & Appliances – If unfurnished accommodation.",
+    text3: " - Utility Setup Fees – Electricity, gas, water, internet.",
+    text4: " - Home Insurance – Coverage for damages, theft, and liability.",
+    estimate: "£XXX - £XXX"
+   },
+   {
+    id: 4,
+    title: "Transportation & Daily Living Expenses",
+    text1: " - Car Rental/Purchase – If applicable.",
+    text2: " - Public Transport Costs – Monthly travel passes.",
+    text3: " - Grocery & Household Essentials – First month’s living costs.",
+    text4: " - School Fees & Childcare – If relocating with family.",
+    estimate: "£XXX - £XXX"
+   },
+   {
+    id: 5,
+    title: "Miscellaneous & Emergency Fund",
+    text1: " - Legal & Admin Fees – Bank account setup, registration fees.",
+    text2: " - Pet Relocation Costs – If moving with pets.",
+    text3: " - Emergency Fund – Unexpected expenses",
+    estimate: "£XXX - £XXX"
+   },
+]
+
+export const language = [
+  {
+    id: 1,
+    title: "Duolingo (Best for Beginners & Gamified Learning)",
+    text1: " - Fun, interactive lessons with a game-like experience.",
+    text2: " - Covers multiple languages, including French, Spanish, German, and English.",
+    text3: " - Great for learning vocabulary and basic grammar.",
+    tip: "Best for: Casual learners looking for a free and engaging way to practice daily."
+   },
+   {
+    id: 2,
+    title: "Babbel (Best for Structured Lessons)",
+    text1: " - Focuses on real-world conversations and grammar.",
+    text2: " - Customizable lessons based on skill level.",
+    text3: " - Paid version unlocks full access to speaking exercises.",
+    tip: "Best for: Those who want structured lessons with practical dialogue."
+   },
+   {
+    id: 3,
+    title: "Rosetta Stone (Best for Immersive Learning)",
+    text1: " - Uses image and sound associations to teach naturally.",
+    text2: " - No translation—learn as if you were a child acquiring your first language.",
+    text3: " - Speech recognition technology improves pronunciation.",
+    tip: "Best for: Learners who prefer a full immersion experience."
+   },
+   {
+    id: 4,
+    title: "Memrise (Best for Real-World Phrases)",
+    text1: " - Uses video clips of native speakers for natural pronunciation.",
+    text2: " - Focuses on useful conversational phrases.",
+    text3: " - Interactive quizzes and memory-based techniques.",
+    tip: "Best for: Expats who want practical, real-life language skills."
+   },
+   {
+    id: 5,
+    title: "Pimsleur (Best for Audio Learning & Pronunciation)",
+    text1: " - Audio-focused lessons—ideal for learning while commuting.",
+    text2: " - Emphasizes correct pronunciation from the start.",
+    text3: " - Structured lessons that improve speaking confidence.",
+    tip: " Best for: Busy professionals who prefer audio-based learning."
+   },
+]
 
 export const NeighbourTopBlogs = [
   {
@@ -971,7 +1062,7 @@ export const ResourceBlogs = [
     title1: "Relocation Checklists: ",
     title2: "Download comprehensive guides to help you stay on track.",
     img: hero21,
-    link : "/relocation",
+    link : "#",
   },
   {
     id: 2,
@@ -985,7 +1076,7 @@ export const ResourceBlogs = [
     title1: "Immigration Resources:",
     title2: "Links to official government websites for visas and work permits.",
     img: hero23,
-    link : "/immigration",
+    link : "#",
   },
   {
     id: 4,
@@ -1037,25 +1128,12 @@ export const london = [
 ]
 
 export const Resources = [
-  {
-    id: 1,
-    title1: "Relocation Checklists: ",
-    title2: "Download comprehensive guides to help you stay on track.",
-    img: hero21,
-    link : "#",
-  },
+ 
   {
     id: 2,
     title1: "Moving Budget Planner:",
     title2: "A free tool to estimate and manage relocation costs.",
     img: hero22,
-    link : "#",
-  },
-  {
-    id: 3,
-    title1: "Immigration Resources:",
-    title2: "Links to official government websites for visas and work permits.",
-    img: hero23,
     link : "#",
   },
   {
@@ -1070,6 +1148,21 @@ export const Resources = [
     title1: "Language Learning Apps: ",
     title2: "Recommendations for tools to help you or your family learn a new language.",
     img: hero25,
+    link : "/language",
+  },
+  {
+    id: 1,
+    title1: "Relocation Checklists: ",
+    title2: "Download comprehensive guides to help you stay on track.",
+    img: hero21,
+    link : "#",
+  },
+
+  {
+    id: 3,
+    title1: "Immigration Resources:",
+    title2: "Links to official government websites for visas and work permits.",
+    img: hero23,
     link : "#",
   },
 ]
