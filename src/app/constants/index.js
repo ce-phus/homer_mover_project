@@ -251,11 +251,6 @@ export const footerLinks = [
       link : "/visa",
     },
     {
-      id: 6,
-      link: '#',
-      imge:null
-    },
-    {
       id: 1,
       title1: "Essential Tips for Stress-Free International Moves",
       title2: "Learn how to streamline your overseas relocation with these expert tips.",
