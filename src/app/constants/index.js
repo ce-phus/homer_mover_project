@@ -259,6 +259,46 @@ export const footerLinks = [
     },
 ]
 
+export const surrey = [
+  {
+    id: 1,
+    title1: "A Place to Call Home",
+    text: "Surrey boasts a diverse property market, from charming period cottages to modern executive homes, catering to a range of lifestyles and budgets. Whether you're looking for a family-friendly suburb, a peaceful rural retreat, or a town with vibrant amenities, Surrey has the perfect home for you",
+    img: hero36,
+  },
+  {
+    id: 2,
+    title1: "Excellent Transport Links:",
+    text: "Many of Surrey’s towns, including Guildford, Woking, Epsom, and Reigate, offer fast and frequent train services to London, making it an ideal location for commuters. Major motorways such as the M25, M3, and A3 provide easy access to Heathrow and Gatwick airports, making travel seamless for both business and leisure",
+    img: hero37,
+  },
+  {
+    id: 3,
+    title1: "Top-Rated Schools ",
+    text: "Surrey is home to some of the UK’s best schools, including renowned private institutions such as Charterhouse, Epsom College, and Royal Grammar School, Guildford, as well as outstanding state schools. Families moving to Surrey benefit from exceptional education options at all levels.",
+    img: hero26,
+  },
+
+  {
+    id: 4,
+    title1: "Green Spaces & Outdoor Lifestyle:",
+    text: "From the rolling hills of the Surrey Hills Area of Outstanding Natural Beauty (AONB) to beautiful parks and nature reserves, Surrey is a paradise for outdoor enthusiasts. Whether you enjoy hiking, cycling, horse riding, or golf, there are countless opportunities to explore nature.",
+    img: hero20,
+  },
+  {
+    id: 5,
+    title1: "Vibrant Towns & Villages:",
+    text: "Surrey offers a mix of bustling towns with excellent shopping, dining, and cultural attractions, as well as charming villages with a close-knit community feel. Towns such as Guildford, Farnham, and Dorking offer a blend of modern amenities with historical charm",
+    img: hero31,
+  },
+  {
+    id: 6,
+    title1: "Dining, Leisure & Entertainment:",
+    text: "From Michelin-starred restaurants to cosy country pubs, Surrey has a thriving food scene. You’ll also find a wealth of theatres, arts venues, shopping centres, and sports facilities, ensuring there’s always something to do.",
+    img: hero28,
+  },
+]
+
 export const neighborhood = [
   {
     id: 1,

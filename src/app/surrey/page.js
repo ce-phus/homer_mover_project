@@ -5,8 +5,7 @@ import { styles } from '../styles';
 import { motion } from "framer-motion"
 import Image from 'next/image'
 import { fadeIn } from '../../../variants'
-import { locations } from '../constants';
-import Slider from 'react-slick';
+import { surrey } from '../constants';
 
 const Surrey = () => {
   return (
@@ -39,33 +38,23 @@ const Surrey = () => {
         </div>          
     </div>
 
-    <div className='max-w-[1800px] mx-auto flex lg:flex-col gap-5 pt-20'>
-      <div className='flex flex-col items-center mt-5 w-full'>
-        <h1 className='text-xl text-primary'>Why Choose Surrey?</h1>
-        <div className='mb-2 mt-5'>
-          <p className='font-medium tracking-wide text-lg w-full'>A Place to Call Home: <span className='font-normal text-lg'>Surrey boasts a diverse property market, from charming period cottages to modern executive homes, catering to a range of lifestyles and budgets. Whether you're looking for a family-friendly suburb, a peaceful rural retreat, or a town with vibrant amenities, Surrey has the perfect home for you.</span></p>
+    <div className='pt-20'>
+      <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
+        initial='hidden' animate='show'  className='flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Why Choose Surrey?</motion.h1>
+        <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
+            {surrey.map((post)=> (
+                <div key={post.id} className='flex flex-col items-center space-y-3 duration-300 ease-in-out hover:scale-105'>
+                    
+                    <Image 
+                    src={post.img}
+                    alt={post.title1}
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
+                    <p className='text-dark font-medium'>{post.text}</p>
+            
+                </div>
+            ))}
         </div>
-        <div className='mb-2'>
-          <p className='font-medium tracking-wide text-lg w-full'>Excellent Transport Links: <span className='font-normal text-lg'>Many of Surrey’s towns, including Guildford, Woking, Epsom, and Reigate, offer fast and frequent train services to London, making it an ideal location for commuters. Major motorways such as the M25, M3, and A3 provide easy access to Heathrow and Gatwick airports, making travel seamless for both business and leisure</span></p>
-        </div>
-        <div className='mb-2'>
-          <p className='font-medium tracking-wide text-lg w-full'>Top-Rated Schools  </p>
-          <p className='font-normal text-lg'>Surrey is home to some of the UK’s best schools, including renowned private institutions such as Charterhouse, Epsom College, and Royal Grammar School, Guildford, as well as outstanding state schools. Families moving to Surrey benefit from exceptional education options at all levels.</p>
-        </div>
-        <div className='mb-2'>
-          <p className='font-medium tracking-wide text-lg w-full'>Green Spaces & Outdoor Lifestyle: </p>
-          <p className='font-normal text-lg'>From the rolling hills of the Surrey Hills Area of Outstanding Natural Beauty (AONB) to beautiful parks and nature reserves, Surrey is a paradise for outdoor enthusiasts. Whether you enjoy hiking, cycling, horse riding, or golf, there are countless opportunities to explore nature.</p>
-        </div>
-        <div className='mb-2'>
-          <p className='font-medium tracking-wide text-lg w-full'>Vibrant Towns & Villages: </p>
-          <p className='font-normal text-lg'>Surrey offers a mix of bustling towns with excellent shopping, dining, and cultural attractions, as well as charming villages with a close-knit community feel. Towns such as Guildford, Farnham, and Dorking offer a blend of modern amenities with historical charm</p>
-        </div>
-        <div className='mb-2'>
-          <p className='font-medium tracking-wide text-lg w-full'>Dining, Leisure & Entertainment: </p>
-          <p className='font-normal text-lg'>From Michelin-starred restaurants to cosy country pubs, Surrey has a thriving food scene. You’ll also find a wealth of theatres, arts venues, shopping centres, and sports facilities, ensuring there’s always something to do. </p>
-        </div>
-      </div>
-
       <div className='flex flex-col text-center pt-20 w-full'>
         <h1 className='text-xl text-primary tracking-wide'>Who is Surrey Ideal For?</h1>
         <div className='mb-2'>
