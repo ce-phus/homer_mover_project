@@ -45,7 +45,7 @@ const Blogs = () => {
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] bg-white mb-5'/>
                     <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
                     <h1 className='text-lg font-normal text-dark mb-10'>{post.title2}</h1>
                     </Link>
@@ -54,7 +54,7 @@ const Blogs = () => {
         </div>
         <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
         initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
-        <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
+        <div className='grid grid-cols-4 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
         {Resources.map((resource)=> (
             <div key={resource.id} className='space-y-4 duration-300 ease-in-out hover:scale-105'>
                 <Link href={resource.link} className='text-center'>

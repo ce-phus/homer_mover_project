@@ -242,13 +242,18 @@ export const footerLinks = [
       img: hero20,
       link : "/country",
     },
-
+    
     {
       id: 3,
       title1: "Understanding Visa Requirements for Your Destination",
       title2: "A guide to navigating the complexities of immigration paperwork.",
       img: hero18,
       link : "/visa",
+    },
+    {
+      id: 6,
+      link: '#',
+      imge:null
     },
     {
       id: 1,
@@ -309,13 +314,6 @@ export const guildfordtexts = [
     img: hero16,
   },
   {
-    id: 2,
-    title1: "Outstanding Connectivity:",
-    text: "With direct train services to London Waterloo in just 35 minutes, Guildford is a top choice for commuters. The A3 and M25 motorways provide easy access to Heathrow, Gatwick, and the South Coast.",
-    subtext:[],
-    img: manchester,
-  },
-  {
     id: 3,
     title1: "Renowned Schools & Education:",
     text: "Guildford is home to some of the UK’s best schools, including:",
@@ -330,6 +328,14 @@ export const guildfordtexts = [
       }
     ],
     img: hero24,
+  },
+
+  {
+    id: 2,
+    title1: "Outstanding Connectivity:",
+    text: "With direct train services to London Waterloo in just 35 minutes, Guildford is a top choice for commuters. The A3 and M25 motorways provide easy access to Heathrow, Gatwick, and the South Coast.",
+    subtext:[],
+    img: manchester,
   },
 
   {
@@ -363,9 +369,11 @@ export const wokingtext = [
     subtext:[
       {
         id: 1,
-        text1: "London Waterloo in just 24 minutes by train.",
-        text2: "Easy access to the M25, M3, and A3, making Heathrow and Gatwick airports highly accessible.",
-        text3: "A major transport hub with frequent bus and rail services across Surrey.",
+        text1: "Excellent Healthcare Facilities",
+        subtexts1: " - Woking has several GP practices and private clinics and is close to St. Peter’s Hospital and Royal Surrey County Hospital, ensuring high-quality healthcare services",
+        subtexts2: " - London Waterloo in just 24 minutes by train.",
+        subtexts3: " - Easy access to the M25, M3, and A3, making Heathrow and Gatwick airports highly accessible.",
+        subtexts4: " - A major transport hub with frequent bus and rail services across Surrey.",
       }
     ],
 
@@ -460,15 +468,7 @@ export const wokingtext = [
       }
     ],
     img: hero28,
-  },
-  {
-    id: 7,
-    title1: "Excellent Healthcare Facilities:",
-    text: "Woking has several GP practices and private clinics and is close to St. Peter’s Hospital and Royal Surrey County Hospital, ensuring high-quality healthcare services.",
-    subtext:[],
-    img: hero31,
-  },
-  
+  }
 ]
 
 export const neighborhood = [
