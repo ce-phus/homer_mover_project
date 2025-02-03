@@ -43,12 +43,15 @@ export default function RootLayout({ children }) {
       
       <link rel='icon' href="./logo.svg" />
       <body className={`${worksans.className} font-lora bg-white w-full min-h-screen`}>
-        <div className="z-70">
-
-        <Navbar />
+        <div>
+          <div className="z-50">
+            <Navbar />
+          </div>
+          <div>
+            {children}
+            <Footer />
+          </div>
         </div>
-        {children}
-        <Footer />
       </body>
     </html>
   );

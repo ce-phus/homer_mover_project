@@ -1,17 +1,5 @@
 import React from 'react'
-import { hero1, hero2, hero3, hero4, hero5, hero6, hero7, download, hero8, hero9, hero10, hero11, hero12, hero26, hero14,
-    hero27,
-    hero28,
-    hero29,
-    hero30,
-    hero31,
-    hero32,
-    hero33,
-    hero34,
-    hero35,
-    hero36,
-    hero37,
-    hero38, } from '@/assets';
+import { download, } from '@/assets';
 import Slider from 'react-slick';
 import Image from 'next/image';
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -30,10 +18,10 @@ const Carousel = () => {
         autoplaySpeed: 3000,
     }
   return (
-    <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[20px] md:flex-col-reverse sm:flex-col-reverse'>
+    <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[20px] xl:flex-col-reverse'>
         <Slider {...sliderSettings} className="lg:w-full xl:w-[550px] w-[850px] h-auto">
         {HeroData.map((data) => (
-            <div key={data.id} className="relative z-0 h-[599px] overflow-hidden">
+            <div key={data.id} className="relative z-[-1] h-[599px] overflow-hidden">
             <Image
                 src={data.img}
                 alt=""
