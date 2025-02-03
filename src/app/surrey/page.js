@@ -136,20 +136,79 @@ const Surrey = () => {
     <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
         <Image 
           src={woking}
-          className='w-full h-[600px] sm:h-full md:h-full'
+          className='w-full h-full sm:h-full md:h-full'
           alt="hero7"/>
-          <div className='mt-10 space-y-7 mx-3 text-center pt-20'>
-            <h1 className={styles.heroHeadText}>Woking </h1>
-            <p className={`${styles.paragraph}`}>A fast-developing commuter town with fantastic London connections.</p>
+          <div className='mx-3 mt-5'>
+            <h1 className={`${styles.heroHeadText} mb-3`}>Woking</h1>
+            <div className='mb-2'>
+              <p className='font-medium tracking-wide text-lg'>Unrivalled Connectivity" </p>
+              <p className='font-normal text-lg'>Woking is one of the best-connected towns in Surrey:</p>
+            </div>
+              <ul className='space-y-3 mx-3 mt-2'>
+                <li className='font-medium'>London Waterloo in just 24 minutes by train.</li>
+                <li className='font-medium'>Easy access to the M25, M3, and A3, making Heathrow and Gatwick airports highly accessible.</li>
+                <li className='font-medium'>A major transport hub with frequent bus and rail services across Surrey.</li>
+              </ul>
+            <div className='mb-2'>
+              <p className='font-medium tracking-wide text-lg mt-4'>Diverse Housing Market: </p>
+              <p className='font-normal text-lg'>Whether you're looking for modern apartments, Victorian terraces, or spacious family homes, Woking offers a range of housing options in sought-after areas like</p>
+              <ul className='space-y-3 mx-3 mt-2'>
+                <li className='font-medium'>Hook Heath: <span className='font-normal'>{'Exclusive and leafy with stunning detached homes.'}</span></li>
+                <li className='font-medium'>Pyrford: <span className='font-normal'>{'A peaceful village setting with excellent schools.'}</span></li>
+                <li className='font-medium'>Horsell: <span className='font-normal'>{'A charming area with a mix of period and contemporary homes.'}</span></li>
+                <li className='font-medium'>Goldsworth Park: <span className='font-normal'>{'Great for families, with green spaces and local amenities.'}</span></li>
+              </ul>
+            </div>
+
+            <div className='mb-10'>
+              <p className='font-medium tracking-wide text-lg mt-4'>Top-Rated Schools & Education: </p>
+              <p className='font-normal text-lg'>Woking is home to some of Surrey’s best schools, including:</p>
+              <ul className='space-y-3 mx-3 mt-2'>
+                <li className='font-medium'>St. John the Baptist School (SJB) <span className='font-normal'>{'One of the top-performing secondary schools in Surrey, known for its excellent academic results and strong community ethos.'}</span></li>
+                <li className='font-medium'>Halstead Preparatory School: <span className='font-normal'>{'(Independent, Girls)'}</span></li>
+                <li className='font-medium'>St. Andrew’s School: <span className='font-normal'>{'(Independent, Co-Ed)'}</span></li>
+                <li className='font-medium'>Hoe Bridge School: <span className='font-normal'>{'(Independent, Co-Ed)'}</span></li>
+              </ul>
+            </div>
+            <div className='mb-10'>
+              <p className='font-medium tracking-wide text-lg mt-4'>Green Spaces & Outdoor Living </p>
+              <p className='font-normal text-lg'>Woking is surrounded by stunning countryside, parks, and nature reserves, making it perfect for outdoor enthusiasts. Popular spots include:</p>
+              <ul className='space-y-3 mx-3 mt-2'>
+                <li className='font-medium'>Horsell Common <span className='font-normal'>{'One of the world’s most renowned gardens, just a short drive away.'}</span></li>
+                <li className='font-medium'>RHS Garden Wisley: <span className='font-normal'>{'One of the world’s most renowned gardens, just a short drive away.'}</span></li>
+                <li className='font-medium'>Goldsworth Park Lake <span className='font-normal'>{'A great spot for jogging, cycling, and picnics.'}</span></li>
+              </ul>
+            </div>
+            <p className='font-medium text-lg mb-5'>Excellent Healthcare Facilities:<span className='font-normal'>Woking has several GP practices and private clinics and is close to St. Peter’s Hospital and Royal Surrey County Hospital, ensuring high-quality healthcare services.</span></p>
           </div>
     </div>
 
-    <div className=''>
+    <div className='flex pt-10 text-center flex-col'>
+      <h1 className='text-primary text-xl font-medium'>Who is Woking Ideal For?</h1>
+      <div className='mb-2'>
+          <p className='font-medium tracking-wide text-lg mt-5'>Commuters: </p>
+          <p className='font-normal text-lg'>Super-fast trains to London and excellent road links. </p>
+        </div>
+        <div className='mb-2'>
+          <p className='font-medium tracking-wide text-lg'>Families: </p>
+          <p className='font-normal text-lg'>Top-tier schools, parks, and a safe environment. </p>
+        </div>
+        <div className='mb-2'>
+          <p className='font-medium tracking-wide text-lg'>Retirees: </p>
+          <p className='font-normal text-lg'>A growing business hub with modern amenities.</p>
+        </div>
+        <div className='mb-2'>
+          <p className='font-medium tracking-wide text-lg'>Businesses & Expats: </p>
+          <p className='font-normal text-lg'>A peaceful yet well-connected town with great healthcare.</p>
+        </div>
+    </div>
+
+    <div className='pt-20'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <div className='mt-10 space-y-7 mx-3 text-center pt-20'>
             <h1 className={styles.heroHeadText}>Esher & Cobham </h1>
             <p className={`${styles.paragraph}`}>Exclusive areas with a mix of luxury living and family appeal.</p>
-          </div>
+          </div>       
           <Image 
             src={esher}
             className='w-full h-[600px] sm:h-full md:h-full'
