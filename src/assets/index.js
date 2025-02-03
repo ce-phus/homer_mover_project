@@ -79,7 +79,10 @@ import reigate from "./reigate.png"
 import reigate1 from "./reigate.jpg"
 import farnham from "./farnham.jpg"
 import esher from "./esher.jpg"
+import cobham from "./cobham1.jpg"
 import woking from "./woking.jpg"
+import woking1 from "./woking1.png"
+import dorking from "./dorking.png"
 import manchester from "./manchester.png"
 import birmingham from "./birmingham.jpg"
 import brighton from "./brighton.jpg"
@@ -173,9 +176,12 @@ export {
     guildford,
     farnham, 
     woking,
+    woking1,
     reigate,
     reigate1,
     esher,
+    cobham,
+    dorking,
     manchester,
     birmingham,
     oxford,
