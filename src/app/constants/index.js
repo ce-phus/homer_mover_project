@@ -837,6 +837,99 @@ export const checklist = [
  },
 ]
 
+export const school = [
+  {
+    id: 1,
+    title: "School Search - What to look For",
+    subtexts: [
+      {
+        id: "(i)",
+        title: "School Type",
+        text1: " - Public (State) Schools – Free but often dependent on catchment areas.",
+        text2: " - Private (Independent) Schools – Offer specialized curricula but come with tuition fees.",
+        text3: " - International Schools – Follow global curriculums (IB, IGCSE, American, etc.) and are great for expat families.",
+        tip: " 💡 If you’re moving internationally, check if your home country’s curriculum is available."
+      },
+      {
+        id: "(ii)",
+        title: "Academic Performance & Reputation",
+        text1: " - Check Ofsted reports (UK) or equivalent school rankings in your destination country.",
+        text2: " - Look at exam results, university placements, and extracurricular offerings.",
+        text3: " - Read parent reviews and speak to local families if possible.",
+        tip: "💡 Some top-rated schools have long waiting lists—apply early!"
+      },
+      {
+        id: "(iii)",
+        title: "Location & Catchment Areas",
+        text1: " - In many countries, state schools prioritize local students—research the school zones.",
+        text2: " - Consider commute times—long travel distances can affect a child’s routine.",
+        tip: "💡 Use school locator tools like the UK Department for Education website to check catchment areas."
+      },
+      {
+        id: "(iv)",
+        title: "Curriculum & Teaching Approach",
+        text1: " - Does the school offer British, American, IB, or another curriculum?",
+        text2: " - What are the teaching styles—traditional, progressive, or Montessori?",
+        text3: " - Are there language support programs for non-native speakers?",
+        tip: "💡 International schools often follow globally recognized curricula, making future moves easier."
+      },
+      {
+        id: "(v)",
+        title: "Extracurricular Activities & Facilities",
+        text1: " - Sports, music, arts, and clubs can enhance a child’s development.",
+        text2: " - Does the school have modern libraries, science labs, and sports facilities?",
+        text3: " - Check pastoral care—how does the school support students' well-being?",
+        tip: "💡 A well-rounded education balances academics and personal development."
+      }
+    ]
+  },
+  {
+    id: 2,
+    title: "Tips for Finding the Right School",
+    subtexts: [
+      {
+        id: "(i)",
+        title: "Start Your Search Early",
+        text1: " - Some schools require applications a year in advance, especially in competitive areas.",
+        text2: "",
+        text3: "",
+        tip: ""
+      },
+      {
+        id: "(ii)",
+        title: "Visit Schools (or Take Virtual Tours)",
+        text1: " - Seeing the campus in person (or via video calls) helps you assess the environment and teaching style.",
+        text2: "",
+        text3: "",
+        tip: ""
+      },
+      {
+        id: "(iii)",
+        title: "Speak to Other Parents & Expats",
+        text1: " - Join local Facebook groups or expat forums to hear real experiences.",
+        text2: "",
+        tip: ""
+      },
+      {
+        id: "(iv)",
+        title: "Check Admission Requirements & Fees",
+        text1: " - Some schools require entrance exams or interviews.",
+        text2: " - International and private schools often have registration fees & tuition costs.",
+        text3: "",
+        tip: ""
+      },
+      {
+        id: "(v)",
+        title: "Consider Future Flexibility",
+        text1: " - If you may relocate again, choose a school that offers globally recognized qualifications.",
+        text2: "",
+        text3: "",
+        tip: ""
+      }
+    ]
+  }
+];
+
 
 export const NeighbourTopBlogs = [
   {
@@ -870,6 +963,44 @@ export const NeighbourTopBlogs = [
     link: '/neighbourhood'
   },
   
+]
+
+export const ResourceBlogs = [
+  {
+    id: 1,
+    title1: "Relocation Checklists: ",
+    title2: "Download comprehensive guides to help you stay on track.",
+    img: hero21,
+    link : "/relocation",
+  },
+  {
+    id: 2,
+    title1: "Moving Budget Planner:",
+    title2: "A free tool to estimate and manage relocation costs.",
+    img: hero22,
+    link : "/budget",
+  },
+  {
+    id: 3,
+    title1: "Immigration Resources:",
+    title2: "Links to official government websites for visas and work permits.",
+    img: hero23,
+    link : "/immigration",
+  },
+  {
+    id: 4,
+    title1: "School Search Tools: ",
+    title2: "Tips and resources to find the best educational options for your children.",
+    img: hero24,
+    link : "/school",
+  },
+  {
+    id: 5,
+    title1: "Language Learning Apps: ",
+    title2: "Recommendations for tools to help you or your family learn a new language.",
+    img: hero25,
+    link : "/language",
+  },
 ]
 
 export const london = [
@@ -932,7 +1063,7 @@ export const Resources = [
     title1: "School Search Tools: ",
     title2: "Tips and resources to find the best educational options for your children.",
     img: hero24,
-    link : "#",
+    link : "/school",
   },
   {
     id: 5,
