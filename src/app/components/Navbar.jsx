@@ -52,7 +52,7 @@ const Navbar = () => {
                                 <span className={`h-[2px] inline-block absolute left-0 bg-dark -bottom-0.5 group-hover:w-full transition-[width] ease-duration-300 ${active=== link.title ? 'w-full': 'w-0'}`}>&nbsp;</span>
                             </Link>
                             {link.dropdownItems && link.dropdownItems.length > 0 && (
-                                <div className={`absolute left-0 mt-2 text-center max-h-[800px] bg-white shadow-xl shadow-black w-[300px] text-black rounded-xl shadow-lg transition-opacity duration-500 ${hoveredIndex === index ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
+                                <div className={`absolute -left-10 mt-2 text-center max-h-[800px] bg-white shadow-xl shadow-black w-[300px] text-black rounded-xl shadow-lg transition-opacity duration-500 ${hoveredIndex === index ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}>
                                     {link.dropdownItems.map(item => (
                                         <Link href={item.href} key={item.id}>
                                             <p className="px-4 py-4 hover:text-gray-300 text-black font-medium text-lg duration-300 ease-in-out hover:scale-105">{item.title}</p>

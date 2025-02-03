@@ -9,7 +9,7 @@ import {
     hero34,
     hero35,
     hero36,
-    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west 
+    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west, hero16 
  } from "@/assets"
 
 
@@ -297,6 +297,178 @@ export const surrey = [
     text: "From Michelin-starred restaurants to cosy country pubs, Surrey has a thriving food scene. You’ll also find a wealth of theatres, arts venues, shopping centres, and sports facilities, ensuring there’s always something to do.",
     img: hero28,
   },
+]
+
+export const guildfordtexts = [
+  {
+    id: 1,
+    title1: "Exceptional Housing Options:",
+    text: "From picturesque period homes in the town centre to modern family houses and luxury apartments, Guildford’s property market caters to diverse needs and lifestyles. Popular areas include Merrow, Burpham, Shalford, and Stoughton, each offering its unique appeal.",
+    subtext:[],
+
+    img: hero16,
+  },
+  {
+    id: 2,
+    title1: "Outstanding Connectivity:",
+    text: "With direct train services to London Waterloo in just 35 minutes, Guildford is a top choice for commuters. The A3 and M25 motorways provide easy access to Heathrow, Gatwick, and the South Coast.",
+    subtext:[],
+    img: manchester,
+  },
+  {
+    id: 3,
+    title1: "Renowned Schools & Education:",
+    text: "Guildford is home to some of the UK’s best schools, including:",
+    text1: "Additionally, the University of Surrey provides world-class higher education and research facilities, making Guildford a thriving hub for students and professionals.",
+    subtext:[
+      {
+        id: 1,
+        text1: "Guildford High School(Independent, Girls)",
+        text2: "Royal Grammar School(Independent, Boys)",
+        text3: "Tormead School(Independent, Girls)",
+        text4: "George Abbot School(Outstanding-rated state secondary)",
+      }
+    ],
+    img: hero24,
+  },
+
+  {
+    id: 4,
+    title1: "Green Spaces & Outdoor Lifestyle:",
+    text: "Enjoy the stunning landscapes of the Surrey Hills AONB, ideal for walking, cycling, and outdoor pursuits. Popular spots include Pewley Down, St. Martha’s Hill, and Newlands Corner. The River Wey also offers scenic walks and waterside dining",
+    subtext:[],
+    img: hero20,
+  },
+  {
+    id: 5,
+    title1: "A Thriving Town Centre:",
+    text: "Guildford boasts a vibrant high street with upscale shopping, independent boutiques, and premium brands. The town is home to the Yvonne Arnaud Theatre, G Live entertainment venue, and a diverse selection of restaurants, pubs, and cafés.",
+    subtext:[],
+    img: hero31,
+  },
+  {
+    id: 6,
+    title1: "Excellent Healthcare Facilities:",
+    text: "Royal Surrey County Hospital provides outstanding healthcare services, along with private medical centres and GP practices catering to residents' needs.",
+    subtext:[],
+    img: hero28,
+  },
+]
+
+export const wokingtext = [
+  {
+    id: 1,
+    title1: "Unrivalled Connectivity:",
+    text: "Woking is one of the best-connected towns in Surrey:",
+    subtext:[
+      {
+        id: 1,
+        text1: "London Waterloo in just 24 minutes by train.",
+        text2: "Easy access to the M25, M3, and A3, making Heathrow and Gatwick airports highly accessible.",
+        text3: "A major transport hub with frequent bus and rail services across Surrey.",
+      }
+    ],
+
+    img: hero16,
+  },
+  {
+    id: 2,
+    title1: "Diverse Housing Market:",
+    text: "Whether you're looking for modern apartments, Victorian terraces, or spacious family homes, Woking offers a range of housing options in sought-after areas like",
+    subtext:[
+      {
+        id: 1,
+        text1: " - Hook Heath:",
+        text2: " - Pyrford:",
+        text3: " - Horsell:",
+        text4: " - Goldsworth Park:",
+        subtexts1: "Exclusive and leafy with stunning detached homes.",
+        subtexts2: "A peaceful village setting with excellent schools.",
+        subtexts3: "A charming area with a mix of period and contemporary homes.",
+        subtexts4: "Great for families, with green spaces and local amenities.",
+      }
+    ],
+    img: manchester,
+  },
+  {
+    id: 3,
+    title1: "Top-Rated Schools & Education:",
+    text: "Woking is home to some of Surrey’s best schools, including:",
+    subtext:[
+      {
+        id: 1,
+        text1: " - St. John the Baptist School (SJB)",
+        text2: " - Halstead Preparatory School:",
+        text3: " - St. Andrew’s School::",
+        text4: "Hoe Bridge School:",
+        subtexts1: "One of the top-performing secondary schools in Surrey, known for its excellent academic results and strong community ethos.",
+        subtexts2: "(Independent, Girls)",
+        subtexts3: "(Independent, Co-Ed)",
+        subtexts4: "(Independent, Co-Ed)",
+      }
+    ],
+    img: hero24,
+  },
+
+  {
+    id: 4,
+    title1: "Green Spaces & Outdoor Lifestyle:",
+    text: "Woking is surrounded by stunning countryside, parks, and nature reserves, making it perfect for outdoor enthusiasts. Popular spots include:",
+    subtext:[
+      {
+        id: 1,
+        text1: " - Horsell Common:",
+        text2: " - RHS Garden Wisley:",
+        text3: " - Goldsworth Park Lake:",
+        subtexts1: "One of the world’s most renowned gardens, just a short drive away.",
+        subtexts2: "One of the world’s most renowned gardens, just a short drive away.",
+        subtexts3: "A great spot for jogging, cycling, and picnics.",
+      }
+    ],
+    img: hero20,
+  },
+  {
+    id: 5,
+    title1: "A Regenerated Town Centre",
+    text: "Woking’s £700 million town centre transformation has brought a range of new amenities, including:",
+    subtext:[
+      {
+        id: 1,
+        text1: " - Victoria Place Shopping Centre: ",
+        text2: " - The Lightbox: ",
+        text3: " - New Hilton Hotel & Sky Bar:",
+        subtexts1: "Featuring major brands, boutique stores, and restaurants.",
+        subtexts2: "A contemporary art gallery and museum.",
+        subtexts3: "Offering luxury accommodation and fine dining.",
+      }
+    ],
+    img: hero28,
+  },
+  {
+    id: 6,
+    title1: "Entertainment & Nightlife",
+    text: "The town is home to award-winning entertainment venues, including:",
+    subtext:[
+      {
+        id: 1,
+        text1: " - The New Victoria Theatre: ",
+        text2: " - Nova Cinema: ",
+        text3: " - A vibrant restaurant and café scene: ",
+        subtexts1: "Hosting West End shows, live music, and performances.",
+        subtexts2: "A state-of-the-art movie experienc",
+        subtexts3: "with options ranging from fine dining to casual eateries.",
+      }
+    ],
+    img: hero28,
+  },
+  {
+    id: 7,
+    title1: "Excellent Healthcare Facilities:",
+    text: "Woking has several GP practices and private clinics and is close to St. Peter’s Hospital and Royal Surrey County Hospital, ensuring high-quality healthcare services.",
+    subtext:[],
+    img: hero31,
+  },
+  
 ]
 
 export const neighborhood = [
@@ -1112,13 +1284,6 @@ export const ResourceBlogs = [
     link : "/budget",
   },
   {
-    id: 3,
-    title1: "Immigration Resources:",
-    title2: "Links to official government websites for visas and work permits.",
-    img: hero23,
-    link : "#",
-  },
-  {
     id: 4,
     title1: "School Search Tools: ",
     title2: "Tips and resources to find the best educational options for your children.",
@@ -1195,14 +1360,6 @@ export const Resources = [
     title1: "Relocation Checklists: ",
     title2: "Download comprehensive guides to help you stay on track.",
     img: hero21,
-    link : "#",
-  },
-
-  {
-    id: 3,
-    title1: "Immigration Resources:",
-    title2: "Links to official government websites for visas and work permits.",
-    img: hero23,
     link : "#",
   },
 ]
