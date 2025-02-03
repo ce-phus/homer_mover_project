@@ -1,16 +1,11 @@
 "use client";
 import Image from "next/image";
-import { useState, useEffect } from "react";
 import Head from "next/head";
-import { herobg, herobg2, herobg3, section2, globe  } from "@/assets";
+import { globe  } from "@/assets";
 
-import { Services, Detail, Admin, Packing, Logistics, Quiz, Carousel } from "./components";
-
+import { Services, Detail, Admin, Quiz, Carousel } from "./components";
 
 export default function Home() {
- const handleRoute = () => {
-  router.push('/quote');
-};
 
   return (
     <>

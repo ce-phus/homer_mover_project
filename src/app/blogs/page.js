@@ -46,10 +46,8 @@ const Blogs = () => {
                     src={post.img}
                     alt={post.title1}
                     className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
-                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-xl font-medium text-primary mb-5'>{post.title1}</motion.h1>
-                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-lg font-normal text-dark mb-10'>{post.title2}</motion.h1>
+                    <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
+                    <h1 className='text-lg font-normal text-dark mb-10'>{post.title2}</h1>
                     </Link>
                 </div>
             ))}
@@ -64,10 +62,8 @@ const Blogs = () => {
                     src={resource.img}
                     alt={resource.title1}
                     className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
-                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-xl font-medium text-primary mx-3 italic mb-5'>{resource.title1}</motion.h1>
-                    <motion.h1 variants={fadeIn("right", "spring", 0.75)} 
-                    initial='hidden' animate='show' className='text-lg font-normal text-dark mx-3 mb-10'>{resource.title2}</motion.h1>
+                    <h1 className='text-xl font-medium text-primary mx-3 italic mb-5'>{resource.title1}</h1>
+                    <h1  className='text-lg font-normal text-dark mx-3 mb-10'>{resource.title2}</h1>
                 </Link>
             </div>
         ))}

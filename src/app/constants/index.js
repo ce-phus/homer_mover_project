@@ -252,7 +252,7 @@ export const footerLinks = [
     },
     {
       id: 1,
-      title1: "5 Essential Tips for Stress-Free International Moves",
+      title1: "Essential Tips for Stress-Free International Moves",
       title2: "Learn how to streamline your overseas relocation with these expert tips.",
       img: hero13,
       link : "/essentials",
@@ -503,6 +503,143 @@ export const country = [
     ],
     text2: ""
   },
+]
+
+export const essentials = [
+  {
+    id: 1,
+    title: "Start Planning Early",
+    text1: "Begin preparations at least 3–6 months in advance to allow for visa applications, housing searches, and logistics.",
+    text2: "Create a relocation timeline to keep track of deadlines for visas, packing, and flights.",
+    text3: "Research the cost of living, healthcare, and local laws in your destination country.",
+    tip: "Keep a moving checklist to stay organized throughout the process."
+   },
+   {
+    id: 2,
+    title: "Sort Out Visa and Legal Documents",
+    text1: "Research visa requirements and ensure you apply well in advance.",
+    text2: "Check passport validity (many countries require at least 6 months’ validity beyond your travel date).",
+    text3: "Gather important documents such as birth/marriage certificates, medical records, and employment contracts.",
+    tip: "Make digital and physical copies of all essential documents and store them securely."
+   },
+   {
+    id: 3,
+    title: "Choose the Right Moving Company",
+    text1: "Compare international movers and ensure they have experience with your destination.",
+    text2: "Ask for detailed quotes, including customs clearance, insurance, and storage options.",
+    text3: "Check customer reviews and look for accreditations from organizations like FIDI or IAM.",
+    tip: "If moving with pets, research pet relocation services and vaccination requirements."
+   },
+   {
+    id: 4,
+    title: "Declutter Before You Pack",
+    text1: "Sort belongings into keep, sell, donate, or store categories.",
+    text2: "Sell or donate items that won’t be useful in your new country.",
+    text3: "Check customs regulations to ensure you’re not shipping restricted items.",
+    tip: "Luggage weight restrictions vary by airline—double-check allowances before packing."
+   },
+   {
+    id: 5,
+    title: "Secure Housing Before Arrival",
+    text1: "Research neighborhoods based on proximity to work, schools, and amenities.",
+    text2: "Consider temporary accommodation (such as serviced apartments) before securing a long-term lease.",
+    text3: "Understand local rental agreements and tenant rights before signing a contract.",
+    tip: "Atlas Path can assist with finding the perfect home before you arrive."
+   },
+   {
+    id: 6,
+    title: "Get Your Finances in Order",
+    text1: "Open a bank account in your new country (some allow you to do this remotely).",
+    text2: "Inform your current bank about your move to avoid account freezes.",
+    text3: "Understand local tax regulations, including double taxation agreements.",
+    tip: "Carry some local currency in cash for initial expenses upon arrival."
+   },
+   {
+    id: 7,
+    title: "Arrange Healthcare and Insurance",
+    text1: "Check if your current health insurance covers you internationally.",
+    text2: "Register for healthcare services in your new country as soon as possible.",
+    text3: "Keep copies of medical records and prescriptions for easy transfer to new doctors.",
+    tip: "Some countries require health insurance as part of the visa process—research your destination’s requirements."
+   },
+   {
+    id: 8,
+    title: "Prepare for Cultural and Lifestyle Adjustments",
+    text1: "Learn basic language phrases if moving to a non-English-speaking country.",
+    text2: "Research local customs and etiquette to help with cultural adaptation.",
+    text3: "Join expat communities and social groups to build a support network.",
+    tip: "Apps like Meetup and Internations can help you connect with other expats."
+   },
+   {
+    id: 9,
+    title: "Make a Smooth Arrival Plan",
+    text1: "Arrange airport pickup and transportation to your new home.",
+    text2: "Have a first-week survival kit with essentials like toiletries, chargers, and important documents.",
+    text3: "Set up utilities (electricity, water, internet) as soon as possible.",
+    tip: "If moving with children, research school enrollment procedures before arrival."
+   },
+   {
+    id: 10,
+    title: "Stay Flexible and Positive",
+    text1: "Expect some challenges along the way—relocation is a learning experience.",
+    text2: "Stay open-minded and adaptable to new surroundings and cultural differences.",
+    text3: "Take time to explore your new city and make it feel like home.",
+    tip: "Keep in touch with family and friends to help with emotional transitions."
+   },
+]
+
+export const visa = [
+  {
+    id: 1,
+    title: " - Determine the Type of Visa You Need",
+    text1: " - Work Visa (Skilled Worker, Sponsorship-based, Self-Employed)",
+    text2: " - Student Visa",
+    text3: " - Family/Dependent Visa",
+    text3: " - Investor/Entrepreneur Visa",
+    text4: " - Permanent Residency/Settlement Visa",
+    text5: " - Visitor/Temporary Stay Visa",
+    tip: "Research whether your visa allows you to bring dependents, work, or access public services."
+   },
+   {
+    id: 2,
+    title: " - Check Eligibility Requirements",
+    text1: " - Minimum salary requirements (for work visas)",
+    text2: " - Proof of educational qualifications or work experience",
+    text3: " - Language proficiency tests (e.g., IELTS for UK visas)",
+    text4: " - Sufficient funds to support yourself and any dependents",
+    text5: " - Sponsorship or invitation letter (if required)",
+    tip: "Each country has different criteria—always check with the official immigration website."
+   },
+   {
+    id: 3,
+    title: " - Gather Required Documents",
+    text1: " - Valid passport (with at least 6 months’ validity)",
+    text2: " - Completed visa application form",
+    text3: " - Passport-sized photographs (as per specified dimensions)",
+    text4: " - Proof of employment, school admission, or sponsorship",
+    text4: " - Financial statements (bank statements, payslips, tax records)",
+    text4: " - Health insurance (if required)",
+    text4: " - Criminal record check (if applicable)",
+    tip: "Keep both digital and physical copies of all important documents."
+   },
+   {
+    id: 4,
+    title: " - Submit Your Application",
+    text1: " - Check if you need to apply online or visit an embassy",
+    text2: " - Pay the application fee",
+    text3: " - Book and attend a biometrics appointment (if required)",
+    text4: " - Schedule an interview (if necessary)",
+    tip: "Some visas have long processing times—apply well in advance of your intended move date."
+   },
+   {
+    id: 5,
+    title: " - Prepare for Arrival in Your Destination Country",
+    text1: " - Check entry requirements (quarantine, vaccinations, customs restrictions)",
+    text2: " - Arrange accommodation and transport upon arrival",
+    text3: " - Familiarize yourself with local registration requirements (e.g., registering with local authorities)",
+    text4: " - Open a local bank account and understand taxation rules",
+    tip: "Some visas require in-country registration within the first few weeks—don’t miss the deadline!"
+   },
 ]
 
 export const checklist = [
