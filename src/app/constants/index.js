@@ -219,8 +219,7 @@ export const footerLinks = [
     },
   ];
 
-  export const Posts  = [
-    
+  export const Posts  = [   
     {
       id: 2,
       title1: "The Ultimate Checklist for Domestic Relocation",
@@ -257,7 +256,14 @@ export const footerLinks = [
       img: hero13,
       link : "/essentials",
     },
-]
+    {
+      id: 6,
+      title1: "The Ultimate Relocation Checklist – Corporate, Family & International Moves: ",
+      title2: "Everything you need to organize a seamless move",
+      img: hero21,
+      link : "/relocation",
+    },
+  ]
 
 export const surrey = [
   {
@@ -316,10 +322,10 @@ export const guildfordtexts = [
     subtext:[
       {
         id: 1,
-        text1: "Guildford High School(Independent, Girls)",
-        text2: "Royal Grammar School(Independent, Boys)",
-        text3: "Tormead School(Independent, Girls)",
-        text4: "George Abbot School(Outstanding-rated state secondary)",
+        text1: "Guildford High School(Independent, Girls), Royal Grammar School(Independent, Boys), Tormead School(Independent, Girls), George Abbot School(Outstanding-rated state secondary)",
+        text2: "",
+        text3: "",
+        text4: "",
       }
     ],
     img: hero24,
@@ -1044,6 +1050,147 @@ export const checklist = [
  },
 ]
 
+export const relocationChecklist = [
+  {
+    id: 1,
+    title: "3–6 Months Before Your Move",
+    subtexts: [
+      {
+        id: '1-1',
+        title: "General Preparations",
+        text1: "Research your destination – Cost of living, climate, safety, healthcare, and transport.",
+        text2: "Check visa and immigration requirements – Apply early and ensure you have the right permits.",
+        text3: "Review international tax obligations – Check tax treaties between your home and new country.",
+        text4: "Secure travel and health insurance – Some visas require mandatory health insurance",
+        text5: "If relocating for work – Finalize your contract, salary, and relocation package details."
+      },
+      {
+        id: '1-2',
+        title: "For Families",
+        text1: "Research and apply to schools – Check international or local school enrollment deadlines.",
+        text2: "Plan childcare options – Nurseries, after-school care, or nannies.",
+        text3: "Prepare children for the move – Talk about cultural differences and involve them in the planning.",
+      },
+      {
+        id: "1-3",
+        title: "For Corporate Moves",
+        text1: "Check corporate relocation benefits – Housing allowance, moving expenses, tax assistance.",
+        text2: "Arrange temporary accommodation – Especially if your permanent home isn’t ready yet.",
+        text3: "Inform HR & confirm employment details – Work permits, remote work options, and office location.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "1–2 Months Before Your Move",
+    subtexts: [
+      {
+        id: '1-1',
+        title: "Housing & Logistics",
+        text1: "Decide whether to rent or buy a home – Research neighborhoods and commute times",
+        text2: "Book professional movers – Get quotes and confirm packing and shipping dates.",
+        text3: "Declutter and organize belongings – Sell, donate, or store unnecessary items.",
+      },
+      {
+        id: '1-2',
+        title: "Travel & Administration",
+        text1: "Renew passport (if needed) – Many countries require at least 6 months' validity.",
+        text2: "Gather important documents – Birth/marriage certificates, work contracts, academic records.",
+        text3: "Notify banks, government agencies, and utilities – Update your address and set up mail forwarding.",
+        text4: "Plan international pet relocation – Research quarantine and vaccination requirements.",
+      },
+      {
+        id: "1-3",
+        title: "For Families",
+        text1: "Schedule medical check-ups & vaccinations – Ensure children are up to date on immunizations.",
+        text2: "Transfer school records – Arrange school start dates and uniform requirements.",
+        text3: "Plan how to transport family essentials – Favorite toys, comfort items, and important medication.",
+      },
+      {
+        id: "1-4",
+        title: "For Corporate Moves",
+        text1: "Confirm work start date & onboarding plans – Check work visa status and office setup.",
+        text2: "Arrange business-related travel needs – Transport for important documents, office equipment, etc.",
+        text3: "Learn about local work culture & business etiquette – Dress codes, working hours, professional norms.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "2 Weeks Before Your Move",
+    subtexts: [
+      {
+        id: '1-1',
+        title: "Packing & Essentials",
+        text1: "Pack carry-on essentials – Travel documents, medication, chargers, valuables.",
+        text2: "Label boxes clearly – Especially ones containing important items for the first few days.",
+        text3: "Confirm shipping & delivery dates – Ensure your belongings arrive at the right time",
+      },
+      {
+        id: '1-2',
+        title: "Financial & Legal Setup",
+        text1: "Set up a bank account in your new country – Some allow online registration before arrival.",
+        text2: "Check exchange rates & transfer money – Set up an international banking solution.",
+        text3: "Understand local tax requirements – Register with local tax authorities if necessary.",
+      },
+      {
+        id: "1-3",
+        title: "For Families",
+        text1: "Confirm school start dates and orientation sessions.",
+        text2: "Prepare a first-week survival kit for kids – Familiar snacks, books, and entertainment.",
+        text3: "Arrange childcare if needed for the first few weeks.",
+      },
+      {
+        id: "1-4",
+        title: "For Corporate Moves",
+        text1: "Schedule meetings with HR or relocation specialists for a smoother transition",
+        text2: "Check IT setup & work equipment – Ensure remote work access if needed.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Moving Day & Arrival",
+    subtexts: [
+      {
+        id: '1-1',
+        title: "At Your Old Home",
+        text1: "Do a final walkthrough – Ensure nothing is left behind.",
+        text2: "Take meter readings – For electricity, gas, and water.",
+        text3: "Hand over keys – To landlord, real estate agent, or new owners.",
+      },
+      {
+        id: '1-2',
+        title: "At Your New Destination",
+        text1: "Check in to temporary or permanent housing – Inspect the property condition.",
+        text2: "Set up utilities – Water, electricity, gas, internet, and council tax.",
+        text3: "Register with local authorities – Required for visas, healthcare, and residency.",
+        text4: "Familiarize yourself with the area – Grocery stores, hospitals, and public transport.",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Settling In",
+    subtexts: [
+      {
+        id: '1-1',
+        title: "For Families",
+        text1: "Help kids adjust – Introduce them to new schools, play areas, and routines.",
+        text2: "Join expat or local parenting groups – Social connections make relocation easier.",
+        text3: "Set up healthcare for children – Register with doctors and dentists.",
+      },
+      {
+        id: '1-2',
+        title: "For Corporate Moves",
+        text1: "Attend networking events – Meet colleagues and professionals in your industry.",
+        text2: "Understand payroll & tax deductions – Learn about salary structure and benefits.",
+        text3: "Learn basic local language phrases – Even small efforts improve cultural integration.",
+      },
+    ],
+  },
+]
+
 export const school = [
   {
     id: 1,
@@ -1349,13 +1496,6 @@ export const Resources = [
     title2: "Recommendations for tools to help you or your family learn a new language.",
     img: hero25,
     link : "/language",
-  },
-  {
-    id: 1,
-    title1: "Relocation Checklists: ",
-    title2: "Download comprehensive guides to help you stay on track.",
-    img: hero21,
-    link : "#",
   },
 ]
 

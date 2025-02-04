@@ -106,12 +106,8 @@ const Surrey = () => {
                     {post.subtext.map((item)=> (
                       <div key={item.id} className='mx-3'>
                         <p className='text-dark font-normal mb-2'>{item.text1}</p>
-                        <p className='text-dark font-normal mb-2'>{item.text2}</p>
-                        <p className='text-dark font-normal mb-2'>{item.text3}</p>
-                        <p className='text-dark font-normal mb-2'>{item.text4}</p>
                       </div>
                     ))}
-                    <p className='text-dark font-medium'>{post.text1}</p>
                 </div>
             ))}
         </div>
