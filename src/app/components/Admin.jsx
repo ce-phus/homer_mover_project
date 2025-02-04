@@ -8,7 +8,7 @@ const Admin = () => {
     <div>
         <div className='bg-gray-100'>
             <div className='flex items-center justify-center flex-col space-y-7 pt-20 pb-20'>
-                <h1 className={styles.sectionHeadText}>Helping You Get Started</h1>
+                <h1 className={`${styles.sectionHeadText} text-center`}>Helping You Get Started</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
