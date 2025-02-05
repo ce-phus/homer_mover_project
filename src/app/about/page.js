@@ -30,15 +30,16 @@ const About = () => {
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
                     className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>About Us</motion.h1>
+                     
+                     <Image
+                    src={download}
+                    className='w-[150px]'
+                    alt=''/>
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
                     className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Welcome to Atlas Path Relocation</motion.h1>
-                    
-                    <Image
-                    src={download}
-                    className='w-[150px]'
-                    alt=''/>
+                   
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
                     initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>At Atlas Path, we specialize in making corporate, domestic, and international relocations seamless and stress-free. Based in the heart of Surrey, England, we bring local expertise and global reach to every move, ensuring your journey is as smooth as possible.</motion.p>
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
@@ -69,12 +70,11 @@ const About = () => {
         <div className='flex flex-row sm:flex-col md:flex-col xl:flex-col sm:flex-col-reverse'>
             <div className='bg-gray-100 w-full'>
                 <div className='flex justify-center items-center flex-col mt-20 sm:mb-20 space-y-7'>
+                    <h2 className='text-xl text-dark tracking-wide font-normal uppercase'>Introducing</h2>
                     <Image
                     src={download}
                     className='w-[150px]'
                     alt=''/>
-
-                    <h2 className='text-xl text-dark tracking-wide font-normal uppercase'>Introducing</h2>
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 

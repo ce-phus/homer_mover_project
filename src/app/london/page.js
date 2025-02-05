@@ -22,16 +22,15 @@ const London = () => {
             <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Relocating to London with Atlas Path</motion.h1>
-                <motion.h1
-                variants={fadeIn("down", "spring", 0.75)} 
-                initial='hidden' animate='show' 
-                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to London?</motion.h1>
-                
+                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Relocating to London with Atlas Path</motion.h1>                
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
+                <motion.h1
+                variants={fadeIn("down", "spring", 0.75)} 
+                initial='hidden' animate='show' 
+                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to London?</motion.h1>
                 <motion.p variants={fadeIn("right", "spring", 0.75)} 
                 initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>As one of the world’s most dynamic cities, London offers  <span className='font-bold'>unmatched career opportunities, rich cultural experiences, and diverse neighborhoods </span>to suit every lifestyle. Whether you're relocating for work, study, or a fresh start, London provides an exciting and vibrant place to call home.</motion.p>
             </div>

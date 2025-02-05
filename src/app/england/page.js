@@ -22,15 +22,14 @@ const England = () => {
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
                 className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Relocating Across England with Atlas Path</motion.h1>
-                <motion.h1
-                variants={fadeIn("down", "spring", 0.75)} 
-                initial='hidden' animate='show' 
-                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
-                
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
+                <motion.h1
+                variants={fadeIn("down", "spring", 0.75)} 
+                initial='hidden' animate='show' 
+                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
                 <motion.p variants={fadeIn("right", "spring", 0.75)} 
                 initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>Beyond Surrey and London, the rest of England offers a wealth of opportunities, from <span className='font-bold'>bustling cities and thriving business hubs </span> to <span className='font-bold'>charming countryside retreats and historic market towns.</span> Whether you're relocating for work, family, or a lifestyle change, Atlas Path ensures a seamless transition to your new home.</motion.p>
             </div>

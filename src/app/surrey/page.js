@@ -22,16 +22,15 @@ const Surrey = () => {
             <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>The Perfect Blend of Countryside and Connectivity</motion.h1>
-                <motion.h1
-                variants={fadeIn("down", "spring", 0.75)} 
-                initial='hidden' animate='show' 
-                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
-                
+                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>The Perfect Blend of Countryside and Connectivity</motion.h1>                
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
+                <motion.h1
+                variants={fadeIn("down", "spring", 0.75)} 
+                initial='hidden' animate='show' 
+                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
                 <motion.p variants={fadeIn("right", "spring", 0.75)} 
                 initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>Surrey is one of England’s most sought-after locations, offering the ideal mix of scenic countryside, excellent transport links, and an outstanding quality of life. With its picturesque villages, thriving market towns, and proximity to London, Surrey attracts professionals, families, and retirees alike.</motion.p>
             </div>

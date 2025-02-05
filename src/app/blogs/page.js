@@ -18,20 +18,21 @@ const Blogs = () => {
             className='w-full h-full'/>
             
             </div>
-            <div className='w-full flex flex-col items-center justify-center lg:pt-20 bg-gray-100 space-y-5'>
+            <div className='w-full flex flex-col items-center lg:pt-20 bg-gray-100 space-y-5'>
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Blog & Resources</motion.h1>
-                    <motion.h1
-                    variants={fadeIn("down", "spring", 0.75)} 
-                    initial='hidden' animate='show' 
-                    className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>"Your Go-To Hub for Relocation Tips and Insights"</motion.h1>
+                    className='text-xl font-normal text-primary tracking-wide mt-[120px] lg:mt-20 uppercase'>Blog & Resources</motion.h1>
 
                     <Image
                     src={download}
                     className='w-[150px]'
                     alt=''/>
+                    <motion.h1
+                    variants={fadeIn("down", "spring", 0.75)} 
+                    initial='hidden' animate='show' 
+                    className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>"Your Go-To Hub for Relocation Tips and Insights"</motion.h1>
+
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
                     initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>At Atlas Path, we believe knowledge is key to a smooth and successful relocation. Whether you’re moving locally, across the UK, or internationally, our resources are here to guide you every step of the way.</motion.p>
             </div>
