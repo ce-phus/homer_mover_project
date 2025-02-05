@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Head from "next/head";
-import { globe  } from "@/assets";
+import { globe, download } from "@/assets";
 
 import { Services, Detail, Admin, Quiz, Carousel } from "./components";
 
@@ -18,7 +18,7 @@ export default function Home() {
         <Carousel />
         <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10">
           <Image 
-          src={globe}
+          src={download}
           alt="globe"
           className="w-[100px] h-"/>
           <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Tailored Support for Your Move</h1>

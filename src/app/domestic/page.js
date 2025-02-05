@@ -81,9 +81,7 @@ const Domestic = () => {
             src={hero16}
             alt='hero8'
             className='w-full h-full'/>
-        </div>
-
-        
+        </div>   
     </div>
     </>
   )

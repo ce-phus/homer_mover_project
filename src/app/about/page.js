@@ -18,7 +18,7 @@ const About = () => {
         />
       </Head>
 
-        <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
+        <div className='flex flex-row lg:flex-col sm:flex-col pt-5'>
             <div className='w-1/2 lg:w-full sm:w-full'>
                 <Image 
                 src={hero14}
@@ -51,11 +51,6 @@ const About = () => {
         <div className='pb-20 pt-20 flex flex-col text-center w-full sm:mx-3'>
             <div className='space-y-10 flex flex-col justify-center items-center'>
             <div className='flex items-center space-x-4'>
-                <Image 
-                    src={finesse}
-                    alt='Finesse'
-                    className='w-7 h-7 mt-2' 
-                />
                 <h1 className='text-3xl text-primary font-normal tracking-wide'>Our Story</h1>
             </div>
             <Image
