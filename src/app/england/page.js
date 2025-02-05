@@ -179,9 +179,19 @@ const England = () => {
 
     <div className=''>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
-          <div className='mt-10 space-y-7 mx-3 text-center pt-20'>
+        <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
             <h1 className={styles.heroHeadText}>The Cotswolds</h1>
-            <p className={`${styles.paragraph}`}>Perfect for those seeking countryside living with easy access to major cities.</p>
+            <p className={`font-medium text-xl mb-2 mt-3`}>Timeless Charm & Idyllic Countryside Living</p>
+            <p className={`font-normal text-lg`}>The Cotswolds is one of England’s most picturesque and desirable regions, offering a perfect blend of countryside beauty, historic charm, and modern convenience. Known for its golden-stone cottages, rolling green hills, and vibrant market towns, the Cotswolds is an ideal destination for families, professionals, and retirees looking for a high-quality rural lifestyle.</p>
+            <div className='mt-2'>
+              <p className='text-lg font-medium'>Why Move to the Cotswolds?</p>
+              <p className='font-medium mt-3 mb-2'>Unmatched Natural Beauty: <span className='font-normal'>Home to some of the UK’s most beautiful villages.</span></p>
+              <p className='font-medium mt-3 mb-2'>Charming Market Towns & Villages: <span className='font-normal'>Leafy suburbs with independent cafés, parks, and family-friendly vibes.</span></p>
+              <p className='font-medium mt-3 mb-2'>Excellent Transport Links: <span className='font-normal'>Despite its rural charm, the Cotswolds offers great connectivity.</span></p>
+              <p className='font-medium mt-3 mb-2'>Top-Rated Schools: <span className='font-normal'>The Cotswolds is home to excellent state and independent schools.</span></p>
+              <p className='font-medium mt-3 mb-2'>Luxury & Lifestyle: <span className='font-normal'>The region is known for; Michelin-starred restaurants and traditional country pubs, Boutique shopping, farm shops, and artisan markets, Historic estates, cultural festivals, and equestrian events.</span></p>
+              <p className='font-medium mt-3 mb-2'>A Slower, Peaceful Pace of Life: <span className='font-normal'>Perfect for those looking to escape city stress while still having access to modern amenities.</span></p>
+            </div>
           </div>
           <Image 
             src={cotswolds}
