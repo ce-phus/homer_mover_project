@@ -14,8 +14,8 @@ const International = () => {
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full flex flex-col items-center justify-center bg-gray-100 space-y-5'>
-            <h1 className='mt-5 text-xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
+        <div className='w-full flex flex-col items-center bg-gray-100 space-y-5'>
+            <h1 className='mt-[100px] lg:mt-20 text-xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
             <h1 className='text-xl text-dark tracking-wide font-medium'>Bridging Borders, Building Futures</h1>
 
             <ul className='space-y-2 mb-20 mx-5'>
@@ -76,7 +76,7 @@ const International = () => {
                 </li>
             </ul>
         </div>
-        <div className='w-full h-[700px] xl:h-full'>
+        <div className='w-full h-[600px] xl:h-full'>
             <Image 
             src={hero17}
             alt='hero8'

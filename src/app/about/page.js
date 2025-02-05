@@ -4,7 +4,6 @@ import { md1, service1, download, finesse, md2, hero14 } from '@/assets'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
-import { Quiz } from '../components';
 import Head from 'next/head';
 
 const About = () => {
@@ -103,9 +102,6 @@ const About = () => {
                 className='w-full h-full'/>
             </div> 
             
-        </div>
-        <div className='flex flex-col justify-center items-center text-center'>
-            <Quiz />
         </div>
     </>  
   )

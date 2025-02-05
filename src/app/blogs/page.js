@@ -6,7 +6,6 @@ import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
 import { Posts, Resources } from '../constants';
 import Link from 'next/link';
-import { Quiz } from '../components';
 
 const Blogs = () => {
   return (
@@ -69,11 +68,6 @@ const Blogs = () => {
             </div>
         ))}
         </div>
-        <div className="">
-        <div className="flex items-center justify-center text-center">
-            <Quiz />
-        </div>
-      </div>
     </>
   )
 }

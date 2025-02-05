@@ -14,8 +14,8 @@ const Domestic = () => {
             alt='hero5'
             className='w-full h-full'/>
         </div>
-        <div className='w-full flex flex-col items-center justify-center bg-gray-100 space-y-5'>
-            <h1 className='mt-5 text-xl font-medium tracking-wide text-primary text-center'>Domestic Relocation Services</h1>
+        <div className='w-full flex flex-col items-center bg-gray-100 space-y-5'>
+            <h1 className='text-xl font-medium tracking-wide text-primary text-center mt-20'>Domestic Relocation Services</h1>
 
             <h1 className='text-xl text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
 
@@ -76,7 +76,7 @@ const Domestic = () => {
                 </li>
             </ul>
         </div>
-        <div className='w-full h-['>
+        <div className='w-full h-[550px] lg:h-full'>
             <Image 
             src={hero16}
             alt='hero8'

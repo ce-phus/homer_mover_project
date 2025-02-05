@@ -31,11 +31,6 @@ export default function Home() {
         <h1 className="flex items-center justify-center pt-20 text-5xl font-medium tracking-wide text-primary">Our Services</h1>
         <Services />
       </div>
-      <div className="">
-        <div className="flex items-center justify-center text-center">
-            <Quiz />
-        </div>
-      </div>
     </div>
     
   </>
