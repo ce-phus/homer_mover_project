@@ -103,6 +103,9 @@ import topschools from "./schools.jpg"
 import guildfordhousing from "./guildfordhousing.webp"
 import guildfordrenown from "./renownschools.jpg"
 import transport from "./transport.png"
+import dining from "./dining.jpg"
+import home from "./home.webp"
+import domestic from "./domestic.jpg"
 
 export {
     menu,
@@ -210,4 +213,7 @@ export {
     guildfordhousing,
     guildfordrenown,
     transport,
+    dining,
+    domestic,
+    home
 }

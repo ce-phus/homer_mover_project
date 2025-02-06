@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrowright, hero1, hero3, hero10, hero15, hero32, hero14, reigate } from '@/assets'
+import { arrowright, hero1, domestic, hero10, hero15, hero32, hero14, reigate } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -14,7 +14,7 @@ const Services = () => {
         <div className='space-y-3 text-center'>
             <Link href={'/domestic'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
-                src={reigate}
+                src={domestic}
                 className='w-[500px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px]'
                 alt='service3'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>Domestic relocation services</h1>

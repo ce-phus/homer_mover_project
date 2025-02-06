@@ -12,7 +12,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining 
  } from "@/assets"
 
 
@@ -273,7 +273,7 @@ export const surrey = [
     id: 1,
     title1: "A Place to Call Home",
     text: "Surrey boasts a diverse property market, from charming period cottages to modern executive homes, catering to a range of lifestyles and budgets. Whether you're looking for a family-friendly suburb, a peaceful rural retreat, or a town with vibrant amenities, Surrey has the perfect home for you",
-    img: hero36,
+    img: home,
   },
   {
     id: 2,
@@ -304,7 +304,7 @@ export const surrey = [
     id: 6,
     title1: "Dining, Leisure & Entertainment:",
     text: "From Michelin-starred restaurants to cosy country pubs, Surrey has a thriving food scene. You’ll also find a wealth of theatres, arts venues, shopping centres, and sports facilities, ensuring there’s always something to do.",
-    img: hero28,
+    img: dining,
   },
 ]
 
