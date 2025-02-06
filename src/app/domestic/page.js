@@ -1,11 +1,11 @@
 import React from 'react'
-import { download, hero36, hero16, domestic } from '@/assets'
+import { download, hero16, domestic } from '@/assets'
 import Image from 'next/image';
 
 const Domestic = () => {
   return (
     <>
-    <div className='flex flex-row lg:flex-col sm:flex-co'>
+    <div className='flex flex-row lg:flex-col pt-10'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] h-[700px]'>
             <Image 
             src={domestic}

@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 const International = () => {
   return (
     <>
-    <div className='flex flex-row lg:flex-col sm:flex-co'>
+    <div className='flex flex-row lg:flex-col pt-10'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px]'>
             <Image 
             src={hero10}

@@ -99,13 +99,14 @@ import central from "./central.jpg"
 import hero39 from "./hero039.jpg"
 import hero40 from "./hero040.jpg"
 import vibrant from "./vibrant.jpg"
-import topschools from "./schools.jpg"
+import topschools from "./top.jpg"
 import guildfordhousing from "./guildfordhousing.webp"
 import guildfordrenown from "./renownschools.jpg"
 import transport from "./transport.png"
 import dining from "./dining.jpg"
 import home from "./home.webp"
 import domestic from "./domestic.jpg"
+import healthcare from "./healthcare.jpg"
 
 export {
     menu,
@@ -215,5 +216,6 @@ export {
     transport,
     dining,
     domestic,
-    home
+    home,
+    healthcare
 }

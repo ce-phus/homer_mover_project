@@ -12,7 +12,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare 
  } from "@/assets"
 
 
@@ -361,7 +361,7 @@ export const guildfordtexts = [
     title1: "Excellent Healthcare Facilities:",
     text: "Royal Surrey County Hospital provides outstanding healthcare services, along with private medical centres and GP practices catering to residents' needs.",
     subtext:[],
-    img: hero28,
+    img: healthcare,
   },
 ]
 
@@ -415,7 +415,7 @@ export const wokingtext = [
         subtexts3: "(Independent, Co-Ed)",
       }
     ],
-    img: hero24,
+    img: topschools,
   },
 
   {

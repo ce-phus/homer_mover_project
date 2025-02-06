@@ -5,7 +5,7 @@ import { hero37, hero15, download } from '@/assets'
 const page = () => {
   return (
     <>
-    <div className='flex flex-row lg:flex-col'>
+    <div className='flex flex-row lg:flex-col pt-10'>
         <div className='w-full h-1/2 sm:h-full md:h-[1000px] xl:h-[600px]'>
             <Image 
             src={hero15}
