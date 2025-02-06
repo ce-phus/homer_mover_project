@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { globe, download } from "@/assets";
 
-import { Services, Detail, Admin, Quiz, Carousel } from "./components";
+import { Services, Detail, Admin, Carousel } from "./components";
 
 export default function Home() {
 
