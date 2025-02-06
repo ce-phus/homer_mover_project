@@ -96,6 +96,8 @@ import south from "./south.jpg"
 import west from "./west.png"
 import east from "./east.jpg"
 import central from "./central.jpg"
+import hero39 from "./hero039.jpg"
+import hero40 from "./hero040.jpg"
 
 export {
     menu,
@@ -164,6 +166,8 @@ export {
     hero36,
     hero37,
     hero38,
+    hero39,
+    hero40,
     download,
     finesse,
     service1,

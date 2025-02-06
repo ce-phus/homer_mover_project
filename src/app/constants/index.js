@@ -9,7 +9,10 @@ import {
     hero34,
     hero35,
     hero36,
-    hero37, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west, hero16 
+    hero37, 
+    hero39,
+    hero40,
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west, hero16 
  } from "@/assets"
 
 
@@ -1549,14 +1552,19 @@ export const HeroData = [
     
   },
   {
-      id: 36,
-      img: hero36,
-      
-  },
-  {
       id: 37,
       img: hero37,
       
+  },
+  {
+    id: 38,
+    img: hero39,
+    
+  },
+  {
+    id: 39,
+    img: hero40,
+    
   },
   {
       id: 7,
@@ -1587,32 +1595,7 @@ export const HeroData = [
       id: 6,
       img: hero6,
       
-  },
-  {
-      id: 26,
-      img: hero26,
-      
-  },
-  {
-      id: 27,
-      img: hero27,
-      
-  },
-  {
-      id: 28,
-      img: hero28,
-      
-  },
-  {
-      id: 29,
-      img: hero29,
-      
-  },
-  {
-      id: 30,
-      img: hero30,
-      
-  },
+  }, 
   {
       id: 31,
       img: hero31,
@@ -1621,21 +1604,6 @@ export const HeroData = [
   {
       id: 32,
       img: hero32,
-      
-  },
-  {
-      id: 33,
-      img: hero33,
-      
-  },
-  {
-      id: 34,
-      img: hero34,
-      
-  },
-  {
-      id: 35,
-      img: hero35,
       
   },
 ];
