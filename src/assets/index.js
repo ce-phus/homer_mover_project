@@ -99,6 +99,9 @@ import central from "./central.jpg"
 import hero39 from "./hero039.jpg"
 import hero40 from "./hero040.jpg"
 import vibrant from "./vibrant.jpg"
+import topschools from "./schools.jpg"
+import guildfordhousing from "./guildfordhousing.webp"
+import guildfordrenown from "./guilfordrenown.jpg"
 
 export {
     menu,
@@ -202,4 +205,7 @@ export {
     west,
     central,
     vibrant,
+    topschools,
+    guildfordhousing,
+    guildfordrenown,
 }

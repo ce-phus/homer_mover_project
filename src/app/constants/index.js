@@ -12,7 +12,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools 
  } from "@/assets"
 
 
@@ -285,7 +285,7 @@ export const surrey = [
     id: 3,
     title1: "Top-Rated Schools ",
     text: "Surrey is home to some of the UK’s best schools, including renowned private institutions such as Charterhouse, Epsom College, and Royal Grammar School, Guildford, as well as outstanding state schools. Families moving to Surrey benefit from exceptional education options at all levels.",
-    img: hero24,
+    img: topschools,
   },
 
   {
@@ -315,7 +315,7 @@ export const guildfordtexts = [
     text: "From picturesque period homes in the town centre to modern family houses and luxury apartments, Guildford’s property market caters to diverse needs and lifestyles. Popular areas include Merrow, Burpham, Shalford, and Stoughton, each offering its unique appeal.",
     subtext:[],
 
-    img: hero16,
+    img: guildfordhousing,
   },
   {
     id: 3,
@@ -331,7 +331,7 @@ export const guildfordtexts = [
         text4: "",
       }
     ],
-    img: hero24,
+    img: guildfordrenown,
   },
 
   {
