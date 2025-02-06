@@ -12,7 +12,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport 
  } from "@/assets"
 
 
@@ -279,7 +279,7 @@ export const surrey = [
     id: 2,
     title1: "Excellent Transport Links:",
     text: "Many of Surrey’s towns, including Guildford, Woking, Epsom, and Reigate, offer fast and frequent train services to London, making it an ideal location for commuters. Major motorways such as the M25, M3, and A3 provide easy access to Heathrow and Gatwick airports, making travel seamless for both business and leisure",
-    img: hero37,
+    img: transport,
   },
   {
     id: 3,

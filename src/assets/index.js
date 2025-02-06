@@ -101,7 +101,8 @@ import hero40 from "./hero040.jpg"
 import vibrant from "./vibrant.jpg"
 import topschools from "./schools.jpg"
 import guildfordhousing from "./guildfordhousing.webp"
-import guildfordrenown from "./guilfordrenown.jpg"
+import guildfordrenown from "./renownschools.jpg"
+import transport from "./transport.png"
 
 export {
     menu,
@@ -208,4 +209,5 @@ export {
     topschools,
     guildfordhousing,
     guildfordrenown,
+    transport,
 }
