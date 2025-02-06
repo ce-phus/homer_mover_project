@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrowright, hero1, domestic, hero10, hero15, hero32, hero14, reigate } from '@/assets'
+import { arrowright, domestic, hero10, hero15, } from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
