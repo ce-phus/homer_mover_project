@@ -98,6 +98,7 @@ import east from "./east.jpg"
 import central from "./central.jpg"
 import hero39 from "./hero039.jpg"
 import hero40 from "./hero040.jpg"
+import vibrant from "./vibrant.jpg"
 
 export {
     menu,
@@ -199,5 +200,6 @@ export {
     south,
     east,
     west,
-    central
+    central,
+    vibrant,
 }

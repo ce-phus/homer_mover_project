@@ -12,7 +12,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, globe, north, east, south, central, west, hero16 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16 
  } from "@/assets"
 
 
@@ -285,20 +285,20 @@ export const surrey = [
     id: 3,
     title1: "Top-Rated Schools ",
     text: "Surrey is home to some of the UK’s best schools, including renowned private institutions such as Charterhouse, Epsom College, and Royal Grammar School, Guildford, as well as outstanding state schools. Families moving to Surrey benefit from exceptional education options at all levels.",
-    img: hero26,
+    img: hero24,
   },
 
   {
     id: 4,
     title1: "Green Spaces & Outdoor Lifestyle:",
     text: "From the rolling hills of the Surrey Hills Area of Outstanding Natural Beauty (AONB) to beautiful parks and nature reserves, Surrey is a paradise for outdoor enthusiasts. Whether you enjoy hiking, cycling, horse riding, or golf, there are countless opportunities to explore nature.",
-    img: hero20,
+    img: hero26,
   },
   {
     id: 5,
     title1: "Vibrant Towns & Villages:",
     text: "Surrey offers a mix of bustling towns with excellent shopping, dining, and cultural attractions, as well as charming villages with a close-knit community feel. Towns such as Guildford, Farnham, and Dorking offer a blend of modern amenities with historical charm",
-    img: hero31,
+    img: vibrant,
   },
   {
     id: 6,
@@ -1552,11 +1552,6 @@ export const HeroData = [
     
   },
   {
-      id: 37,
-      img: hero37,
-      
-  },
-  {
     id: 38,
     img: hero39,
     
@@ -1596,11 +1591,6 @@ export const HeroData = [
       img: hero6,
       
   }, 
-  {
-      id: 31,
-      img: hero31,
-      
-  },
   {
       id: 32,
       img: hero32,
