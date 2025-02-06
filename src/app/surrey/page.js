@@ -19,7 +19,7 @@ const Surrey = () => {
         </div>   
         <div className='bg-gray-100 sm:w-full w-1/2 lg:w-full'>
             <div className='flex justify-center items-center flex-col mt-20 mb-20 sm:mt-20 space-y-10'>
-            <motion.h1
+              <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
                 className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>The Perfect Blend of Countryside and Connectivity</motion.h1>                

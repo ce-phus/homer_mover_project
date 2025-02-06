@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero9, hero10, hero17, hero7 } from '@/assets'
+import { hero9, hero10, hero17, download } from '@/assets'
 import { TiTick } from "react-icons/ti";
 import { motion } from "framer-motion"
 
@@ -16,6 +16,10 @@ const International = () => {
         </div>
         <div className='w-full flex flex-col items-center bg-gray-100 space-y-5'>
             <h1 className='mt-[100px] lg:mt-20 text-xl font-medium tracking-wide text-primary'>International Relocation Services</h1>
+            <Image
+            src={download}
+            className='w-[150px]'
+            alt=''/>
             <h1 className='text-xl text-dark tracking-wide font-medium'>Bridging Borders, Building Futures</h1>
 
             <ul className='space-y-2 mb-20 mx-5'>

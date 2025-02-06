@@ -1,9 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero37, hero15, hero4 } from '@/assets'
-import {motion} from "framer-motion"
-import { TiTickOutline } from 'react-icons/ti'
-import { TiTick } from "react-icons/ti";
+import { hero37, hero15, download } from '@/assets'
 
 const page = () => {
   return (
@@ -17,7 +14,10 @@ const page = () => {
         </div>
         <div className='w-full flex flex-col items-center pt-20 lg:pt-20 bg-gray-100 space-y-5'>
             <h1 className='mt-5 text-xl font-medium tracking-wide text-primary'>Corporate Relocation Services</h1>
-
+            <Image
+            src={download}
+            className='w-[150px]'
+            alt=''/>
             <h1 className='text-xl text-dark tracking-wide font-medium'>Empowering Your Business with Seamless Employee Moves</h1>
 
             <ul className='space-y-2 mb-20 mx-5'>

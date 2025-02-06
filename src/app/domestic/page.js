@@ -1,7 +1,5 @@
 import React from 'react'
-import { hero1, hero36, hero16 } from '@/assets'
-import { TiTick } from "react-icons/ti";
-import { motion } from "framer-motion"
+import { download, hero36, hero16 } from '@/assets'
 import Image from 'next/image';
 
 const Domestic = () => {
@@ -16,6 +14,10 @@ const Domestic = () => {
         </div>
         <div className='w-full flex flex-col items-center bg-gray-100 space-y-5'>
             <h1 className='text-xl font-medium tracking-wide text-primary text-center mt-20'>Domestic Relocation Services</h1>
+                <Image
+                src={download}
+                className='w-[150px]'
+                alt=''/>
 
             <h1 className='text-xl text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
 
