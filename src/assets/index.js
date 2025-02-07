@@ -121,6 +121,7 @@ import corporate from "./corporate.jpg"
 import entertainment from "./entertainment.jpg"
 import regenerated from "./regenerated.jpg"
 import green from "./green.jpg"
+import mclaren from "./mclaren1.jpg"
 
 export {
     menu,
@@ -245,5 +246,6 @@ export {
     corporate,
     entertainment,
     regenerated,
-    green
+    green,
+    mclaren
 }

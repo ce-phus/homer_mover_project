@@ -8,7 +8,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren 
  } from "@/assets"
 
 
@@ -288,7 +288,7 @@ export const surrey = [
     id: 4,
     title1: "Green Spaces & Outdoor Lifestyle:",
     text: "From the rolling hills of the Surrey Hills Area of Outstanding Natural Beauty (AONB) to beautiful parks and nature reserves, Surrey is a paradise for outdoor enthusiasts. Whether you enjoy hiking, cycling, horse riding, or golf, there are countless opportunities to explore nature.",
-    img: hero26,
+    img: green,
   },
   {
     id: 5,
@@ -327,7 +327,7 @@ export const guildfordtexts = [
         text4: "",
       }
     ],
-    img: guildfordrenown,
+    img: topschools,
   },
 
   {
@@ -340,10 +340,10 @@ export const guildfordtexts = [
 
   {
     id: 4,
-    title1: "Green Spaces & Outdoor Lifestyle:",
-    text: "Enjoy the stunning landscapes of the Surrey Hills AONB, ideal for walking, cycling, and outdoor pursuits. Popular spots include Pewley Down, St. Martha’s Hill, and Newlands Corner. The River Wey also offers scenic walks and waterside dining",
+    title1: "University of Surrey’s Impact on Guildford and Surrey:",
+    text: "The University of Surrey is a cornerstone of academic and economic vitality in Guildford and the wider Surrey region. With its state-of-the-art facilities, groundbreaking research, and strong industry partnerships, the university not only nurtures the next generation of talent but also fuels local innovation and job creation. Its collaborative projects and vibrant campus life enrich the community, making Surrey a dynamic and forward-thinking place to live, work, and learn.",
     subtext:[],
-    img: green,
+    img: guildfordrenown,
   },
   {
     id: 5,
@@ -416,20 +416,20 @@ export const wokingtext = [
 
   {
     id: 4,
-    title1: "Green Spaces & Outdoor Lifestyle:",
-    text: "Woking is surrounded by stunning countryside, parks, and nature reserves, making it perfect for outdoor enthusiasts. Popular spots include:",
+    title1: "McLaren Racing’s Impact on Woking and Surrey:",
+    text: "In Woking and across Surrey, McLaren Racing stands as a powerhouse of innovation and economic vitality. Beyond its global reputation for cutting-edge motorsport engineering, McLaren is a cornerstone of local prosperity—generating hundreds of high-skilled jobs and fostering an ecosystem of technological advancement. Its state-of-the-art facilities not only drive the future of automotive excellence but also serve as a catalyst for community growth, inspiring local talent and supporting educational initiatives. With ongoing investments in infrastructure and community projects, McLaren Racing plays a pivotal role in making Woking and the wider Surrey region a dynamic, forward-thinking place to live and work.",
     subtext:[
       {
         id: 1,
-        text1: " - Horsell Common:",
-        text2: " - RHS Garden Wisley:",
-        text3: " - Goldsworth Park Lake:",
-        subtexts1: "One of the world’s most renowned gardens, just a short drive away.",
-        subtexts2: "One of the world’s most renowned gardens, just a short drive away.",
-        subtexts3: "A great spot for jogging, cycling, and picnics.",
+        text1: "",
+        text2: "",
+        text3: "",
+        subtexts1: "",
+        subtexts2: "",
+        subtexts3: "",
       }
     ],
-    img: green,
+    img: mclaren,
   },
   {
     id: 5,
