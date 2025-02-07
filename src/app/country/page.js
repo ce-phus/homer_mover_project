@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Country = () => {
   return (
     <>
-    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto pt-10'>
+    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto'>
     <h1 className='my-10 text-primary text-3xl font-medium'>Making a New Country Feel Like Home: Essential Tips for a Smooth Transition</h1>
         <div className='min-h-[500px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
         <Image

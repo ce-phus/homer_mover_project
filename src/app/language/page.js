@@ -1,19 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero25 } from '@/assets'
+import { hero25, duolingo } from '@/assets'
 import Link from 'next/link'
 import { language, ResourceBlogs } from '../constants'
 
 const NewLanguage = () => {
   return (
     <>
-    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto pt-10'>
+    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto'>
     <h1 className='my-10 text-primary text-3xl font-medium'>Best Language Learning Apps for Expats & Relocators</h1>
         <div className='min-h-[300px] xl:min-h-[200px] w-3/4 xl:w-full xl:mr-3'>
         <Image
-        src={hero25}
+        src={duolingo}
         alt='hero18'
-        className='w-full h-[700px] xl:h-[500px] rounded-2xl shadow-lg'/>
+        className='w-full h-[600px] xl:h-[500px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>

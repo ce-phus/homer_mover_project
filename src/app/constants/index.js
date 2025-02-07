@@ -1,18 +1,14 @@
 import { 
     filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20, hero21, hero22, hero23, hero24, hero25, hero1, hero4, hero5, hero7, hero10,  hero26, hero27,
     hero28,
-    hero29,
     hero30,
     hero31,
     hero32,
-    hero33,
-    hero34,
-    hero35,
     hero36,
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner 
  } from "@/assets"
 
 
@@ -234,7 +230,7 @@ export const footerLinks = [
       id: 4,
       title1: "How to Choose the Right Neighborhood for Your Family",
       title2: "Key factors to consider when searching for your new home.",
-      img: hero19,
+      img: neighbourhood,
       link : "/neighbourhood",
     },
     {
@@ -256,7 +252,7 @@ export const footerLinks = [
       id: 1,
       title1: "Essential Tips for Stress-Free International Moves",
       title2: "Learn how to streamline your overseas relocation with these expert tips.",
-      img: hero13,
+      img: essentialtips,
       link : "/essentials",
     },
     {
@@ -381,7 +377,7 @@ export const wokingtext = [
       }
     ],
 
-    img: hero16,
+    img: connectivity,
   },
   {
     id: 2,
@@ -398,7 +394,7 @@ export const wokingtext = [
         subtexts3: "A charming area with a mix of period and contemporary homes.",
       }
     ],
-    img: manchester,
+    img: diverse,
   },
   {
     id: 3,
@@ -1390,19 +1386,19 @@ export const NeighbourTopBlogs = [
   },
   {
     id: 3,
-    img: hero31,
+    img: hero18,
     text:'Understanding visa requirements for your destination',
     link: '/visa'
   },
   {
     id: 4,
-    img: hero36,
+    img: essentialtips,
     text:'5 Essential Tips for Stress-Free International Moves',
     link: '/essentials'
   },
   {
     id: 5,
-    img: hero37,
+    img: neighbourhood,
     text:'How to Choose the Right Neighborhood for Your Family',
     link: '/neighbourhood'
   },
@@ -1415,13 +1411,13 @@ export const ResourceBlogs = [
     title1: "Relocation Checklists: ",
     title2: "Download comprehensive guides to help you stay on track.",
     img: hero21,
-    link : "#",
+    link : "/relocation",
   },
   {
     id: 2,
     title1: "Moving Budget Planner:",
     title2: "A free tool to estimate and manage relocation costs.",
-    img: hero22,
+    img: budgetplanner,
     link : "/budget",
   },
   {
@@ -1435,7 +1431,7 @@ export const ResourceBlogs = [
     id: 5,
     title1: "Language Learning Apps: ",
     title2: "Recommendations for tools to help you or your family learn a new language.",
-    img: hero25,
+    img: duolingo,
     link : "/language",
   },
 ]
@@ -1479,8 +1475,8 @@ export const Resources = [
     id: 2,
     title1: "Moving Budget Planner:",
     title2: "A free tool to estimate and manage relocation costs.",
-    img: hero22,
-    link : "#",
+    img: budgetplanner,
+    link : "/budget",
   },
   {
     id: 4,
@@ -1493,7 +1489,7 @@ export const Resources = [
     id: 5,
     title1: "Language Learning Apps: ",
     title2: "Recommendations for tools to help you or your family learn a new language.",
-    img: hero25,
+    img: duolingo,
     link : "/language",
   },
 ]

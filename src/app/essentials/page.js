@@ -1,19 +1,19 @@
 import React from 'react'
 import Image from 'next/image'
 import { essentials, NeighbourTopBlogs } from '../constants'
-import { hero13 } from '@/assets'
+import { hero13, essentialtips } from '@/assets'
 import Link from 'next/link'
 
 const Essentials = () => {
   return (
     <>
-    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto pt-10'>
+    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto'>
     <h1 className='my-10 text-primary text-3xl font-medium'>Essential Tips for a Stress-Free International Move</h1>
-        <div className='min-h-[500px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
+        <div className='min-h-[200px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
         <Image
-        src={hero13}
+        src={essentialtips}
         alt='hero20'
-        className='w-full h-full rounded-2xl shadow-lg'/>
+        className='w-full h-[600px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>

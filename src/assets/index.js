@@ -107,6 +107,13 @@ import dining from "./dining.jpg"
 import home from "./home.webp"
 import domestic from "./domestic.jpg"
 import healthcare from "./healthcare.jpg"
+import diverse from "./diverse.jpg"
+import connectivity from "./connectivity.jpg"
+import about from "./about.jpg"
+import neighbourhood from "./neighbourhood.jpg"
+import duolingo from "./duolingo.jpg"
+import essentialtips from "./essentials.jpg"
+import budgetplanner from "./budget.jpg"
 
 export {
     menu,
@@ -217,5 +224,12 @@ export {
     dining,
     domestic,
     home,
-    healthcare
+    healthcare,
+    diverse,
+    connectivity,
+    about,
+    neighbourhood,
+    duolingo,
+    essentialtips,
+    budgetplanner
 }

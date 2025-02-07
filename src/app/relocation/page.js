@@ -7,7 +7,7 @@ import { hero21 } from '@/assets'
 const Relocation = () => {
   return (
     <>
-    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto pt-10'>
+    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto'>
     <h1 className='my-10 text-primary text-3xl font-medium'>The Ultimate Relocation Checklist – Corporate, Family & International Moves</h1>
         <div className='min-h-[500px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
         <Image

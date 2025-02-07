@@ -7,7 +7,7 @@ import { visa, NeighbourTopBlogs } from '../constants'
 const page = () => {
   return (
     <>
-    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto pt-10'>
+    <div className='flex flex-col items-center justify-center mx-3 w-full h-full overflow-y-auto'>
     <h1 className='my-10 text-primary text-3xl font-medium'>Understanding Visa Requirements for Your Destination: A Complete Checklist</h1>
         <div className='min-h-[300px] xl:min-h-[200px] w-3/4 xl:w-full xl:mr-3'>
         <Image
