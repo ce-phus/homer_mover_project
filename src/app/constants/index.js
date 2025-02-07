@@ -1402,6 +1402,13 @@ export const NeighbourTopBlogs = [
     text:'How to Choose the Right Neighborhood for Your Family',
     link: '/neighbourhood'
   },
+  {
+    id: 6,
+    title1: "Relocation Checklists: ",
+    title2: "Download comprehensive guides to help you stay on track.",
+    img: checklistpic,
+    link : "/relocation",
+  },
   
 ]
 
@@ -1410,7 +1417,7 @@ export const ResourceBlogs = [
     id: 1,
     title1: "Relocation Checklists: ",
     title2: "Download comprehensive guides to help you stay on track.",
-    img: hero21,
+    img: checklistpic,
     link : "/relocation",
   },
   {
@@ -1424,7 +1431,7 @@ export const ResourceBlogs = [
     id: 4,
     title1: "School Search Tools: ",
     title2: "Tips and resources to find the best educational options for your children.",
-    img: hero24,
+    img: schoolsearch,
     link : "/school",
   },
   {

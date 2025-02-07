@@ -65,6 +65,7 @@ const SchoolSearch = () => {
                             className='w-full h-full rounded-2xl'/>
                         </div>
                         <h1 className='text-xl font-medium text-dark line-clamp-1 mt-3'>{data.title1}</h1>
+                        <h1 className='text-xl font-medium text-dark line-clamp-1 mt-3'>{data.title2}</h1>
                         </Link>                     
                     </div>
                 ))}
