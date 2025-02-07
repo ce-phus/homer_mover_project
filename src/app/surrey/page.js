@@ -47,7 +47,7 @@ const Surrey = () => {
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px] mb-5'/>
                     <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
                     <p className='text-dark font-medium'>{post.text}</p>
             
@@ -99,7 +99,7 @@ const Surrey = () => {
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px] mb-5'/>
                     <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
                     <p className='text-dark font-medium'>{post.text}</p>
                     {post.subtext.map((item)=> (
@@ -152,7 +152,7 @@ const Surrey = () => {
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[450px] mb-5'/>
+                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px] mb-5'/>
                     <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
                     <p className='text-dark font-medium'>{post.text}</p>
                     {post.subtext.map((item)=> (

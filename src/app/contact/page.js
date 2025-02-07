@@ -1,12 +1,27 @@
-import React from 'react'
-import { hero1 } from '@/assets'
-import Image from 'next/image'
-import { globe } from '@/assets'
+import React, { useRef, useState } from 'react'
+import emailjs from "@emailjs/browser";
 import { FaBuilding } from "react-icons/fa6";
 import { IoLocation } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 
 const Contact = () => {
+  const formRef = useRef();
+
+  cpnst [form, setForm] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phonenumber: "",
+    message: "",
+    preferredContact: [],
+    urgency: ""
+  })
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+  }
   return (
     <>
     <div className='flex flex-col items-center pt-20 space-y-4'>
