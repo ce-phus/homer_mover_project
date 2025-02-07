@@ -116,6 +116,7 @@ import essentialtips from "./essentials.jpg"
 import budgetplanner from "./budget.jpg"
 import countryside from "./countryside.jpg"
 import countryside1 from "./countryside1.jpg"
+import londonpic from './london.jpg'
 
 export {
     menu,
@@ -235,5 +236,6 @@ export {
     essentialtips,
     budgetplanner,
     countryside,
-    countryside1
+    countryside1,
+    londonpic
 }

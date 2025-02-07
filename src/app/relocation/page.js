@@ -59,9 +59,9 @@ const Relocation = () => {
             <div className='mt-10 lg:hidden pr-10'>
             <h1 className='text-xl font-bold text-dark mb-5 '>Top Blogs</h1>
                 {NeighbourTopBlogs.map((data)=> (
-                    <div key={data.id} className='mb-[380px]'>
+                    <div key={data.id} className='mb-[250px]'>
                         <Link href={data.link}>
-                        <div className='w-[400px] h-[200px]'>
+                        <div className='w-[400px] h-[300px]'>
                             <Image 
                             src={data.img}
                             alt='hero19'

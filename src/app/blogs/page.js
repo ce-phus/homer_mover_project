@@ -46,7 +46,7 @@ const Blogs = () => {
                     <Image 
                     src={post.img}
                     alt={post.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px] bg-white mb-5'/>
+                    className='w-[600px] xl:w-[400px]  lg:w-[400px] h-[350px] bg-white mb-5'/>
                     <h1 className='text-xl font-medium text-primary mb-5'>{post.title1}</h1>
                     <h1 className='text-lg font-normal text-dark mb-10'>{post.title2}</h1>
                     </Link>
@@ -62,7 +62,7 @@ const Blogs = () => {
                     <Image 
                     src={resource.img}
                     alt={resource.title1}
-                    className='w-[600px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px] mb-5'/>
+                    className='w-[600px] xl:w-[400px]  lg:w-[400px] h-[350px] bg-white mb-5'/>
                     <h1 className='text-xl font-medium text-primary mx-3 italic mb-5'>{resource.title1}</h1>
                     <h1  className='text-lg font-normal text-dark mx-3 mb-10'>{resource.title2}</h1>
                 </Link>

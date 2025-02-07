@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image'
-import { hero7, download } from '@/assets'
+import { hero7, download, londonpic } from '@/assets'
 import { london } from '../constants'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../../variants'
@@ -13,7 +13,7 @@ const London = () => {
     <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
         <div className='w-1/2 lg:w-full sm:w-full'>
             <Image 
-            src={hero7}
+            src={londonpic}
             alt='md1'
             className='w-full h-full'/>
         </div>   
