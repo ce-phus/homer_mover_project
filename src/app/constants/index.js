@@ -1374,13 +1374,13 @@ export const language = [
 export const NeighbourTopBlogs = [
   {
     id: 1,
-    img: hero19,
+    img: feel,
     text:'Making a New Country Feel Like Home: Essential Tips for a Smooth Transition',
     link: "/country"
   },
   {
     id: 2,
-    img: hero30,
+    img: hero6,
     text:'The Ultimate Checklist for Domestic Relocation',
     link: "/checklist"
   },
