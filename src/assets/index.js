@@ -104,7 +104,7 @@ import guildfordhousing from "./guildfordhousing.webp"
 import guildfordrenown from "./renownschools.jpg"
 import transport from "./transport.png"
 import dining from "./dining.jpg"
-import home from "./home.webp"
+import home from "./placehome.jpg"
 import domestic from "./domestic.jpg"
 import healthcare from "./healthcare.jpg"
 import diverse from "./diverse.jpg"
@@ -114,6 +114,8 @@ import neighbourhood from "./neighbourhood.jpg"
 import duolingo from "./duolingo.jpg"
 import essentialtips from "./essentials.jpg"
 import budgetplanner from "./budget.jpg"
+import countryside from "./countryside.jpg"
+import countryside1 from "./countryside1.jpg"
 
 export {
     menu,
@@ -231,5 +233,7 @@ export {
     neighbourhood,
     duolingo,
     essentialtips,
-    budgetplanner
+    budgetplanner,
+    countryside,
+    countryside1
 }

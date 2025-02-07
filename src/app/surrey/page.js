@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { guildford, woking, cobham, esher, reigate, download, reigate1, dorking, woking1 } from '@/assets'
+import { guildford, woking, cobham, esher, reigate, download, reigate1, dorking, countryside1, countryside } from '@/assets'
 import { styles } from '../styles';
 import { motion } from "framer-motion"
 import Image from 'next/image'
@@ -13,7 +13,7 @@ const Surrey = () => {
     <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
         <div className='w-1/2 lg:w-full sm:w-full'>
             <Image 
-            src={reigate}
+            src={countryside1}
             alt='md1'
             className='w-full h-full'/>
         </div>   
