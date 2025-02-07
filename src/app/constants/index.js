@@ -8,7 +8,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch 
  } from "@/assets"
 
 
@@ -1482,7 +1482,7 @@ export const Resources = [
     id: 4,
     title1: "School Search Tools: ",
     title2: "Tips and resources to find the best educational options for your children.",
-    img: hero24,
+    img: schoolsearch,
     link : "/school",
   },
   {
@@ -1548,21 +1548,6 @@ export const HeroData = [
     
   },
   {
-    id: 38,
-    img: hero39,
-    
-  },
-  {
-    id: 39,
-    img: hero40,
-    
-  },
-  {
-      id: 7,
-      img: hero7,
-      
-  },
-  {
     id: 26,
     img: hero26,
     
@@ -1578,20 +1563,10 @@ export const HeroData = [
       
   },
   {
-      id: 5,
-      img: hero5,
-      
-  },
-  {
       id: 6,
       img: hero6,
       
   }, 
-  {
-      id: 32,
-      img: hero32,
-      
-  },
 ];
   
   

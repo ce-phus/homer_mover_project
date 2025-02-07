@@ -110,7 +110,7 @@ import healthcare from "./healthcare.jpg"
 import diverse from "./diverse.jpg"
 import connectivity from "./connectivity.jpg"
 import about from "./about.jpg"
-import neighbourhood from "./neighbourhood.jpg"
+import neighbourhood from "./neighbourhood5.jpg"
 import duolingo from "./duolingo.jpg"
 import essentialtips from "./essentials.jpg"
 import budgetplanner from "./budget.jpg"
@@ -124,6 +124,8 @@ import green from "./green.jpg"
 import mclaren from "./mclaren2.jpg"
 import thriving from "./towncenter.jpg"
 import feel from "./feel.jpg"
+import domestic1 from "./domestic1.jpg"
+import schoolsearch from "./search.jpg"
 
 export {
     menu,
@@ -251,5 +253,7 @@ export {
     green,
     mclaren,
     thriving,
-    feel
+    feel,
+    domestic1,
+    schoolsearch
 }

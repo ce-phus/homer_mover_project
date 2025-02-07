@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { school, ResourceBlogs } from '../constants'
-import { hero24 } from '@/assets'
+import { hero24, schoolsearch } from '@/assets'
 import Link from 'next/link'
 
 const SchoolSearch = () => {
@@ -11,9 +11,9 @@ const SchoolSearch = () => {
     <h1 className='my-10 text-primary text-3xl font-medium'>School Search Tool & Tips for Finding the Right School</h1>
         <div className='min-h-[300px] xl:min-h-[200px] w-3/4 xl:w-full xl:mr-3'>
         <Image
-        src={hero24}
+        src={schoolsearch}
         alt='hero18'
-        className='w-full h-[600px] xl:h-[500px] rounded-2xl shadow-lg'/>
+        className='w-full h-[800px] xl:h-[500px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>

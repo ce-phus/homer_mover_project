@@ -13,7 +13,7 @@ const Neighbourhood = () => {
         <Image
         src={neighbourhood}
         alt='hero20'
-        className='w-full h-[600px] rounded-2xl shadow-lg'/>
+        className='w-full h-[800px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>

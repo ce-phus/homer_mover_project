@@ -1,5 +1,5 @@
 import React from 'react'
-import { download, hero16, domestic } from '@/assets'
+import { download, hero16, domestic, domestic1 } from '@/assets'
 import Image from 'next/image';
 
 const Domestic = () => {
@@ -80,7 +80,7 @@ const Domestic = () => {
         </div>
         <div className='w-full h-[550px] lg:h-full'>
             <Image 
-            src={hero16}
+            src={domestic1}
             alt='hero8'
             className='w-full h-full'/>
         </div>   
