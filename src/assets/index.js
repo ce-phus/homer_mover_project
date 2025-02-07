@@ -122,6 +122,8 @@ import entertainment from "./entertainment.jpg"
 import regenerated from "./regenerated.jpg"
 import green from "./green.jpg"
 import mclaren from "./mclaren2.jpg"
+import thriving from "./towncenter.jpg"
+import feel from "./feel.jpg"
 
 export {
     menu,
@@ -247,5 +249,7 @@ export {
     entertainment,
     regenerated,
     green,
-    mclaren
+    mclaren,
+    thriving,
+    feel
 }

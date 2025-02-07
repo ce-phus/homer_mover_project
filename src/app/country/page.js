@@ -1,7 +1,7 @@
 import React from 'react'
 import { country, NeighbourTopBlogs } from '../constants'
 import Image from 'next/image'
-import { hero20 } from '@/assets'
+import { hero20, feel } from '@/assets'
 import Link from 'next/link'
 
 const Country = () => {
@@ -11,7 +11,7 @@ const Country = () => {
     <h1 className='my-10 text-primary text-3xl font-medium'>Making a New Country Feel Like Home: Essential Tips for a Smooth Transition</h1>
         <div className='min-h-[500px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
         <Image
-        src={hero20}
+        src={feel}
         alt='hero20'
         className='w-full h-full rounded-2xl shadow-lg'/>
         </div>

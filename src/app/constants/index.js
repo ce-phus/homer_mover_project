@@ -8,7 +8,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel 
  } from "@/assets"
 
 
@@ -237,7 +237,7 @@ export const footerLinks = [
       id: 5,
       title1: "Settling In: Making a New Country Feel Like Home",
       title2: "Tips for adapting to a new culture and building your support network.",
-      img: hero20,
+      img: feel,
       link : "/country",
     },
     
@@ -350,7 +350,7 @@ export const guildfordtexts = [
     title1: "A Thriving Town Centre:",
     text: "Guildford boasts a vibrant high street with upscale shopping, independent boutiques, and premium brands. The town is home to the Yvonne Arnaud Theatre, G Live entertainment venue, and a diverse selection of restaurants, pubs, and cafés.",
     subtext:[],
-    img: hero31,
+    img: thriving,
   },
   {
     id: 6,
