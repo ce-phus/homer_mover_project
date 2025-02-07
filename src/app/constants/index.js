@@ -8,7 +8,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic 
  } from "@/assets"
 
 
@@ -259,7 +259,7 @@ export const footerLinks = [
       id: 6,
       title1: "The Ultimate Relocation Checklist – Corporate, Family & International Moves: ",
       title2: "Everything you need to organize a seamless move",
-      img: hero21,
+      img: checklistpic,
       link : "/relocation",
     },
   ]

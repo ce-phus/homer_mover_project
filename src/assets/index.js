@@ -126,6 +126,7 @@ import thriving from "./towncenter.jpg"
 import feel from "./feel.jpg"
 import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
+import checklistpic from "./checklist.jpg"
 
 export {
     menu,
@@ -255,5 +256,6 @@ export {
     thriving,
     feel,
     domestic1,
-    schoolsearch
+    schoolsearch,
+    checklistpic
 }

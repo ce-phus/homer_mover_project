@@ -2,7 +2,7 @@ import React from 'react'
 import { relocationChecklist, NeighbourTopBlogs } from '../constants'
 import Image from 'next/image'
 import Link from 'next/link'
-import { hero21 } from '@/assets'
+import { hero21, checklistpic } from '@/assets'
 
 const Relocation = () => {
   return (
@@ -11,9 +11,9 @@ const Relocation = () => {
     <h1 className='my-10 text-primary text-3xl font-medium'>The Ultimate Relocation Checklist – Corporate, Family & International Moves</h1>
         <div className='min-h-[500px] xl:min-h-[400px] w-3/4 xl:w-full xl:mr-3'>
         <Image
-        src={hero21}
+        src={checklistpic}
         alt='hero20'
-        className='w-full h-full rounded-2xl shadow-lg'/>
+        className='w-full h-[850px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>
