@@ -117,6 +117,10 @@ import budgetplanner from "./budget.jpg"
 import countryside from "./countryside.jpg"
 import countryside1 from "./countryside1.jpg"
 import londonpic from './london.jpg'
+import corporate from "./corporate.jpg"
+import entertainment from "./entertainment.jpg"
+import regenerated from "./regenerated.jpg"
+import green from "./green.jpg"
 
 export {
     menu,
@@ -237,5 +241,9 @@ export {
     budgetplanner,
     countryside,
     countryside1,
-    londonpic
+    londonpic,
+    corporate,
+    entertainment,
+    regenerated,
+    green
 }

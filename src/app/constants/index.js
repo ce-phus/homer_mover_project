@@ -8,7 +8,7 @@ import {
     hero37, 
     hero39,
     hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, hero16, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner 
+    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green 
  } from "@/assets"
 
 
@@ -343,7 +343,7 @@ export const guildfordtexts = [
     title1: "Green Spaces & Outdoor Lifestyle:",
     text: "Enjoy the stunning landscapes of the Surrey Hills AONB, ideal for walking, cycling, and outdoor pursuits. Popular spots include Pewley Down, St. Martha’s Hill, and Newlands Corner. The River Wey also offers scenic walks and waterside dining",
     subtext:[],
-    img: hero20,
+    img: green,
   },
   {
     id: 5,
@@ -429,7 +429,7 @@ export const wokingtext = [
         subtexts3: "A great spot for jogging, cycling, and picnics.",
       }
     ],
-    img: hero20,
+    img: green,
   },
   {
     id: 5,
@@ -446,7 +446,7 @@ export const wokingtext = [
         subtexts3: "Offering luxury accommodation and fine dining.",
       }
     ],
-    img: hero28,
+    img: regenerated,
   },
   {
     id: 6,
@@ -463,7 +463,7 @@ export const wokingtext = [
         subtexts3: "with options ranging from fine dining to casual eateries.",
       }
     ],
-    img: hero28,
+    img: entertainment,
   }
 ]
 

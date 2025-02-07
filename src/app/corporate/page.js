@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { hero37, hero15, download } from '@/assets'
+import { hero37, hero15, download, corporate } from '@/assets'
 
 const page = () => {
   return (
@@ -78,7 +78,7 @@ const page = () => {
         </div>
         <div className='w-full h-['>
             <Image 
-            src={hero37}
+            src={corporate}
             alt='hero8'
             className='w-full h-full'/>
         </div>
