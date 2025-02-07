@@ -100,7 +100,7 @@ import hero39 from "./hero039.jpg"
 import hero40 from "./hero040.jpg"
 import vibrant from "./vibrant.jpg"
 import topschools from "./top.jpg"
-import guildfordhousing from "./guildfordhousing.webp"
+import guildfordhousing from "./housing.jpg"
 import guildfordrenown from "./renownschools.jpg"
 import transport from "./transport.png"
 import dining from "./dining.jpg"
@@ -120,8 +120,8 @@ import londonpic from './london.jpg'
 import corporate from "./corporate.jpg"
 import entertainment from "./entertainment.jpg"
 import regenerated from "./regenerated.jpg"
-import green from "./green.jpg"
-import mclaren from "./mclaren1.jpg"
+import green from "./greenspace.jpg"
+import mclaren from "./mclaren2.jpg"
 
 export {
     menu,
