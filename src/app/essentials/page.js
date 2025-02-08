@@ -13,7 +13,7 @@ const Essentials = () => {
         <Image
         src={essentialtips}
         alt='hero20'
-        className='w-full h-[600px] rounded-2xl shadow-lg'/>
+        className='w-full h-[800px] rounded-2xl shadow-lg'/>
         </div>
         <div className='t flex flex-row lg:flex-col gap-[150px] lg:gap-0'>
             <div className='max-w-7xl mx-auto justify-start pl-[90px] lg:pl-2'>
@@ -46,9 +46,9 @@ const Essentials = () => {
             <div className='mt-10 lg:hidden pr-10'>
             <h1 className='text-xl font-bold text-dark mb-5 '>Top Blogs</h1>
                 {NeighbourTopBlogs.map((data)=> (
-                    <div key={data.id} className='mb-20'>
+                    <div key={data.id} className='mb-[70px]'>
                         <Link href={data.link}>
-                        <div className='w-[400px] h-[200px]'>
+                        <div className='w-[400px] h-[300px]'>
                             <Image 
                             src={data.img}
                             alt='hero19'

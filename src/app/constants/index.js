@@ -1405,7 +1405,7 @@ export const NeighbourTopBlogs = [
   {
     id: 6,
     title1: "Relocation Checklists: ",
-    title2: "Download comprehensive guides to help you stay on track.",
+    text: "Download comprehensive guides to help you stay on track.",
     img: checklistpic,
     link : "/relocation",
   },

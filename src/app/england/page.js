@@ -37,11 +37,12 @@ const England = () => {
     </div>
 
     <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10">
+        
+        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Why Choose Atlas Path for Your Move?</h1>
         <Image 
-        src={globe}
+        src={download}
         alt="globe"
         className="w-[100px] h-"/>
-        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Why Choose Atlas Path for Your Move?</h1>
         <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-md text-dark">We provide tailored relocation support, whether you’re moving to a fast-growing city like Manchester, a historic townlike Oxford, or a coastal retreat like Brighton. Our expertise spans the entire country, offering you in-depth knowledge and personalized assistance.</p>
     </div>
 
