@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { styles } from '../styles'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
-import { manchester, brighton, bristol, birmingham, oxford, newcastle, cotswolds, hero31, download, globe, cambridge, checklistpic } from '@/assets'
+import { manchester, brighton, bristol, birmingham, oxford, newcastle, cotswolds, hero31, download, globe, cambridge, checklistpic, lake } from '@/assets'
 
 const England = () => {
   return (
@@ -202,7 +202,7 @@ const England = () => {
     <div className='bg-gray-100'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <Image 
-            src={newcastle}
+            src={lake}
             className='w-full h-[600px] sm:h-full md:h-full'
             alt="hero7"/>
           <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
