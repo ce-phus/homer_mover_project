@@ -122,11 +122,12 @@ import entertainment from "./entertainment.jpg"
 import regenerated from "./regenerated.jpg"
 import green from "./green.jpg"
 import mclaren from "./mclaren2.jpg"
-import thriving from "./towncenter.jpg"
+import thriving from "./thriving.jpg"
 import feel from "./feel.jpg"
 import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
 import checklistpic from "./checklist.jpg"
+// import thriving from "./thriving.jpg"
 
 export {
     menu,
@@ -257,5 +258,5 @@ export {
     feel,
     domestic1,
     schoolsearch,
-    checklistpic
+    checklistpic,
 }
