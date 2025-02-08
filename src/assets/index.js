@@ -127,7 +127,6 @@ import feel from "./feel.jpg"
 import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
 import checklistpic from "./checklist.jpg"
-// import thriving from "./thriving.jpg"
 
 export {
     menu,
