@@ -1,14 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero13, hero6, hero18, hero19, hero20, hero21, hero22, hero23, hero24, hero25, hero1, hero4, hero5, hero7, hero10,  hero26, hero27,
-    hero28,
-    hero30,
-    hero31,
-    hero32,
-    hero36,
-    hero37, 
-    hero39,
-    hero40,
-    manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, 
  } from "@/assets"
 
 
@@ -1555,25 +1546,41 @@ export const HeroData = [
     
   },
   {
-    id: 26,
+    id: 2,
     img: hero26,
     
   },
   {
-      id: 10,
+      id: 3,
       img: hero10,
       
   },
   {
       id: 4,
-      img: hero4,
-      
-  },
-  {
-      id: 6,
       img: hero6,
       
-  }, 
+  },
+
+  {
+    id: 9,
+    img: checklistpic,  
+  },
+  {
+    id: 5,
+    img: south,  
+  },
+  {
+    id: 6,
+    img: central,  
+  },
+  {
+    id: 7,
+    img: vibrant,  
+  },
+  {
+    id: 8,
+    img: guildfordhousing,  
+  },
 ];
   
   
