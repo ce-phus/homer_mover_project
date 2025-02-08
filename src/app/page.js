@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 import { globe, download } from "@/assets";
 
-import { Services, Detail, Admin, Carousel } from "./components";
+import { Services, Detail, Admin, Carousel, Testimonials } from "./components";
 
 export default function Home() {
 
@@ -29,7 +29,8 @@ export default function Home() {
         <Admin />
       <div className="">
         <Detail />
-        <h1 className="flex items-center justify-center pt-20 text-5xl font-medium tracking-wide text-primary">Our Services</h1>
+        <Testimonials />
+        <h1 className="flex items-center justify-center pt-20 text-2xl font-medium tracking-wide text-primary">Our Services</h1>
         <Services />
       </div>
     </div>

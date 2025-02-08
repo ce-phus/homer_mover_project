@@ -10,6 +10,8 @@ import Quiz from "./Quiz";
 import Carousel from "./Carousel";
 import Services from "./Services";
 import LiIcon from "./LiIcon";
+import FeedbackCard from "./FeedbackCard";
+import Testimonials from "./Testimonials";
 
 export {
     Footer,
@@ -23,5 +25,7 @@ export {
     Quiz,
     Carousel,
     Services,
-    LiIcon
+    LiIcon,
+    FeedbackCard,
+    Testimonials
 }

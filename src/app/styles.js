@@ -14,7 +14,7 @@ const styles = {
       "sm:text-[18px] text-[15px] text-primary uppercase tracking-wider",
     boxWidth: "xl:max-w-[1280px] w-full",
   
-    heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+    heading2: "font-poppins font-semibold xs:text-[48px] text-[30px] flex justify-between items-center text-dark xs:leading-[76.8px] leading-[66.8px] w-full",
     paragraph: "font-poppins font-normal text-gray-700 text-lg ",
   
     flexCenter: "flex justify-center items-center",

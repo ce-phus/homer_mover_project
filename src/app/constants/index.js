@@ -1,5 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03 
  } from "@/assets"
 
 
@@ -208,6 +208,34 @@ export const footerLinks = [
       link: "https://www.linkedin.com/",
     },
   ];
+
+  export const feedback = [
+    {
+      id: "feedback-1",
+      content:
+        "I couldn't have asked for a smoother relocation experience. The team was professional, efficient, and made the whole process stress-free. Highly recommend!",
+      name: "Herman Jensen",
+      title: "Founder & Leader",
+      img: people01,
+    },
+    {
+      id: "feedback-2",
+      content:
+        "Moving can be daunting, but this company made it a breeze. Their attention to detail and care for my belongings were outstanding. I felt supported every step of the way!",
+      name: "Steve Mark",
+      title: "Founder & Leader",
+      img: people02,
+    },
+    {
+      id: "feedback-3",
+      content:
+        "From the initial consultation to the final move, their service was exceptional. They truly understand the needs of their clients and go above and beyond. Thank you for making my move enjoyable!",
+      name: "Kenn Gallagher",
+      title: "Founder & Leader",
+      img: people03,
+    },
+  ];
+  
 
   export const Posts  = [   
     {
