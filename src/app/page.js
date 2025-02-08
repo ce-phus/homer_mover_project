@@ -29,9 +29,10 @@ export default function Home() {
         <Admin />
       <div className="">
         <Detail />
-        <Testimonials />
+        
         <h1 className="flex items-center justify-center pt-20 text-2xl font-medium tracking-wide text-primary">Our Services</h1>
         <Services />
+        <Testimonials />
       </div>
     </div>
     

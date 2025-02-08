@@ -1571,12 +1571,6 @@ export const HeroData = [
   {
     id: 1,
     img: hero1,
-    
-  },
-  {
-    id: 2,
-    img: hero26,
-    
   },
   {
       id: 3,
