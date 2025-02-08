@@ -4,19 +4,19 @@ import Image from 'next/image'
 import { styles } from '../styles'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
-import { manchester, brighton, bristol, birmingham, oxford, newcastle, cotswolds, hero31, download, globe, cambridge } from '@/assets'
+import { manchester, brighton, bristol, birmingham, oxford, newcastle, cotswolds, hero31, download, globe, cambridge, checklistpic } from '@/assets'
 
 const England = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
-        <div className='w-1/2 lg:w-full sm:w-full'>
+        <div className='w-full h-[750px] lg:w-full sm:w-full'>
             <Image 
-            src={hero31}
+            src={checklistpic}
             alt='md1'
             className='w-full h-full'/>
         </div>   
-        <div className='bg-gray-100 sm:w-full w-1/2 lg:w-full'>
+        <div className='bg-gray-100 sm:w-full w-full lg:w-full'>
             <div className='flex justify-center items-center flex-col mt-20 mb-20 sm:mt-20 space-y-10'>
             <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
