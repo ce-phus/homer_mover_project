@@ -1,5 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03, renown 
  } from "@/assets"
 
 
@@ -346,7 +346,7 @@ export const guildfordtexts = [
         text4: "",
       }
     ],
-    img: topschools,
+    img: renown,
   },
 
   {
