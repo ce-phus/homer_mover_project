@@ -45,7 +45,7 @@ const Carousel = () => {
                 <p className='text-dark font-normal'>Relocation doesn’t have to be stressful. At Atlas Path, we make your move seamless,</p>
                 <p className='text-dark font-normal'> whether it’s international, domestic, or corporate.Let us handle the details while you focus on starting fresh.</p>
                 <p className="mt-20 mb-[100px] p-4 rounded-lg text-white black-gradient text-lg font-medium flex w-[300px] sm:w-[250px] items-center justify-center">
-                    <span className="flex space-x-5 "><FaPhoneVolume className="mr-2 mt-1"/> +44 (646) 786-5060</span>
+                    <span className="flex space-x-5 "><FaPhoneVolume className="mr-2 mt-1"/> +44 7359 040511</span>
                 </p>
             </div>
         </div>
