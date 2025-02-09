@@ -42,8 +42,8 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      "service_agjupcw",
-      "template_pe5v36g",
+      "service_0pjxmph",
+      "template_buiqh3q",
       {
         from_firstname: form.firstname,
         from_lastname: form.lastname,
@@ -55,7 +55,7 @@ const Contact = () => {
         preferred_contact: form.preferredContact.join(", "),
         urgency: form.urgency,
       },
-      "5TKVQ_9rDJV810vPd"
+      "svEurjUYcPG6Z8S4F"
     )
     .then(() => {
       setLoading(false);
@@ -84,7 +84,7 @@ const Contact = () => {
       <h2 className='text-xl text-primary font-medium'>We use an agile approach to connect with our audience early and often.</h2>
     </div>
     <div className='flex flex-row lg:flex-col mx-3 xl:mx-5 max-w-[1600px] mx-auto pt-20'>
-      <form className='w-full mx-3'>
+      <form className='w-full mx-3' onSubmit={handleSubmit}>
           <div className='flex flex-wrap -mx-3 mb-6 md:mb-2'>
             <div className='lg:w-full w-1/2 px-3 mb-2'>
               <label className='font-medium tracking-wide block'>First Name</label>
