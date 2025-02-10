@@ -22,7 +22,7 @@ const Surrey = () => {
               <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>The Perfect Blend of Countryside and Connectivity</motion.h1>                
+                className='text-[20px] uppercase font-normal text-primary tracking-wide mt-0 uppercase'>The Perfect Blend of Countryside and Connectivity</motion.h1>                
                 <Image
                 src={download}
                 className='w-[150px]'
@@ -30,7 +30,7 @@ const Surrey = () => {
                 <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
+                className='text-[20px] uppercase font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to Surrey?</motion.h1>
                 <motion.p variants={fadeIn("right", "spring", 0.75)} 
                 initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>Surrey is one of England’s most sought-after locations, offering the ideal mix of scenic countryside, excellent transport links, and an outstanding quality of life. With its picturesque villages, thriving market towns, and proximity to London, Surrey attracts professionals, families, and retirees alike.</motion.p>
             </div>
@@ -57,7 +57,7 @@ const Surrey = () => {
       
     </div>
 
-    <h1 className='text-2xl font-medium tracking-wide text-primary flex items-center justify-center pt-20'>Popular Areas in Surrey for Relocation</h1>
+    <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary flex items-center justify-center pt-20'>Popular Areas in Surrey for Relocation</h1>
     <div className='pt-20'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5 bg-gray-100'>
           <div className='mt-10 mx-5'>
@@ -91,7 +91,7 @@ const Surrey = () => {
     </div>
     <div className='pt-20'>
       <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
-        initial='hidden' animate='show'  className='flex justify-center text-xl font-bold text-primary tracking-wide mt-0'>Why Move to Guildford?</motion.h1>
+        initial='hidden' animate='show'  className='flex justify-center text-[20px] uppercase font-bold text-primary tracking-wide mt-0'>Why Move to Guildford?</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
             {guildfordtexts.map((post)=> (
                 <div key={post.id} className='flex flex-col items-center space-y-3 duration-300 ease-in-out hover:scale-105'>
@@ -144,7 +144,7 @@ const Surrey = () => {
 
     <div className='pt-20'>
       <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
-        initial='hidden' animate='show'  className='flex justify-center text-xl font-bold text-primary tracking-wide mt-0'>Why Move to Woking?</motion.h1>
+        initial='hidden' animate='show'  className='flex justify-center text-[20px] uppercase font-bold text-primary tracking-wide mt-0'>Why Move to Woking?</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
             {wokingtext.map((post)=> (
                 <div key={post.id} className='flex flex-col space-y-3 duration-300 ease-in-out hover:scale-105'>

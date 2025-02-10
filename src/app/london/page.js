@@ -22,7 +22,7 @@ const London = () => {
             <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Relocating to London with Atlas Path</motion.h1>                
+                className='text-[20px] uppercase font-normal text-primary tracking-wide mt-0 uppercase'>Relocating to London with Atlas Path</motion.h1>                
                 <Image
                 src={download}
                 className='w-[150px]'
@@ -30,7 +30,7 @@ const London = () => {
                 <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to London?</motion.h1>
+                className='text-[20px] uppercase font-normal text-primary tracking-wide mt-0 uppercase'>Why Move to London?</motion.h1>
                 <motion.p variants={fadeIn("right", "spring", 0.75)} 
                 initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>As one of the world’s most dynamic cities, London offers  <span className='font-bold'>unmatched career opportunities, rich cultural experiences, and diverse neighborhoods </span>to suit every lifestyle. Whether you're relocating for work, study, or a fresh start, London provides an exciting and vibrant place to call home.</motion.p>
             </div>
@@ -38,7 +38,7 @@ const London = () => {
     </div>
 
     <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10">        
-        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Best Areas in London for Relocation</h1>
+        <h1 className="text-primary text-center text-[20px] uppercase font-normal italic tracking-wide w-full">Best Areas in London for Relocation</h1>
         <Image 
         src={download}
         alt="globe"

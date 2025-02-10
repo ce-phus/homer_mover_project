@@ -51,7 +51,7 @@ const About = () => {
         <div className='pb-20 pt-20 flex flex-col text-center w-full sm:mx-3'>
             <div className='space-y-10 flex flex-col justify-center items-center'>
             <div className='flex items-center space-x-4'>
-                <h1 className='text-3xl text-primary font-normal tracking-wide'>Our Story</h1>
+                <h1 className='text-[20px] uppercase text-primary font-normal tracking-wide'>Our Story</h1>
             </div>
             <Image
                 src={download}

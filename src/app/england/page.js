@@ -21,7 +21,7 @@ const England = () => {
             <motion.h1
                 variants={fadeIn("down", "spring", 0.75)} 
                 initial='hidden' animate='show' 
-                className='text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Relocating Across England with Atlas Path</motion.h1>
+                className='text-[20px] uppercase font-normal text-primary tracking-wide mt-0 uppercase'>Relocating Across England with Atlas Path</motion.h1>
                 <Image
                 src={download}
                 className='w-[150px]'
@@ -38,7 +38,7 @@ const England = () => {
 
     <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10">
         
-        <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Why Choose Atlas Path for Your Move?</h1>
+        <h1 className="text-primary text-center text-[20px] uppercase font-normal italic tracking-wide w-full">Why Choose Atlas Path for Your Move?</h1>
         <Image 
         src={download}
         alt="globe"
@@ -46,8 +46,8 @@ const England = () => {
         <p className="text-center w-[800px] sm:w-full sm:mx-2 font-normal text-md text-dark">We provide tailored relocation support, whether you’re moving to a fast-growing city like Manchester, a historic townlike Oxford, or a coastal retreat like Brighton. Our expertise spans the entire country, offering you in-depth knowledge and personalized assistance.</p>
     </div>
 
-    <h1 className='flex items-center justify-center text-xl font-medium text-dark pt-20 mb-5'>What We Offer:</h1>
-    <h1 className='flex items-center justify-center text-2xl font-medium text-primary mb-10'>Top Locations for Relocation Across England</h1>
+    <h1 className='flex items-center justify-center text-[20px] uppercase font-medium text-dark pt-20 mb-5'>What We Offer:</h1>
+    <h1 className='flex items-center justify-center text-[20px] uppercase font-medium text-primary mb-10'>Top Locations for Relocation Across England</h1>
 
     <div className='pt-10'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5 bg-gray-100'>

@@ -18,7 +18,7 @@ export default function Home() {
         <Carousel />
         <div className="flex pt-20 pb-20 flex-col items-center justify-center space-y-10">
 
-          <h1 className="text-primary text-center text-xl font-normal italic tracking-wide w-full">Tailored Support for Your Move</h1>
+          <h1 className="text-primary text-center text-[18px] uppercase font-normal italic tracking-wide w-full">Tailored Support for Your Move</h1>
           <Image 
           src={download}
           alt="globe"
@@ -30,7 +30,7 @@ export default function Home() {
       <div className="">
         <Detail />
         
-        <h1 className="flex items-center justify-center pt-20 text-2xl font-medium tracking-wide text-primary">Our Services</h1>
+        <h1 className="flex items-center justify-center pt-20 text-[20px] uppercase font-medium tracking-wide text-primary">Our Services</h1>
         <Services />
         <Testimonials />
       </div>

@@ -36,12 +36,12 @@ const Testimonials = () => {
     return (
         <section className={`${styles.paddingY} ${styles.flexCenter} flex-col relative pt-20`}>
             <div className='w-full flex justify-between items-center  flex-col sm:mb-16 mb-6 relative z-[1]'>
-                <h1 className="mb-5 text-2xl text-primary font-medium">Testimonials</h1>
-                <p className={`${styles.paragraph} flex justify-center`}>
+                <h1 className="mb-5 text-[20px] uppercase text-primary font-medium">Testimonials</h1>
+                <p className={`${styles.paragraph} flex justify-center uppercase`}>
                     What Our Clients Say
                 </p>
             </div>
-            <Slider {...sliderSettings} className="w-full">
+            <Slider {...sliderSettings} className="w-5/6">
                 {feedback.map((card) => (
                     <div key={card.id} className="px-2 flex justify-center">
                         <FeedbackCard {...card} />

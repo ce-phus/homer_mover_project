@@ -22,7 +22,7 @@ const Blogs = () => {
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' z
-                    className='text-xl font-normal text-primary tracking-wide mt-[120px] lg:mt-20 uppercase'>Blog & Resources</motion.h1>
+                    className='text-[20px] font-normal text-primary tracking-wide mt-[120px] lg:mt-20 uppercase'>Blog & Resources</motion.h1>
 
                     <Image
                     src={download}
@@ -31,14 +31,14 @@ const Blogs = () => {
                     <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
                     initial='hidden' animate='show' 
-                    className='text-lg font-normal text-primary tracking-wide mt-0 uppercase'>"Your Go-To Hub for Relocation Tips and Insights"</motion.h1>
+                    className='text-[20px] font-normal text-primary tracking-wide mt-0 uppercase'>"Your Go-To Hub for Relocation Tips and Insights"</motion.h1>
 
                     <motion.p variants={fadeIn("right", "spring", 0.75)} 
                     initial='hidden' animate='show' className='text-normal text-dark tracking-wide mx-5'>At Atlas Path, we believe knowledge is key to a smooth and successful relocation. Whether you’re moving locally, across the UK, or internationally, our resources are here to guide you every step of the way.</motion.p>
             </div>
         </div>
         <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
-        initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Blogs</motion.h1>
+        initial='hidden' animate='show'  className='pt-20 flex justify-center text-[20px] font-normal text-primary tracking-wide mt-0 uppercase'>Blogs</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
             {Posts.map((post)=> (
                 <div key={post.id} className='flex flex-col items-center space-y-3 duration-300 ease-in-out hover:scale-105'>
@@ -54,7 +54,7 @@ const Blogs = () => {
             ))}
         </div>
         <motion.h1 variants={fadeIn("down", "spring", 0.75)} 
-        initial='hidden' animate='show'  className='pt-20 flex justify-center text-xl font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
+        initial='hidden' animate='show'  className='pt-20 flex justify-center text-[20px] font-normal text-primary tracking-wide mt-0 uppercase'>Resources</motion.h1>
         <div className='grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 gap-20 xl:gap-[60px] mx-4 pt-10'>
         {Resources.map((resource)=> (
             <div key={resource.id} className='space-y-4 duration-300 ease-in-out hover:scale-105'>

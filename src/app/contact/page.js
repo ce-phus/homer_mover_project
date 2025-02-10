@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <>
       <div className='flex flex-col items-center pt-20 space-y-4'>
-        <h1 className='text-dark text-2xl font-bold tracking-wide'>Contact Us</h1>
+        <h1 className='text-dark text-[20px] uppercase font-bold tracking-wide'>Contact Us</h1>
         <h2 className='text-xl text-primary font-medium'>We use an agile approach to connect with our audience early and often.</h2>
       </div>
       <div className='flex flex-row lg:flex-col mx-3 xl:mx-5 max-w-[1600px] mx-auto pt-20'>
