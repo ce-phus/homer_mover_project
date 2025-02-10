@@ -128,7 +128,7 @@ import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
 import checklistpic from "./checklist.jpg"
 import lake from "./lake.jpg"
-import quotes from "./quotes.svg"
+import quotes from "./quote.png"
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
