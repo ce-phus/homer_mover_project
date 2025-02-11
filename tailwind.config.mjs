@@ -41,7 +41,7 @@ module.exports = {
        "2xl": { max: "1535px" },
        // => @media (max-width: 1535px) { ... }
    
-       xl: { max: "1280px" },
+       xl: { max: "1285px" },
        // => @media (max-width: 1280px) { ... }
    
        lg: { max: "1024px" },
