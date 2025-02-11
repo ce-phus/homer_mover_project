@@ -54,9 +54,9 @@ const Neighbourhood = () => {
             <div className='mt-10 lg:hidden pr-10'>
             <h1 className='text-xl font-bold text-dark mb-5 '>Top Blogs</h1>
                 {NeighbourTopBlogs.map((data)=> (
-                    <div key={data.id} className='mb-20 xl:mb-64'>
+                    <div key={data.id} className='mb-10 xl:mb-20'>
                         <Link href={data.link}>
-                        <div className='w-[400px] h-[300px] lg:h-[450px]'>
+                        <div className='w-[400px] xl:h-[300px] h-[250px] lg:h-[450px]'>
                             <Image 
                             src={data.img}
                             alt='hero19'

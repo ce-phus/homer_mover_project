@@ -70,7 +70,7 @@ const page = () => {
                 {NeighbourTopBlogs.map((data)=> (
                     <div key={data.id} className='mb-10'>
                         <Link href={data.link}>
-                        <div className='w-[400px] h-[300px]'>
+                        <div className='w-[400px] xl:h-[300px] h-[230px]'>
                             <Image 
                             src={data.img}
                             alt='hero19'

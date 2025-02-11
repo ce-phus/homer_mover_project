@@ -56,7 +56,7 @@ const Country = () => {
                 {NeighbourTopBlogs.map((data)=> (
                     <div key={data.id} className='mb-10'>
                         <Link href={data.link}>
-                        <div className='w-[400px] h-[335px]'>
+                        <div className='w-[400px] xl:h-[335px] h-[220px]'>
                             <Image 
                             src={data.img}
                             alt='hero19'

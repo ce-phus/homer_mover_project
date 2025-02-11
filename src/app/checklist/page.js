@@ -56,7 +56,7 @@ const Checklist = () => {
             <div className='mt-10 lg:hidden pr-10'>
             <h1 className='text-xl font-bold text-dark mb-5 '>Top Blogs</h1>
                 {NeighbourTopBlogs.map((data)=> (
-                    <div key={data.id} className='mb-[300px]'>
+                    <div key={data.id} className='mb-[200px] xl:mb-[330px]'>
                         <Link href={data.link} className=''>
                         <div className='w-[450px] h-[350px]'>
                             <Image 
