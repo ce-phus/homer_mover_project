@@ -43,7 +43,7 @@ const Footer = () => (
         2025 Atlas Path Relocation. All Rights Reserved
       </p>
       <p className='font-medium text-center text-[18px] leading-[27px] flex'>
-      <MdEmail className='w-6 h-7 mr-2'/> Lvuurboom@atlaspathrelocation.com
+      <MdEmail className='w-6 h-7 mr-2'/> info@atlaspathrelocation.com
       </p>
     </div>
     <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>
