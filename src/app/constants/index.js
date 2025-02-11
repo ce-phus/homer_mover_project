@@ -125,24 +125,24 @@ export const footerLinks = [
       title: "Useful Links",
       links: [
         {
-          name: "Content",
-          link: "#",
+          name: "Surrey",
+          link: "/surrey",
         },
         {
-          name: "How it Works",
-          link: "#",
+          name: "England",
+          link: "/england",
         },
         {
-          name: "Create",
-          link: "#",
+          name: "London",
+          link: "/london",
         },
         {
-          name: "Explore",
-          link: "#",
+          name: "About Us",
+          link: "/about",
         },
         {
-          name: "Terms & Services",
-          link: "#",
+          name: "Contact",
+          link: "/contact",
         },
       ],
     },
@@ -151,7 +151,7 @@ export const footerLinks = [
       links: [
         {
           name: "Help Center",
-          link: "#",
+          link: "/contact",
         },
         {
           name: "Partners",
@@ -163,7 +163,7 @@ export const footerLinks = [
         },
         {
           name: "Blog",
-          link: "#",
+          link: "/blogs",
         },
         {
           name: "Job vacancies",

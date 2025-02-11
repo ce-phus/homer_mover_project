@@ -196,40 +196,6 @@ const Contact = () => {
                 <label className='font-medium'>Text Message</label>
               </div>
             </div>
-
-            <div className='mt-5 space-y-2 md:pl-20'>
-              <h1 className='font-medium mb-3'>Urgency of Inquiry</h1>
-              <div className='flex space-x-3'>
-                <input
-                  type='radio'
-                  name='urgency'
-                  value='Urgent'
-                  checked={form.urgency === "Urgent"}
-                  onChange={handleChange}
-                />
-                <label className='font-medium'>Urgent</label>
-              </div>
-              <div className='flex space-x-3'>
-                <input
-                  type='radio'
-                  name='urgency'
-                  value='Normal'
-                  checked={form.urgency === "Normal"}
-                  onChange={handleChange}
-                />
-                <label className='font-medium'>Normal</label>
-              </div>
-              <div className='flex space-x-3'>
-                <input
-                  type='radio'
-                  name='urgency'
-                  value='Not Urgent'
-                  checked={form.urgency === "Not Urgent"}
-                  onChange={handleChange}
-                />
-                <label className='font-medium'>Not Urgent</label>
-              </div>
-            </div>
           </div>
           <button
             type='submit'
@@ -242,7 +208,9 @@ const Contact = () => {
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <FaBuilding className='text-6xl text-gray-700 bg-grade p-1.5 rounded-lg' />
             <h1 className='text-2xl font-bold text-center'>Company Information</h1>
-            <p className='font-medium text-lg text-gray-800'>Atlas Path Relocation</p>
+            <p className='font-medium text-xl text-gray-800'>Lucy Vuurboom</p>
+            <p className='font-medium text-xl text-gray-800'>Founder & Director</p>
+            <p className='font-medium text-xl text-gray-800'>Atlas Path Relocation</p>
           </div>
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <IoCall className='text-6xl text-gray-700 bg-grade p-1.5 rounded-lg' />

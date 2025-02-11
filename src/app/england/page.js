@@ -4,13 +4,13 @@ import Image from 'next/image'
 import { styles } from '../styles'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
-import { manchester, brighton, bristol, birmingham, oxford, newcastle, cotswolds, hero31, download, globe, cambridge, checklistpic, lake } from '@/assets'
+import { manchester, brighton, bristol, birmingham, oxford, cotswolds, download, cambridge, checklistpic, lake } from '@/assets'
 
 const England = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col sm:flex-col pt-10'>
-        <div className='w-full h-[750px] lg:w-full sm:w-full'>
+        <div className='w-full h-[750px] lg:w-full xl:h-[1000px] lg:h-full sm:w-full'>
             <Image 
             src={checklistpic}
             alt='md1'
@@ -67,14 +67,14 @@ const England = () => {
 
           <Image 
           src={manchester}
-          className='w-full h-[600px] sm:h-full md:h-full'
+          className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full'
           alt="hero7"/>
         </div>
     </div>
     <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
         <Image 
           src={birmingham}
-          className='w-full h-[600px] sm:h-full md:h-full'
+          className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full lg:order-2'
           alt="hero7"/>
           <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
             <h1 className={styles.heroHeadText}>Birmingham</h1>
@@ -116,7 +116,7 @@ const England = () => {
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <Image 
           src={cambridge}
-          className='w-full h-[600px] sm:h-full md:h-full'
+          className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full lg:order-2'
           alt="hero7"/>
           <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
             <h1 className={styles.heroHeadText}>Cambridge</h1>
@@ -151,7 +151,7 @@ const England = () => {
           </div>
           <Image 
             src={bristol}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] xl:h-[650px] sm:h-full md:h-full'
             alt="hero7"/>
         </div>
     </div>
@@ -160,7 +160,7 @@ const England = () => {
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <Image 
             src={brighton}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] sm:h-full md:h-full lg:order-2'
             alt="hero7"/>
           <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
             <h1 className={styles.heroHeadText}>Brighton</h1>
@@ -195,7 +195,7 @@ const England = () => {
           </div>
           <Image 
             src={cotswolds}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] xl:h-[790px] sm:h-full md:h-full'
             alt="hero7"/> 
         </div>
     </div>
@@ -204,7 +204,7 @@ const England = () => {
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
           <Image 
             src={lake}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] xl:h-[790px] sm:h-full md:h-full lg:order-2'
             alt="hero7"/>
           <div className='mt-10 mx-3 flex flex-col mx-5 pt-10'>
             <h1 className={styles.heroHeadText}>The Lake District</h1>

@@ -5,6 +5,7 @@ import { footerLinks, socialMedia } from '../constants'
 import Image from 'next/image'
 import Link from 'next/link'
 import Quiz from './Quiz'
+import { MdEmail } from "react-icons/md";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -16,7 +17,7 @@ const Footer = () => (
     <div className={`${styles.flexStart} flex-row sm:flex-col max-w-7xl mx-auto mb-8 w-full`}>
       <div className='flex-1 sm:flex md:flex-col sm:flex-row justify-start mr-10'>
         <Image src={logo8} alt='logo' className='w-[200px] h-[200px] object-contain'/>
-        <p className={`text-gray-700 text-xl font-bold mt-4 max-w-[310px]`}>
+        <p className={`text-gray-700 text-xl font-bold mt-4 max-w-[310px] md:hidden`}>
           Savor a Smooth Moving Experience with Atlas Path.
         </p>
       </div>
@@ -40,6 +41,9 @@ const Footer = () => (
     <div className='w-full flex justify-between items-center flex-col pt-6 border-t-[1px] border-t-[#3F3E45] max-w-[2000px] mx-auto'>
       <p className='font-medium text-center text-[18px] leading-[27px]'>
         2025 Atlas Path Relocation. All Rights Reserved
+      </p>
+      <p className='font-medium text-center text-[18px] leading-[27px] flex'>
+      <MdEmail className='w-6 h-7 mr-2'/> Lvuurboom@atlaspathrelocation.com
       </p>
     </div>
     <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>
