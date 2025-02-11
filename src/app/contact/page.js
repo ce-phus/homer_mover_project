@@ -221,7 +221,7 @@ const Contact = () => {
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <IoLocation className='text-6xl text-red-700 bg-grade p-1.5 rounded-lg' />
             <h1 className='text-2xl font-bold text-center'>Address:</h1>
-            <p className='font-medium text-lg text-gray-800'>MANCHESTER, United Kingdom 2078 Deansgate Zip Code/Postal Address:0856</p>
+            <p className='font-medium text-lg text-gray-800'>Commercial Way, Woking, Surrey, GU21 6EN</p>
           </div>
         </div>
       </div>
