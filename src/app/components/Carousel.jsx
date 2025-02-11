@@ -19,7 +19,7 @@ const Carousel = () => {
     }
   return (
     <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col pt-[20px] sm:flex-col-reverse'>
-        <Slider {...sliderSettings} className="lg:w-full xl:w-[550px] w-[850px] h-auto">
+        <Slider {...sliderSettings} className="lg:w-full xl:w-[750px] w-1/2 h-auto">
         {HeroData.map((data) => (
             <div key={data.id} className="relative z-[-1] h-[599px] overflow-hidden">
             <Image
