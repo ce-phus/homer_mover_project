@@ -19,7 +19,7 @@ const Domestic = () => {
                 className='w-[150px]'
                 alt=''/>
 
-            <h1 className='text-[20px] uppercase text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
+            <h1 className='text-[20px] text-center uppercase text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
 
             <ul className='space-y-2 mb-20 mx-5'>
                 <li className='space-x-2 flex'>
