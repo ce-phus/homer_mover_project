@@ -5,19 +5,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaPhoneVolume } from "react-icons/fa6";
 import { motion, AnimatePresence } from 'framer-motion';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { navLinks } from '../constants';
 
 const Navbar = () => {
     const router = useRouter();
+    const pathname = usePathname();
     const [toggle, setToggle] = useState(false);
     const [active, setActive] = useState("");
     const [scrolled, setScrolled] = useState(false);
     const [hoveredIndex, setHoveredIndex] = useState(null);
-
-    const handleRoute = () => {
-        router.push('/quote');
-    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -30,7 +27,10 @@ const Navbar = () => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
+    
+    useEffect(() => {
+        setToggle(false); // Close the navbar when the pathname changes
+    }, [pathname]); 
     return (
         <>
         <nav className={`w-full text-white z-[1000] ${scrolled ? "bg-grade opacity-50" : "bg-transparent"}`}>
