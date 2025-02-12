@@ -10,7 +10,7 @@ const Services = () => {
             <h2 className='text-[20px] uppercase text-dark font-medium text-center'>"Comprehensive Relocation Solutions Tailored to Your Needs"</h2>
             <p className='text-lg font-normal w-1/2 xl:w-full xl:mx-5 text-center'>At Atlas Path, we specialize in providing end-to-end relocation services for corporate teams, families, and individuals. Whether you’re moving across town, across the country, or across the globe, our expertise ensures a smooth, stress-free transition.</p>
         </div>
-        <div className='pt-10 pb-20 grid grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-20 xl:gap-[60px] mx-4'>
+        <div className='pt-10 pb-20 grid grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-20 xl:gap-[50px] lg:gap-20 mx-4'>
         <div className='space-y-3 text-center'>
             <Link href={'/domestic'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
