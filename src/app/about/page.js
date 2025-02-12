@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { md1, service1, download, about, md2, hero14 } from '@/assets'
+import { md1, service1, download, about, md2, central1 } from '@/assets'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
@@ -67,8 +67,8 @@ const About = () => {
             </div>
         </div>
 
-        <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col sm:flex-col-reverse'>
-            <div className='bg-gray-100 w-full'>
+        <div className='flex flex-row sm:flex-col md:flex-col lg:flex-col sm:flex-col-reverse mb-20'>
+            <div className='bg-gray-100 xl:bg-white lg:bg-gray-100 w-full pb-[117px] xl:pb-[174px]'>
                 <div className='flex justify-center items-center flex-col mt-20 sm:mb-20 space-y-7'>
                     <h2 className='text-xl text-dark tracking-wide font-normal uppercase'>Introducing</h2>
                     <Image
@@ -91,11 +91,15 @@ const About = () => {
                     initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>With Atlas Path, Lucy combines her legal acumen, industry expertise, and deep knowledge of Surrey and the Southeast of England to provide tailored, stress-free relocation solutions. Whether guiding businesses through team relocations, supporting families as they settle in new communities, or assisting individuals in embracing new opportunities, she ensures every move is handled with care, precision, and a personal touch.</motion.p>
                 </div>
             </div>
-            <div className='w-full sm:h-[500px] h-[1000px] xl:h-[1305px] lg:h-[1000px]'>
+            <div className='w-full h-[500px] xl:h-[683px]'>
                 <Image 
                 src={md2}
                 alt='md1'
                 className='w-full h-full'/>
+                <Image 
+                src={central1}
+                alt='md1'
+                className='w-full h-full lg:hidden'/>
             </div> 
             
         </div>

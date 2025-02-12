@@ -134,6 +134,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import surreypic from "./surrey.jpg"
 import renown from "./renown.jpg"
+import central1 from "./central.jpg"
 
 export {
     menu,
@@ -271,5 +272,6 @@ export {
     people02,
     people03,
     surreypic,
-    renown
+    renown,
+    central1
 }
