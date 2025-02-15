@@ -1,5 +1,5 @@
 import React from 'react'
-import { download, hero16, domestic, domestic1 } from '@/assets'
+import { download, domestic, domestic1 } from '@/assets'
 import Image from 'next/image';
 
 const Domestic = () => {

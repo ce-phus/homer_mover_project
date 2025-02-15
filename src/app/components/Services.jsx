@@ -1,5 +1,5 @@
 import React from 'react'
-import { arrowright, domestic, hero10, hero15, } from '@/assets'
+import { arrowright, domestic, hero10, hero15, privatepic} from '@/assets'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -10,7 +10,24 @@ const Services = () => {
             <h2 className='text-[20px] uppercase text-dark font-medium text-center'>"Comprehensive Relocation Solutions Tailored to Your Needs"</h2>
             <p className='text-lg font-normal w-1/2 xl:w-full xl:mx-5 text-center'>At Atlas Path, we specialize in providing end-to-end relocation services for corporate teams, families, and individuals. Whether you’re moving across town, across the country, or across the globe, our expertise ensures a smooth, stress-free transition.</p>
         </div>
-        <div className='pt-10 pb-20 grid grid-cols-3 lg:grid-cols-2 sm:grid-cols-1 gap-20 xl:gap-[50px] lg:gap-20 mx-4'>
+        <div className='pt-10 pb-20 grid grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-20 xl:gap-[50px] lg:gap-20 mx-4'>
+        <div className='space-y-3 text-center'>
+            <Link href={'/private'} className='space-y-5 flex flex-col justify-center items-center'>
+                <Image 
+                src={privatepic}
+                className='w-[500px] lg:h-[400px] xl:w-[400px] xl:h-[350px] lg:w-[400px] h-[400px]'
+                alt='service3'/>
+                <h1 className='uppercase text-2xl fomt-normal text-primary'>Private relocation services</h1>
+                <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>Making Private Moves Effortless</p>
+                <div className='flex justify-center items-center duration-300 ease-in-out hover:scale-105 w-3/4'>
+                    <Image 
+                    src={arrowright}
+                    className='w-9 h-9'
+                    alt='arrow-right'/>
+                </div>
+                
+            </Link>
+        </div>
         <div className='space-y-3 text-center'>
             <Link href={'/domestic'} className='space-y-5 flex flex-col justify-center items-center'>
                 <Image 
