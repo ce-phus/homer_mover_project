@@ -1,9 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { hero9, hero10, hero17, download } from '@/assets'
-import { TiTick } from "react-icons/ti";
-import { motion } from "framer-motion"
-
 const International = () => {
   return (
     <>

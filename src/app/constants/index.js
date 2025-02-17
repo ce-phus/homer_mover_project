@@ -1,5 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  hero26, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03, renown 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  international, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03, renown 
  } from "@/assets"
 
 
@@ -262,10 +262,10 @@ export const footerLinks = [
     },
     {
       id: 4,
-      title1: "How to Choose the Right Neighborhood for Your Family",
-      title2: "Key factors to consider when searching for your new home.",
-      img: neighbourhood,
-      link : "/neighbourhood",
+      title1: "Exploring International Schools in Surrey",
+      title2: "A Guide for Relocating Families",
+      img: international,
+      link : "/internationalschools",
     },
     {
       id: 5,
@@ -314,7 +314,7 @@ export const surrey = [
   {
     id: 3,
     title1: "Top-Rated Schools ",
-    text: "Surrey is home to some of the UK’s best schools, including renowned private institutions such as Charterhouse, Epsom College, and Royal Grammar School, Guildford, as well as outstanding state schools. Families moving to Surrey benefit from exceptional education options at all levels.",
+    text: "Surrey boasts outstanding international schools that offer globally recognized education in a multicultural setting. For example, ACS Cobham International School blends the International Baccalaureate with British curricula, preparing students for success on the global stage, while other local institutions foster diverse learning communities and worldwide opportunities. At Atlas Path, we understand that choosing the right school is crucial to your relocation journey; our team is here to help you navigate admissions, arrange school visits, and provide local insights so you can confidently select the perfect educational setting for your child.",
     img: topschools,
   },
 
@@ -1077,6 +1077,105 @@ export const checklist = [
     },
   ]
  },
+]
+
+export const internationalBlogs = [
+  {
+    id:1,
+    title: 'Why Choose an International School in or near Surrey?',
+    text: 'Living in Surrey gives families access to an array of outstanding educational options:',
+    subtexts: [
+      {
+        id: 'i',
+        title: 'Global Curriculum',
+        text: 'Schools here offer programs recognized worldwide, ensuring that your child’s education remains transferable and competitive on a global stage.',
+      },
+      {
+        id: 'ii',
+        title: 'Cultural Diversity',
+        text: 'These schools bring together students from various cultural backgrounds, creating an enriching, multicultural environment.',
+      },
+      {
+        id: 'iii',
+        title: 'Modern Facilities and Innovative Teaching:',
+        text: 'With state-of-the-art facilities and forward-thinking teaching methods, international schools prepare students to thrive in today’s interconnected world.',
+      },
+      {
+        id: 'iv',
+        title: 'Strategic Location:',
+        text: 'Surrey’s central position means that, in addition to excellent local options, families can easily access top-rated international schools in neighboring regions.',
+      },
+    ]
+  },
+  {
+    id:2,
+    title: 'Highlighted International Schools in and near Surrey',
+    subtexts: [
+      {
+        id: 'i',
+        title: 'ACS Cobham International School (Surrey):',
+        text: 'A flagship international school located right in Surrey, ACS Cobham offers a robust curriculum that seamlessly combines the International Baccalaureate with aspects of the British educational system. This ensures a comprehensive, globally recognized education that caters to a diverse student body.',
+      },
+      {
+        id: 'ii',
+        title: 'Sevenoaks School (Kent):',
+        text: 'Just a short drive from Surrey, Sevenoaks School in Kent is renowned for its strong international focus and academic excellence. With an emphasis on the IB program and a rich history of innovation, it offers an outstanding education for families looking to balance local living with global opportunities.',
+      },
+      {
+        id: 'iii',
+        title: 'Southbank International School (London):',
+        text: 'Although located in London, Southbank International School is easily accessible from Surrey. This school is known for its rigorous international curriculum and modern facilities, making it a popular choice for expatriate families seeking high-quality education within reach of Surrey’s residential areas.',
+      },
+    ]
+  },
+  {
+    id:3,
+    title: 'Tips for Choosing the Right International School',
+    text: 'Here are some practical tips to help you choose the right international school for your child:',
+    subtexts: [
+      {
+        id: 'i',
+        title: 'Visit the Schools:',
+        text: 'Attend open days or arrange private tours to experience the school environment firsthand and meet faculty members.',
+      },
+      {
+        id: 'ii',
+        title: 'Examine the Curriculum:',
+        text: "Review the academic programs (such as the International Baccalaureate or British curriculum) to ensure they align with your child's learning style and future goals."
+      },
+      {
+        id: 'iii',
+        title: 'Consider Location and Commute:',
+        text: "Evaluate the school’s proximity to your home and its accessibility, keeping in mind the daily commute and convenience for extracurricular activities."
+      },
+      {
+        id: 'iv',
+        title: 'Look at Extracurricular Offerings',
+        text: "Consider the range of sports, arts, and other extracurricular activities available to support your child’s overall development."
+      },
+      {
+        id: 'v',
+        title: 'Assess Cultural Diversity and Community:',
+        text: "A multicultural environment enriches learning. Check if the school fosters diversity and offers strong community support."
+      },
+      {
+        id: 'vi',
+        title: 'Research Reputation and Reviews:',
+        text: "Seek testimonials from other parents and review accreditation and performance data to gauge the school's track record."
+      },
+      {
+        id: 'vii',
+        title: 'Evaluate Facilities and Resources:',
+        text: "Inspect the quality of classrooms, technology, sports facilities, and libraries to ensure they provide a stimulating learning environment."
+      },
+      {
+        id: 'viii',
+        title: 'Speak with Other Parents and Students',
+        text: "Personal feedback can offer valuable insights into the day-to-day experience at the school."
+      },
+      
+    ]
+  }
 ]
 
 export const relocationChecklist = [
