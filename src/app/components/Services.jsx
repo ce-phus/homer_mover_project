@@ -84,7 +84,7 @@ const Services = () => {
                 className='w-[500px] xl:w-[400px] xl:h-[350px] lg:h-[400px] lg:w-[400px] h-[400px]'
                 alt='service1'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>Bespoke relocation services</h1>
-                <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>Bridging Borders, Building Futures</p>
+                <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>Personalized Planning and Coordination</p>
                 <div className='flex justify-center items-center duration-300 ease-in-out hover:scale-105 w-3/4'>
                     <Image 
                     src={arrowright}
@@ -100,7 +100,7 @@ const Services = () => {
                 className='w-[500px] xl:w-[400px] xl:h-[350px] lg:h-[400px] lg:w-[400px] h-[400px]'
                 alt='service1'/>
                 <h1 className='uppercase text-2xl fomt-normal text-primary'>Concierge relocation services</h1>
-                <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>Bridging Borders, Building Futures</p>
+                <p className='text-md font-normal text-primary/70 duration-300 ease-in-out hover:scale-105'>Personalized, White-glove Experience</p>
                 <div className='flex justify-center items-center duration-300 ease-in-out hover:scale-105 w-3/4'>
                     <Image 
                     src={arrowright}
