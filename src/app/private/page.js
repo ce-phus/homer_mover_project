@@ -19,23 +19,13 @@ const Private = () => {
                 className='w-[150px]'
                 alt=''/>
 
-            <h1 className='text-[20px] text-center uppercase text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
-
             <ul className='space-y-2 mb-20 mx-5'>
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Home Search Assistance: <span className='text-lg font-normal'>Helping you find the perfect home in Surrey or elsewhere in the UK.</span></p>
+                    <p className='text-lg font-normal'>At Atlas Path, we understand that every move is deeply personal. Our Private Relocation Service is designed to cater specifically to individuals and families seeking a smooth, stress-free transition to their new home. We provide a personalized approach that addresses every detail—from initial planning and home search to the final move and settling-in process.</p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Moving Logistics:  <span className='text-lg font-normal'>Coordinating with trusted moving companies to handle your belongings with care.</span></p>
-                </li>
-
-                <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Neighborhood Orientation: <span className='text-lg font-normal'>Providing insights into schools, amenities, and local communities.</span></p>
-                </li>
-
-                <li className='space-x-2 flex mb-20'>
-                    <p className='text-lg font-medium'>Custom Support: <span className='text-lg font-normal'>Services designed to meet your unique needs, from downsizing to relocating for a new job.</span></p>
+                    <p className='text-lg font-normal'>Our tailored service includes assistance with packing, transportation, utility setup, and even local orientation, ensuring you feel supported at every step. With our expert local knowledge and commitment to excellence, Atlas Path takes the worry out of your relocation, allowing you to focus on starting your new chapter with confidence and ease.</p>
                 </li>
             </ul>
         </div>

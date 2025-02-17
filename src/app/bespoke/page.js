@@ -1,42 +1,39 @@
 import React from 'react'
 import Image from 'next/image'
 import { download, bespoke, bespoke1 } from '@/assets'
+import Link from 'next/link'
 
 const page = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col pt-10'>
-        <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] h-[700px]'>
+        <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] xl:h-[900px] h-[700px]'>
             <Image 
             src={bespoke1}
             alt='hero5'
             className='w-full h-full'/>
         </div>
         <div className='w-full flex flex-col items-center bg-gray-100 space-y-8'>
-            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20'>Bespoke Relocation Services</h1>
+            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20'>Bespoke Move Service</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
 
-            <h1 className='text-[20px] text-center uppercase text-dark tracking-wide font-medium'>Making Local Moves Effortless</h1>
-
             <ul className='space-y-2 mb-20 mx-5'>
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Home Search Assistance: <span className='text-lg font-normal'>Helping you find the perfect home in Surrey or elsewhere in the UK.</span></p>
+                    <p className='text-lg font-normal'>At Atlas Path, we understand that no two relocations are the same. Our Bespoke Move Service is all about tailoring the moving experience to your exact needs and preferences. Whether you're relocating for work, family, or simply seeking a change of scenery, our dedicated team works closely with you to craft a move that reflects your unique lifestyle.</p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Moving Logistics:  <span className='text-lg font-normal'>Coordinating with trusted moving companies to handle your belongings with care.</span></p>
+                    <p className='text-lg font-normal'>From the initial consultation through to your final settling in, we provide personalized planning and coordination. We handle every detail—customizing logistics, coordinating with trusted vendors, and even arranging personalized local orientations—to ensure a smooth and stress-free transition. Our comprehensive approach not only covers the physical aspects of moving but also addresses the emotional side of starting afresh, making your relocation a truly unique journey.</p>
                 </li>
-
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Neighborhood Orientation: <span className='text-lg font-normal'>Providing insights into schools, amenities, and local communities.</span></p>
+                    <p className='text-xl font-medium'>Contact us today for a free consultation and discover how our Concierge Service can transform your moving experience into a smooth, personalized journey.</p>
                 </li>
-
-                <li className='space-x-2 flex mb-20'>
-                    <p className='text-lg font-medium'>Custom Support: <span className='text-lg font-normal'>Services designed to meet your unique needs, from downsizing to relocating for a new job.</span></p>
-                </li>
+                <div className='flex items-center justify-center'>                  
+                    <Link href={"/contact"} className='w-full border w-1/2  flex justify-center border-grade mb-10 mt-5 text-center px-5 py-4 text-lg font-bold text-primary hover:text-white hover:bg-primary hover:scale-105 duration-500 border-l-[5px]'>Book a Consultation Today !!</Link>
+                </div>
             </ul>
         </div>
     </div>
