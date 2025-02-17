@@ -137,6 +137,9 @@ import renown from "./renown.jpg"
 import central1 from "./central.jpg"
 import privatepic from "./private1.jpg"
 import private2 from "./private2.jpg"
+import bespoke from "./bespoke.jpg"
+import bespoke1 from "./bespoke1.jpg"
+import concierge from "./concierge.jpg"
 
 export {
     menu,
@@ -277,5 +280,8 @@ export {
     renown,
     central1,
     privatepic,
-    private2
+    private2,
+    bespoke,
+    bespoke1,
+    concierge
 }

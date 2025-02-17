@@ -39,6 +39,16 @@ export const navLinks = [
               "title": "International Relocation",
               "href": "/international",
           },
+          {
+            "id": 5,
+            "title": "Bespoke Services",
+            "href": "/bespoke",
+          },
+          {
+            "id": 6,
+            "title": "Concierge Services",
+            "href": "/concierge",
+          },
         ]
     },
     {

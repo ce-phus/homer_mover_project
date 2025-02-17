@@ -1,19 +1,19 @@
 import React from 'react'
-import { privatepic, private2, download } from '@/assets'
 import Image from 'next/image'
+import { download, bespoke, bespoke1 } from '@/assets'
 
-const Private = () => {
+const page = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col pt-10'>
         <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] h-[700px]'>
             <Image 
-            src={privatepic}
+            src={bespoke1}
             alt='hero5'
             className='w-full h-full'/>
         </div>
         <div className='w-full flex flex-col items-center bg-gray-100 space-y-8'>
-            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20'>Private Relocation Services</h1>
+            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20'>Bespoke Relocation Services</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
@@ -80,7 +80,7 @@ const Private = () => {
         </div>
         <div className='w-full h-[550px] lg:h-full'>
             <Image 
-            src={private2}
+            src={bespoke}
             alt='hero8'
             className='w-full h-full'/>
         </div>   
@@ -89,4 +89,4 @@ const Private = () => {
   )
 }
 
-export default Private
+export default page
