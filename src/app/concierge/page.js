@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { download, concierge, bespoke } from '@/assets'
+import { download, concierge, bespoke, stock } from '@/assets'
 import Link from 'next/link'
 
 const page = () => {
@@ -81,7 +81,7 @@ const page = () => {
         </div>
         <div className='w-full h-[550px] lg:h-full'>
             <Image 
-            src={bespoke}
+            src={stock}
             alt='hero8'
             className='w-full h-full'/>
         </div>   

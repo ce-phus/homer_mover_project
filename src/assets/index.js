@@ -102,7 +102,7 @@ import vibrant from "./vibrant.jpg"
 import topschools from "./topschools.jpg"
 import guildfordhousing from "./housing.jpg"
 import guildfordrenown from "./renownschools.jpg"
-import transport from "./transport.png"
+import transport from "./transportlink.jpg"
 import dining from "./dining.jpg"
 import home from "./place.jpg"
 import domestic from "./domestic.jpg"
@@ -122,7 +122,7 @@ import entertainment from "./entertainment.jpg"
 import regenerated from "./regenerated.jpg"
 import green from "./green.jpg"
 import mclaren from "./mclaren2.jpg"
-import thriving from "./thriving.jpg"
+import thriving from "./thriving1.jpg"
 import feel from "./feel.jpg"
 import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
@@ -137,12 +137,13 @@ import renown from "./renown.jpg"
 import central1 from "./central.jpg"
 import privatepic from "./private1.jpg"
 import private2 from "./private2.jpg"
-import bespoke from "./bespoke.jpg"
-import bespoke1 from "./bespoke1.jpg"
-import concierge from "./concierge.jpg"
+import bespoke from "./bespoke2.jpg"
+import bespoke1 from "./bespoke3.jpg"
+import concierge from "./concierge1.jpg"
 import international from "./international.jpg"
-import aboutbio1 from "./bio1.jpg"
+import aboutbio1 from "./bio3.jpg"
 import aboutbio2 from "./bio2.jpg"
+import stock from "./stock1.jpg"
 
 export {
     menu,
@@ -289,5 +290,6 @@ export {
     concierge,
     international,
     aboutbio1,
-    aboutbio2
+    aboutbio2,
+    stock
 }
