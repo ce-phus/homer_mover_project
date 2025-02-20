@@ -314,7 +314,7 @@ export const surrey = [
   {
     id: 3,
     title1: "Top-Rated Schools ",
-    text: "Surrey boasts outstanding international schools that offer globally recognized education in a multicultural setting. For example, ACS Cobham International School blends the International Baccalaureate with British curricula, preparing students for success on the global stage, while other local institutions foster diverse learning communities and worldwide opportunities. At Atlas Path, we understand that choosing the right school is crucial to your relocation journey; our team is here to help you navigate admissions, arrange school visits, and provide local insights so you can confidently select the perfect educational setting for your child.",
+    text: "Surrey boasts outstanding international schools that offer globally recognized education in a multicultural setting. For example, ACS Cobham International School blends the International Baccalaureate with British curricula, preparing students for success on the global stage, while other local institutions foster diverse learning communities and worldwide opportunities.",
     img: topschools,
   },
 

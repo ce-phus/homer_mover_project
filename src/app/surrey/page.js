@@ -185,10 +185,10 @@ const Surrey = () => {
           <div>
             <Image 
             src={esher}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full'
             alt="hero7"/>
           </div>
-          <div className='mx-5 pt-20'>
+          <div className='mx-5 pt-20 xl:pt-5'>
             <h1 className={`${styles.heroHeadText} mb-4`}>Esher & Cobham – Exclusive Living in Surrey</h1>
             <h1 className={`${styles.heroSubText} mb-4`}>Esher – A Prestigious Surrey Enclave</h1>
             <p className={`${styles.paragraph}`}>Esher is one of Surrey’s most desirable locations, offering a blend of luxury living, excellent amenities, and easy London access. Known for its exclusive homes, green spaces, and thriving high street, Esher is popular among professionals, families, and celebrities.Exclusive areas with a mix of luxury living and family appeal.</p>
@@ -203,8 +203,8 @@ const Surrey = () => {
           </div>   
         </div>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
-          <div className='mx-5'>
-            <div className='mx-5 pt-20'>
+          <div className='mx-5 lg:order-2'>
+            <div className='mx-5 pt-20 xl:pt-5'>
               <h1 className={`${styles.heroSubText} mb-4`}>Cobham – Luxury, Lifestyle, and Football Legacy</h1>
               <p className={`${styles.paragraph}`}>Cobham is one of Surrey’s most prestigious villages, known for its high-end properties, excellent schools, and strong community feel. Home to Chelsea FC’s training ground, it has become a hotspot for footballers, executives, and families looking for a premium lifestyle..</p>
               <ul className='space-y-3 mx-3 mt-2'>
@@ -221,7 +221,7 @@ const Surrey = () => {
           <div>
             <Image 
             src={cobham}
-            className='w-full h-[600px] sm:h-full md:h-full'
+            className='w-full h-[600px] xl:h-[715px] lg:h-full sm:h-full md:h-full'
             alt="hero7"/>
           </div>
           
@@ -233,7 +233,7 @@ const Surrey = () => {
           <div>
             <Image 
               src={reigate1}
-              className='w-full h-[600px] sm:h-full md:h-full'
+              className='w-full h-[600px] xl:h-[670px] lg:h-full sm:h-full md:h-full'
               alt="hero7"/>
           </div>
           <div className='mt-10 mx-3'>
@@ -254,7 +254,7 @@ const Surrey = () => {
 
     <div className='bg-white'>
         <div className='grid grid-cols-2 lg:grid-cols-1 gap-5'>
-          <div className='mt-20 mx-3'>
+          <div className='mt-20 xl:mt-10 mx-3 lg:order-2'>
             <div className=' mx-3'>
               <h1 className={`${styles.heroSubText} mb-4`}>Dorking – Scenic Countryside & Timeless Character</h1>
               <p className={`${styles.paragraph}`}>Dorking is a picturesque town in the heart of the Surrey Hills, offering a tranquil yet well-connected lifestyle. It’s a haven for nature lovers, food enthusiasts, and commuters alike.</p>
@@ -271,7 +271,7 @@ const Surrey = () => {
           <div>
               <Image 
               src={dorking}
-              className='w-full h-[600px] sm:h-full md:h-full'
+              className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full'
               alt="hero7"/>
           </div>
           
