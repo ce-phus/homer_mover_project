@@ -141,6 +141,8 @@ import bespoke from "./bespoke.jpg"
 import bespoke1 from "./bespoke1.jpg"
 import concierge from "./concierge.jpg"
 import international from "./international.jpg"
+import aboutbio1 from "./bio1.jpg"
+import aboutbio2 from "./bio2.jpg"
 
 export {
     menu,
@@ -285,5 +287,7 @@ export {
     bespoke,
     bespoke1,
     concierge,
-    international
+    international,
+    aboutbio1,
+    aboutbio2
 }

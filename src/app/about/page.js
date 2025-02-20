@@ -1,6 +1,6 @@
 "use client";
 import React from 'react'
-import { md1, service1, download, about, md2, central1 } from '@/assets'
+import { md1, service1, download, about, md2, aboutbio1, aboutbio2 } from '@/assets'
 import Image from 'next/image'
 import { motion } from "framer-motion"
 import { fadeIn } from '../../../variants';
@@ -91,9 +91,9 @@ const About = () => {
                     initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>With Atlas Path, Lucy combines her legal acumen, industry expertise, and deep knowledge of Surrey and the Southeast of England to provide tailored, stress-free relocation solutions. Whether guiding businesses through team relocations, supporting families as they settle in new communities, or assisting individuals in embracing new opportunities, she ensures every move is handled with care, precision, and a personal touch.</motion.p>
                 </div>
             </div>
-            <div className='w-full h-[1300px] xl:h-[1650px]'>
+            <div className='w-full h-[1200px] xl:h-[1680px]'>
                 <Image 
-                src={md2}
+                src={aboutbio1}
                 alt='md1'
                 className='w-full h-full'/>
             </div> 
