@@ -6,25 +6,25 @@ const Private = () => {
   return (
     <>
     <div className='flex flex-row lg:flex-col pt-10'>
-        <div className='w-full sm:h-full md:h-[1000px] lg:h-[600px] h-[700px]'>
+        <div className='w-full sm:h-full md:h-[1000px] lg:h-full h-[700px] xl:h-[635px]'>
             <Image 
             src={privatepic}
             alt='hero5'
             className='w-full h-full'/>
         </div>
         <div className='w-full flex flex-col items-center bg-gray-100 space-y-8'>
-            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20'>Private Relocation Services</h1>
+            <h1 className='text-[20px] uppercase font-medium tracking-wide text-primary text-center mt-20 lg:mt-10'>Private Relocation Services</h1>
                 <Image
                 src={download}
                 className='w-[150px]'
                 alt=''/>
 
-            <ul className='space-y-2 mb-20 mx-5'>
-                <li className='space-x-2 flex'>
+            <ul className='mx-5'>
+                <li className='space-x-2 flex mb-2'>
                     <p className='text-lg font-normal'>At Atlas Path, we understand that every move is deeply personal. Our Private Relocation Service is designed to cater specifically to individuals and families seeking a smooth, stress-free transition to their new home. We provide a personalized approach that addresses every detail—from initial planning and home search to the final move and settling-in process.</p>
                 </li>
 
-                <li className='space-x-2 flex'>
+                <li className='space-x-2 flex mb-10'>
                     <p className='text-lg font-normal'>Our tailored service includes assistance with packing, transportation, utility setup, and even local orientation, ensuring you feel supported at every step. With our expert local knowledge and commitment to excellence, Atlas Path takes the worry out of your relocation, allowing you to focus on starting your new chapter with confidence and ease.</p>
                 </li>
             </ul>
@@ -36,15 +36,23 @@ const Private = () => {
             <h1 className='text-[20px] uppercase text-primary font-medium'>Tailored Solutions to Make Every Move Stress-Free</h1>
             <ul className='space-y-4 mb-20 flex flex-col items-center'>
                 <li className='space-x- flex'>
-                    <p className='text-lg font-medium'>Property Management:  <span className='text-lg font-normal'>Coordinating the sale or rental of your current property.</span></p>
+                    <p className='text-lg font-medium'>Personalized Consultation: <span className='text-lg font-normal'>In-depth discussions to design a relocation strategy that suits your lifestyle.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Settling-In Services: <span className='text-lg font-normal'>Support with tasks like registering for healthcare, setting up utilities, or finding local services.</span></p>
+                    <p className='text-lg font-medium'>Home Search & Settling-In Support: <span className='text-lg font-normal'>Assistance in finding your perfect new home and setting up essential services.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Customized Moving Plans: <span className='text-lg font-normal'>Flexible packages designed around your specific timeline and requirements.</span></p>
+                    <p className='text-lg font-medium'>Professional Packing & Safe Transportation: <span className='text-lg font-normal'>Expert handling of your belongings for a secure and efficient move.</span></p>
+                </li>
+
+                <li className='space-x-2 flex'>
+                    <p className='text-lg font-medium'>Local Orientation: <span className='text-lg font-normal'>Guidance to help you quickly acclimate to your new community, from neighborhood insights to local amenities.</span></p>
+                </li>
+
+                <li className='space-x-2 flex'>
+                    <p className='text-lg font-medium'>Ongoing Support: <span className='text-lg font-normal'>Continuous assistance throughout the process, ensuring a smooth transition and peace of mind.</span></p>
                 </li>
             </ul>
         </div>

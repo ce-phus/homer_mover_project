@@ -41,19 +41,19 @@ const International = () => {
     </div>
     <div className='max-w-7xl mx-auto pt-20 pb-20'>
         <div className='text-center space-y-8'>
-            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Additional Services</h2>
+            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Services</h2>
             <h1 className='text-[20px] uppercase text-primary font-medium'>Tailored Solutions to Make Every Move Stress-Free</h1>
             <ul className='space-y-4 mb-20 flex flex-col items-center'>
                 <li className='space-x- flex'>
-                    <p className='text-xl font-medium'>Property Management:  <span className='text-lg font-normal'>Coordinating the sale or rental of your current property.</span></p>
+                    <p className='text-xl font-medium'>Global Consultation & Tailored Planning: <span className='text-lg font-normal'>We start with a comprehensive consultation to understand your unique international relocation needs and develop a customized moving plan.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-xl font-medium'>Settling-In Services: <span className='text-lg font-normal'>Support with tasks like registering for healthcare, setting up utilities, or finding local services.</span></p>
+                    <p className='text-xl font-medium'>Seamless Shipping & Logistics Coordination: <span className='text-lg font-normal'>Our team manages every aspect of international shipping—from professional packing and secure transportation to customs clearance and door-to-door delivery.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-xl font-medium'>Customized Moving Plans: <span className='text-lg font-normal'>Flexible packages designed around your specific timeline and requirements.</span></p>
+                    <p className='text-xl font-medium'>Visa & Immigration Support: <span className='text-lg font-normal'>We offer expert guidance on visa applications, work permits, and residency requirements, ensuring a smooth transition for you and your family.</span></p>
                 </li>
             </ul>
         </div>
@@ -62,18 +62,21 @@ const International = () => {
     <div className='flex flex-row lg:flex-col bg-gray-100'>
 
         <div className='flex w-full mx-[50px] xl:mx-0 xl:mt-10 xl:mb-10 items-center justify-center flex-col space-y-5'>
-            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Why Choose Atlas Path?</h1>
+            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Additional Services</h1>
             <ul className='space-y-2 mb-20 mx-10'>
                 <li className='space-x-3 flex'>
-                    <p className='text-lg font-medium'>Surrey-Based Expertise: <span className='text-lg font-normal'>With deep local knowledge, we understand what matters to individuals and businesses moving to or from the UK</span></p>
+                    <p className='text-lg font-medium'>Customs Documentation & Clearance: <span className='text-lg font-normal'>We coordinate with experienced customs brokers to handle all necessary documentation and ensure compliance with import/export regulations.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Comprehensive Support: <span className='text-lg font-normal'>From legal requirements to cultural integration, we cover every detail.</span></p>
+                    <p className='text-lg font-medium'>Overseas Home Search & Settling-In Assistance: <span className='text-lg font-normal'>We assist with finding suitable housing, arranging temporary accommodations, and setting up essential services at your new destination.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Personalized Approach: <span className='text-lg font-normal'>Every relocation is as unique as the client. We tailor solutions to meet your needs.</span></p>
+                    <p className='text-lg font-medium'>Cultural Orientation & Local Integration: <span className='text-lg font-normal'>Benefit from tailored orientation services that help you navigate the new culture, connect with community resources, and settle in confidently.</span></p>
+                </li>
+                <li className='space-x-2 flex'>
+                    <p className='text-lg font-medium'>Ongoing Post-Move Support: <span className='text-lg font-normal'>Our support continues after the move to address any concerns and ensure a seamless integration into your new country.</span></p>
                 </li>
             </ul>
         </div>

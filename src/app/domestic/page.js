@@ -27,7 +27,7 @@ const Domestic = () => {
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Moving Logistics:  <span className='text-lg font-normal'>Coordinating with trusted moving companies to handle your belongings with care.</span></p>
+                    <p className='text-lg font-medium'>Moving Logistics: <span className='text-lg font-normal'>Coordinating with trusted moving companies to handle your belongings with care.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
@@ -42,19 +42,19 @@ const Domestic = () => {
     </div>
     <div className='max-w-7xl mx-auto pt-20 pb-20'>
         <div className='text-center space-y-8'>
-            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Additional Services</h2>
+            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Services</h2>
             <h1 className='text-[20px] uppercase text-primary font-medium'>Tailored Solutions to Make Every Move Stress-Free</h1>
             <ul className='space-y-4 mb-20 flex flex-col items-center'>
                 <li className='space-x- flex'>
-                    <p className='text-lg font-medium'>Property Management:  <span className='text-lg font-normal'>Coordinating the sale or rental of your current property.</span></p>
+                    <p className='text-lg font-medium'>Personalized Consultation & Planning: <span className='text-lg font-normal'>We start with an in-depth consultation to understand your specific domestic moving needs and develop a customized relocation plan.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Settling-In Services: <span className='text-lg font-normal'>Support with tasks like registering for healthcare, setting up utilities, or finding local services.</span></p>
+                    <p className='text-lg font-medium'>Efficient Logistics Coordination: <span className='text-lg font-normal'>Our team handles all aspects of your move within the UK—from packing and loading to transportation and unloading—ensuring a smooth and timely transition.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Customized Moving Plans: <span className='text-lg font-normal'>Flexible packages designed around your specific timeline and requirements.</span></p>
+                    <p className='text-lg font-medium'>Trusted Vendor Management: <span className='text-lg font-normal'>We coordinate with reliable local service providers, including professional movers, packing experts, and cleaning services, to make your move hassle-free.</span></p>
                 </li>
             </ul>
         </div>
@@ -63,18 +63,18 @@ const Domestic = () => {
     <div className='flex flex-row lg:flex-col bg-gray-100'>
 
         <div className='flex w-full mx-[100px] lg:mx-0 lg:mt-10 lg:mb-10 items-center justify-center flex-col space-y-5'>
-            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Why Choose Atlas Path?</h1>
+            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Additional Services</h1>
             <ul className='space-y-2 mb-20 mx-10'>
                 <li className='space-x-3 flex'>
-                    <p className='text-lg font-medium'>Surrey-Based Expertise: <span className='text-lg font-normal'>With deep local knowledge, we understand what matters to individuals and businesses moving to or from the UK</span></p>
+                    <p className='text-lg font-medium'>Home Search & Settling-In Support: <span className='text-lg font-normal'>If required, we assist with home search and provide guidance on setting up utilities and essential services in your new area.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Comprehensive Support: <span className='text-lg font-normal'>From legal requirements to cultural integration, we cover every detail.</span></p>
+                    <p className='text-lg font-medium'>Documentation & Insurance Assistance: <span className='text-lg font-normal'>We help ensure that all necessary paperwork is completed and your belongings are adequately protected with appropriate moving insurance.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='text-lg font-medium'>Personalized Approach: <span className='text-lg font-normal'>Every relocation is as unique as the client. We tailor solutions to meet your needs.</span></p>
+                    <p className='text-lg font-medium'>Post-Move Support: <span className='text-lg font-normal'>Our service doesn’t end when the move is complete—we offer follow-up support to address any concerns and help you settle comfortably into your new home.</span></p>
                 </li>
             </ul>
         </div>

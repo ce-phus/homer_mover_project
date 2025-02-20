@@ -41,19 +41,19 @@ const page = () => {
     </div>
     <div className='max-w-7xl mx-auto pt-20 pb-20'>
         <div className='text-center space-y-8'>
-            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Additional Services</h2>
+            <h2 className='text-[20px] uppercase tracking-wide text-dark font-medium'>Services</h2>
             <h1 className='text-[20px] uppercase text-primary font-medium'>Tailored Solutions to Make Every Move Stress-Free</h1>
             <ul className='space-y-4 mb-20 flex flex-col items-center'>
                 <li className='space-x- flex'>
-                    <p className='font-medium'>Property Management:  <span className='text-lg font-normal'>Coordinating the sale or rental of your current property.</span></p>
+                    <p className='font-medium'>Tailored Corporate Consultation & Strategy: <span className='text-lg font-normal'>We collaborate with your HR and management teams to develop a customized relocation strategy that aligns with your company’s objectives and ensures a seamless transition for your employees.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='font-medium'>Settling-In Services: <span className='text-lg font-normal'>Support with tasks like registering for healthcare, setting up utilities, or finding local services.</span></p>
+                    <p className='font-medium'>Comprehensive Employee Relocation Support: <span className='text-lg font-normal'>Our service covers all aspects of employee relocation—from visa and immigration assistance to school search, cultural orientation, and local integration—ensuring that staff and their families are well-supported throughout the move</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='font-medium'>Customized Moving Plans: <span className='text-lg font-normal'>Flexible packages designed around your specific timeline and requirements.</span></p>
+                    <p className='font-medium'>Efficient Logistics & Vendor Coordination: <span className='text-lg font-normal'>We manage every detail of the move, coordinating with trusted vendors for packing, shipping, and transportation while keeping your business continuity in mind.</span></p>
                 </li>
             </ul>
         </div>
@@ -61,18 +61,22 @@ const page = () => {
 
     <div className='flex flex-row lg:flex-col bg-gray-100'>
         <div className='flex w-full mx-[100px] xl:mx-0 lg:mt-10 lg:mb-10 items-center justify-center flex-col space-y-5'>
-            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Why Choose Atlas Path?</h1>
+            <h1 className='text-[20px] uppercase text-primary tracking-wide'>Additional Services</h1>
             <ul className='space-y-2 mb-20 mx-10'>
                 <li className='space-x-3 flex'>
-                    <p className='font-medium'>Surrey-Based Expertise: <span className='text-lg font-normal'>With deep local knowledge, we understand what matters to individuals and businesses moving to or from the UK</span></p>
+                    <p className='font-medium'>Budget Management & Transparent Reporting: <span className='text-lg font-normal'>We work within your allocated budget, providing detailed reporting and expense tracking to ensure financial transparency and cost efficiency.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className='font-medium'>Comprehensive Support: <span className='text-lg font-normal'>From legal requirements to cultural integration, we cover every detail.</span></p>
+                    <p className='font-medium'>Temporary Accommodation & Settling-In Assistance: <span className='text-lg font-normal'>We assist in securing temporary housing and setting up essential services, enabling employees to settle quickly and focus on their new roles.</span></p>
                 </li>
 
                 <li className='space-x-2 flex'>
-                    <p className=' font-medium'>Personalized Approach: <span className='text-lg font-normal'>Every relocation is as unique as the client. We tailor solutions to meet your needs.</span></p>
+                    <p className=' font-medium'>Cultural & Business Integration: <span className='text-lg font-normal'>Our tailored programs include cultural training and local orientation to help employees adapt to their new environment, fostering smoother transitions and enhanced productivity.</span></p>
+                </li>
+
+                <li className='space-x-2 flex'>
+                    <p className=' font-medium'>Ongoing Post-Move Support: <span className='text-lg font-normal'>Our commitment extends beyond the move with continuous support and follow-up services, ensuring that any issues are promptly addressed and employees continue to thrive in their new location.</span></p>
                 </li>
             </ul>
         </div>
