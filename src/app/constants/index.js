@@ -313,7 +313,7 @@ export const surrey = [
   },
   {
     id: 3,
-    title1: "Top-Rated Schools ",
+    title1: "International Schools ",
     text: "Surrey boasts outstanding international schools that offer globally recognized education in a multicultural setting. For example, ACS Cobham International School blends the International Baccalaureate with British curricula, preparing students for success on the global stage, while other local institutions foster diverse learning communities and worldwide opportunities.",
     img: topschools,
   },
