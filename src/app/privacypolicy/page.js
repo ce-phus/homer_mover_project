@@ -9,14 +9,14 @@ const PrivatePolicy = () => {
         </div>
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>1. Introduction</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 Welcome to Atlas Path We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [www.atlaspathrelocation.com ] and use our services.
             </p>
         </div>
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>2. Information We Collect</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We may collect both personal and non-personal information from you when you interact with our Site. This includes:
             </p>
             <ul className='list-disc list-inside ml-3'>
@@ -28,7 +28,7 @@ const PrivatePolicy = () => {
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>3. How We Use Your Information</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We use the information we collect to:
             </p>
             <ul className='list-disc list-inside ml-3'>
@@ -48,14 +48,14 @@ const PrivatePolicy = () => {
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>4. Cookies and Tracking Technologies</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We use cookies and similar tracking technologies to enhance your experience on our Site. Cookies help us understand user behaviour, customize content, and track website usage. You can set your browser to refuse cookies or to alert you when cookies are being sent. However, if you do so, some parts of our Site may not function properly.
             </p>
         </div>
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>5. Disclosure of Your Information</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We may share your personal information in the following situations:
             </p>
             <ul className='list-disc list-inside ml-3'>
@@ -69,21 +69,21 @@ const PrivatePolicy = () => {
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>6. Data Security</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We implement a variety of security measures to protect your personal information from unauthorized access, use, or disclosure. However, no internet-based service can be 100% secure, so while we strive to protect your personal information, we cannot guarantee its absolute security.
             </p>
         </div>
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>7. Data Retention</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We retain your personal information only for as long as necessary to fulfil the purposes for which it was collected, or as required by law. When we no longer need to use your personal information, we will take reasonable steps to securely delete or anonymize it.
             </p>
         </div>
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>8. Your Rights</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 Depending on your jurisdiction, you may have rights regarding your personal information, such as:
             </p>
             <ul className='list-disc list-inside ml-3'>
@@ -99,7 +99,7 @@ const PrivatePolicy = () => {
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>9. Changes to This Privacy Policy</h1>
-            <p className='font-normal text-md'>
+            <p className='font-normal text-md mt-2'>
                 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the “Last Updated” date. Your continued use of the Site after any changes indicates your acceptance of the new Privacy Policy.
             </p>
         </div>
@@ -113,8 +113,8 @@ const PrivatePolicy = () => {
 
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>Atlas Path</h1>
-            <div className='font-normal text-md space-y-3'>
-                <p className='font-medium text-lg'>Email: <span className='font-normal'>Email: [lucy@atlaspath.com]</span></p>
+            <div className='font-normal text-md space-y-3 mt-2'>
+                <p className='font-medium text-lg'>Email: <span className='font-normal'>info@atlaspathrelocation.com </span></p>
                 <p className='font-medium text-lg'>Phone: <span className='font-normal'>+44 7359040511</span></p>
                 <p className='font-medium text-lg'>Address: <span className='font-normal'>Steward House,14 Commercial Way, Woking, Gu216ET</span></p>
             </div>
