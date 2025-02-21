@@ -30,7 +30,9 @@ const Footer = () => (
             <ul className='list-none mt-4'>
               {footerLink.links.map((link, index) => (
                 <li key={`link-${link.name}-${index}`} className={`text-gray-700 font-medium font-normal text-[16px] leading-[24px] hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}>
+                  <Link href={link.link}>
                   {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -48,7 +50,7 @@ const Footer = () => (
     </div>
     <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>
       {socialMedia.map((social, index) => (
-        <Link key={social.id} href={social.link}>
+        <Link key={social.id} href={social.link} >
         <Image
           
           src={social.icon}

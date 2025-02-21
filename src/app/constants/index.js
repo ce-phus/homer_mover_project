@@ -140,10 +140,6 @@ export const footerLinks = [
       title: "Useful Links",
       links: [
         {
-          name: "Surrey",
-          link: "/surrey",
-        },
-        {
           name: "England",
           link: "/england",
         },
@@ -151,6 +147,11 @@ export const footerLinks = [
           name: "London",
           link: "/london",
         },
+        {
+          name: "Surrey",
+          link: "/surrey",
+        },
+        
         {
           name: "About Us",
           link: "/about",
@@ -187,15 +188,15 @@ export const footerLinks = [
       ],
     },
     {
-      title: "Partner",
+      title: "Policies",
       links: [
         {
-          name: "Our Partner",
-          link: "#",
+          name: "Privacy Policy",
+          link: "/privacypolicy",
         },
         {
-          name: "Become a Partner",
-          link: "#",
+          name: "Cookie Policy",
+          link: "/cookiepolicy",
         },
       ],
     },
