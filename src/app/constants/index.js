@@ -483,10 +483,10 @@ export const wokingtext = [
       {
         id: 1,
         text1: " - The New Victoria Theatre: ",
-        text2: " - Nova Cinema: ",
+        text2: " - State of the Art Cinema: ",
         text3: " - A vibrant restaurant and café scene: ",
         subtexts1: "Hosting West End shows, live music, and performances.",
-        subtexts2: "A state-of-the-art movie experienc",
+        subtexts2: "A state-of-the-art movie experience",
         subtexts3: "with options ranging from fine dining to casual eateries.",
       }
     ],

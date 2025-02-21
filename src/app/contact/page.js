@@ -96,7 +96,7 @@ const Contact = () => {
                 className='appearance-none bg-grade text-gray-800 block border border-gray-300 placeholder-gray-500 rounded-lg w-full p-2.5'
                 type="text"
                 name="firstname"
-                placeholder='Mary'
+                placeholder=''
                 value={form.firstname}
                 onChange={handleChange}
               />
@@ -107,7 +107,7 @@ const Contact = () => {
                 className='appearance-none bg-grade text-gray-800 block border border-gray-300 placeholder-gray-500 rounded-lg w-full p-2.5'
                 type="text"
                 name="lastname"
-                placeholder='Jane'
+                placeholder=''
                 value={form.lastname}
                 onChange={handleChange}
               />
@@ -118,7 +118,7 @@ const Contact = () => {
               <label className='font-medium tracking-wide block'>Email Address</label>
               <input
                 className='appearance-none bg-grade text-gray-800 block border border-gray-300 placeholder-gray-700 rounded-lg w-full p-2.5'
-                placeholder='someone@gmail.com'
+                placeholder=''
                 type="email"
                 name="email"
                 value={form.email}
@@ -129,7 +129,7 @@ const Contact = () => {
               <label className='font-medium tracking-wide block'>Phone Number</label>
               <input
                 className='appearance-none bg-grade text-gray-800 block border border-gray-300 placeholder-gray-700 rounded-lg w-full p-2.5'
-                placeholder='0700000000'
+                placeholder=''
                 type="tel"
                 name="phonenumber"
                 value={form.phonenumber}
@@ -151,7 +151,7 @@ const Contact = () => {
               <textarea
                 rows={7}
                 name='message'
-                placeholder='What you want to say?'
+                placeholder=''
                 className='bg-grade border border-white shadow py-4 px-6 placeholder:text-dark text-gray-800 rounded-lg outline-none border-none font-medium'
                 value={form.message}
                 onChange={handleChange}

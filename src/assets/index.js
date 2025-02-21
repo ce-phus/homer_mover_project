@@ -126,7 +126,7 @@ import thriving from "./thriving1.jpg"
 import feel from "./feel.jpg"
 import domestic1 from "./domestic1.jpg"
 import schoolsearch from "./search.jpg"
-import checklistpic from "./truck2.jpg"
+import checklistpic from "./truck3.jpg"
 import lake from "./lake.jpg"
 import quotes from "./quote.png"
 import people01 from "./people01.png";
