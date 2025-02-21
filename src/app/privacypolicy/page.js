@@ -5,7 +5,7 @@ const PrivatePolicy = () => {
     <div className='max-w-7xl mx-auto pt-20 lg:pt-10'>
         <div className='text-center'>
             <h1 className='text-4xl xl:text-2xl lg:text-xl font-bold'>Privacy Policy</h1>
-            <p className='text-lg text-gray-500 mt-4'>Last updated: September 30, 2021</p>
+            <p className='text-lg text-gray-500 mt-4'>Last updated: February 21, 2025</p>
         </div>
         <div className='flex flex-col justify-center mt-10 xl:mt-8 lg:mt-5'>
             <h1 className='font-bold text-xl'>1. Introduction</h1>
