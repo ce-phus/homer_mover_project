@@ -21,7 +21,7 @@ const Blogs = () => {
             <div className='w-full flex flex-col items-center lg:pt-20 bg-gray-100 space-y-5'>
                 <motion.h1
                     variants={fadeIn("down", "spring", 0.75)} 
-                    initial='hidden' animate='show' z
+                    initial='hidden' animate='show'
                     className='text-[20px] font-normal text-primary tracking-wide mt-[120px] lg:mt-20 uppercase'>Blog & Resources</motion.h1>
 
                     <Image
