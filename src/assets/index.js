@@ -133,7 +133,7 @@ import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import surreypic from "./surrey.jpg"
-import renown from "./renown.jpg"
+import renown from "./renown1.jpg"
 import central1 from "./central.jpg"
 import privatepic from "./private1.jpg"
 import private2 from "./private2.jpg"
@@ -144,6 +144,7 @@ import international from "./international.jpg"
 import aboutbio1 from "./bio3.jpg"
 import aboutbio2 from "./bio2.jpg"
 import stock from "./concierge2.jpg"
+import connectivity2 from "./connectivity2.jpg"
 
 export {
     menu,
@@ -291,5 +292,6 @@ export {
     international,
     aboutbio1,
     aboutbio2,
-    stock
+    stock,
+    connectivity2
 }

@@ -1,5 +1,5 @@
 import { 
-    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  international, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03, renown 
+    filling2, estimate, virtual, internationalmoving, localmoving, petrelocation, movingservices, arrowright, instagram, twitter, facebook, linkedin, hero6, hero18, hero1, hero10,  international, manchester, birmingham, brighton, bristol, cotswolds, newcastle, oxford, vibrant, north, east, south, central, west, guildfordhousing, guildfordrenown, topschools, transport, home, dining, healthcare, diverse, connectivity, duolingo, neighbourhood, essentialtips, budgetplanner, entertainment, regenerated, green, mclaren, thriving, feel, schoolsearch, checklistpic, people01, people02, people03, renown, connectivity2 
  } from "@/assets"
 
 
@@ -362,7 +362,7 @@ export const guildfordtexts = [
     title1: "Outstanding Connectivity:",
     text: "With direct train services to London Waterloo in just 35 minutes, Guildford is a top choice for commuters. The A3 and M25 motorways provide easy access to Heathrow, Gatwick, and the South Coast.",
     subtext:[],
-    img: manchester,
+    img: connectivity2,
   },
 
   {
