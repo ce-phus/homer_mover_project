@@ -230,8 +230,8 @@ export const footerLinks = [
       id: "feedback-2",
       content:
         "Moving can be daunting, but this company made it a breeze. Their attention to detail and care for my belongings were outstanding. I felt supported every step of the way!",
-      name: "Steve Mark",
-      title: "CEO & Co-Founder",
+      name: "Kelly Grace",
+      title: "Utah",
       img: people02,
     },
     {
@@ -239,7 +239,7 @@ export const footerLinks = [
       content:
         "From the initial consultation to the final move, their service was exceptional. They truly understand the needs of their clients and go above and beyond. Thank you for making my move enjoyable!",
       name: "Kenn Gallagher",
-      title: "Director of Operations",
+      title: "Monaco",
       img: people03,
     },
   ];
