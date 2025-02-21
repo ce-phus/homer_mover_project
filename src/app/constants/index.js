@@ -166,15 +166,7 @@ export const footerLinks = [
       title: "Community",
       links: [
         {
-          name: "Help Center",
-          link: "/contact",
-        },
-        {
           name: "Partners",
-          link: "#",
-        },
-        {
-          name: "Suggestions",
           link: "#",
         },
         {
@@ -230,8 +222,8 @@ export const footerLinks = [
       id: "feedback-1",
       content:
         "I couldn't have asked for a smoother relocation experience. The team was professional, efficient, and made the whole process stress-free. Highly recommend!",
-      name: "Herman Jensen",
-      title: "Founder & Leader",
+      name: "Peter Nakitare",
+      title: "Founder (Lulwanda Ltd.)",
       img: people01,
     },
     {
@@ -239,7 +231,7 @@ export const footerLinks = [
       content:
         "Moving can be daunting, but this company made it a breeze. Their attention to detail and care for my belongings were outstanding. I felt supported every step of the way!",
       name: "Steve Mark",
-      title: "Founder & Leader",
+      title: "CEO & Co-Founder",
       img: people02,
     },
     {
@@ -247,7 +239,7 @@ export const footerLinks = [
       content:
         "From the initial consultation to the final move, their service was exceptional. They truly understand the needs of their clients and go above and beyond. Thank you for making my move enjoyable!",
       name: "Kenn Gallagher",
-      title: "Founder & Leader",
+      title: "Director of Operations",
       img: people03,
     },
   ];

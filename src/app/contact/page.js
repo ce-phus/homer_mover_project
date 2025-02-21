@@ -208,9 +208,8 @@ const Contact = () => {
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <FaBuilding className='text-6xl text-gray-700 bg-grade p-1.5 rounded-lg' />
             <h1 className='text-2xl font-bold text-center'>Company Information</h1>
-            <p className='font-medium text-xl text-gray-800'>Lucy Vuurboom</p>
-            <p className='font-medium text-xl text-gray-800'>Founder & Director</p>
-            <p className='font-medium text-xl text-gray-800'>Atlas Path Relocation</p>
+            <p className='font-medium text-lg text-gray-800'>Atlas Path Relocation</p>
+            <p className='font-medium text-lg text-gray-800'>Company ID: 16138365</p>
           </div>
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <IoCall className='text-6xl text-gray-700 bg-grade p-1.5 rounded-lg' />
@@ -221,7 +220,11 @@ const Contact = () => {
           <div className='space-y-1 mx-2 text-center flex flex-col items-center'>
             <IoLocation className='text-6xl text-red-700 bg-grade p-1.5 rounded-lg' />
             <h1 className='text-2xl font-bold text-center'>Address:</h1>
-            <p className='font-medium text-lg text-gray-800'>Commercial Way, Woking, Surrey, GU21 6EN</p>
+            <p className='font-medium text-lg text-gray-800'>Steward House,
+              14 Commercial Way, 
+              Woking,
+              Gu216ET
+            </p>
           </div>
         </div>
       </div>

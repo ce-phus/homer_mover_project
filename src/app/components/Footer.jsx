@@ -7,8 +7,10 @@ import Link from 'next/link'
 import Quiz from './Quiz'
 import { MdEmail } from "react-icons/md";
 
-const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  return (
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className="">
         <div className="flex items-center justify-center text-center">
             <Quiz />
@@ -42,12 +44,13 @@ const Footer = () => (
     </div>
     <div className='w-full flex justify-between items-center flex-col pt-6 border-t-[1px] border-t-[#3F3E45] max-w-[2000px] mx-auto'>
       <p className='font-medium text-center text-[18px] leading-[27px]'>
-        2025 Atlas Path Relocation. All Rights Reserved
+      © {currentYear} Atlas Path Relocation. All Rights Reserved
       </p>
       <p className='font-medium text-center text-[18px] leading-[27px] flex'>
       <MdEmail className='w-6 h-7 mr-2'/> info@atlaspathrelocation.com
       </p>
     </div>
+    <p className='font-medium text-[18px]'>Company ID: 16138365</p>
     <div className='flex flex-row md:mt-0 mt-6 bg-dark py-2 px-5 rounded-lg'>
       {socialMedia.map((social, index) => (
         <Link key={social.id} href={social.link} >
@@ -62,6 +65,8 @@ const Footer = () => (
       ))}
     </div>
   </section>
-)
+  )
+}
+  
 
 export default Footer

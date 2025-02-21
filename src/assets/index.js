@@ -143,7 +143,7 @@ import concierge from "./concierge1.jpg"
 import international from "./international.jpg"
 import aboutbio1 from "./bio3.jpg"
 import aboutbio2 from "./bio2.jpg"
-import stock from "./stock1.jpg"
+import stock from "./concierge2.jpg"
 
 export {
     menu,

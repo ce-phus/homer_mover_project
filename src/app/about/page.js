@@ -91,7 +91,7 @@ const About = () => {
                     initial='hidden' animate='show' className='text-normal text-lg text-dark tracking-wide mx-5'>With Atlas Path, Lucy combines her legal acumen, industry expertise, and deep knowledge of Surrey and the Southeast of England to provide tailored, stress-free relocation solutions. Whether guiding businesses through team relocations, supporting families as they settle in new communities, or assisting individuals in embracing new opportunities, she ensures every move is handled with care, precision, and a personal touch.</motion.p>
                 </div>
             </div>
-            <div className='w-full h-[1200px] xl:h-[1680px]'>
+            <div className='w-full h-[1500px] xl:h-[1580px] lg:h-full'>
                 <Image 
                 src={aboutbio1}
                 alt='md1'
