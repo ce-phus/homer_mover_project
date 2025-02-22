@@ -11,7 +11,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
-    <div className="">
+      <div className="">
         <div className="flex items-center justify-center text-center">
             <Quiz />
         </div>
@@ -32,7 +32,7 @@ const Footer = () => {
             <ul className='list-none mt-4'>
               {footerLink.links.map((link, index) => (
                 <li key={`link-${link.name}-${index}`} className={`text-gray-700 font-medium font-normal text-[16px] leading-[24px] hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4' : 'mb-0'}`}>
-                  <Link href={link.link}>
+                  <Link href={link.link} target='_blank'>
                   {link.name}
                   </Link>
                 </li>
@@ -41,6 +41,12 @@ const Footer = () => {
           </div>
         ))}
       </div>
+      
+    </div>
+    <div className='flex justify-start mb-3'>
+        <Link href={'https://cephuswebdev.co.ke'} target='_blank' className='text-dark font-normal text-lg'>
+        Designed and Hosted by <span className='font-medium text-primary text-lg'>Cephus.</span> 
+        </Link>
     </div>
     <div className='w-full flex justify-between items-center flex-col pt-6 border-t-[1px] border-t-[#3F3E45] max-w-[2000px] mx-auto'>
       <p className='font-medium text-center text-[18px] leading-[27px]'>
