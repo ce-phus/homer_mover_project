@@ -198,12 +198,12 @@ export const footerLinks = [
     {
       id: "social-media-1",
       icon: instagram,
-      link: "https://www.instagram.com/",
+      link: "https://www.instagram.com/relocationatlaspath?utm_source=qr&igsh=Mjk1bjZ2N2Vub2l6",
     },
     {
       id: "social-media-2",
       icon: facebook,
-      link: "https://www.facebook.com/",
+      link: "https://www.facebook.com/share/19xg3BUM2C/",
     },
     {
       id: "social-media-3",
