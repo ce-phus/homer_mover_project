@@ -36,7 +36,7 @@ export const metadata = {
   title: "Atlas Path Relocation",
   description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
   icons: {
-    icon: '/logo.svg',
+    icon: '/logo8.svg',
   },
   openGraph: {
     title: "Atlas Path Relocation",
@@ -45,7 +45,7 @@ export const metadata = {
     siteName: 'Atlas Path Relocation',
     images: [
       {
-        url: 'https://atlaspathrelocation.com/_next/static/media/logo8.ac913a58.svg',
+        url: 'https://atlaspathrelocation.com/logo.png',
         width: 600,
         height: 400,
       },
@@ -57,7 +57,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: "Atlas Path Relocation",
     description: "Atlas Map is a global relocation service...",
-    images: ['https://atlaspathrelocation.com/_next/static/media/logo8.ac913a58.svg'], 
+    images: ['https://atlaspathrelocation.com/logo.png'], 
   },
 };
 
