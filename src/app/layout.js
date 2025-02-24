@@ -38,6 +38,27 @@ export const metadata = {
   icons: {
     icon: '/logo.svg',
   },
+  openGraph: {
+    title: "Atlas Path Relocation",
+    description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
+    url: 'https://atlaspathrelocation.com',
+    siteName: 'Atlas Path Relocation',
+    images: [
+      {
+        url: 'https://atlaspathrelocation.com/_next/static/media/logo8.ac913a58.svg',
+        width: 600,
+        height: 400,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Atlas Path Relocation",
+    description: "Atlas Map is a global relocation service...",
+    images: ['https://atlaspathrelocation.com/_next/static/media/logo8.ac913a58.svg'], 
+  },
 };
 
 export default function RootLayout({ children }) {
