@@ -35,13 +35,14 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Atlas Path Relocation",
   description: "Atlas Map is a global relocation service that helps you move your belongings from one place to another with ease.",
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
-      <link rel='icon' href="./logo.svg" />
       <body className={`${worksans.className} font-lora bg-white w-full min-h-screen`}>
         <div>
           <div className="z-50">
