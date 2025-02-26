@@ -40,7 +40,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Atlas Path Relocation",
-    description: "Atlas Path is a global relocation service that helps you move your belongings from one place to another with ease.",
+    description: "We provide tailored relocation solutions for individuals, families, and businesses, ensuring a smooth transition with home search, school placements, and settling-in support.",
     url: 'https://atlaspathrelocation.com',
     siteName: 'Atlas Path Relocation',
     images: [
