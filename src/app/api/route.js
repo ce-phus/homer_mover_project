@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs';
 
 export default function handler(req, res) {
   const baseUrl = 'https://atlaspathrelocation.com';
-  const pages = ['/', '/about', '/services', '/surrey', '/blogs', '/contact'];
+  const pages = ['/', '/about', '/services', '/surrey', '/blogs', '/contact', '/privacypolicy', '/cookiepolicy'];
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
