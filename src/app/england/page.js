@@ -36,8 +36,7 @@ const England = () => {
         </div>          
     </div>z
 
-    <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10">
-        
+    <div className="flex pt-10 pb-20 flex-col items-center justify-center space-y-10"> 
         <h1 className="text-primary text-center text-[20px] uppercase font-normal italic tracking-wide w-full">Why Choose Atlas Path for Your Move?</h1>
         <Image 
         src={download}
@@ -64,7 +63,6 @@ const England = () => {
               <p className='font-medium mt-3 mb-2'>Northern Quarter: <span className='font-normal'>A trendy district known for its creative scene, nightlife, and independent shops</span></p>
             </div>
           </div>
-
           <Image 
           src={manchester}
           className='w-full h-[600px] xl:h-[650px] lg:h-full sm:h-full md:h-full'
