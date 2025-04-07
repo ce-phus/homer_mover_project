@@ -44,7 +44,7 @@ const Footer = () => {
       
     </div>
     <div className='flex justify-start mb-3'>
-        <Link href={'https://cephuswebdev.co.ke'} target='_blank' className='text-dark font-normal text-lg'>
+        <Link href={'https://cephuswebdev.netlify.app'} target='_blank' className='text-dark font-normal text-lg'>
         Designed and Hosted by <span className='font-medium text-primary text-lg'>Cephus.</span> 
         </Link>
     </div>
